@@ -1,18 +1,30 @@
+	.main
+	{
+		float: none;
+		clear: both;
+	}
+	
+	.highlight
+	{
+		color: #FFFFFF;
+	}
+
 	.site
     {
-      width: 105%;
 	  margin-left: -8px;
       margin-top: -8px;
-		background-image: url("https://i.imgur.com/dUgMnJJ.png");
-		background-repeat: no-repeat;
-		background-attachment: scroll;
-		background-size: center;
+		background-image: url("https://i.imgur.com/dUgMnJJ.png"); 
+		background-repeat: repeat-x;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+  background-position: center;
+		background-size: cover;
+  background-attachment: fixed;
 		height:100%;
     }
     
     .body {
 		height: 100%;
-		color: #cccccc;
 	}
     
     .maker
@@ -42,6 +54,8 @@
     .image
     {
         margin-left: 20px;
+		width: 40%;
+		float: right;
     }
     
     .title
@@ -52,18 +66,24 @@
         margin-left: auto;
     }
     
+	.content
+	{
+		height: 100%;
+		position:relative;		
+	}
+	
     .menu
     {
         background-color: #2C2F33;
-        float: left;
         width: 200px;
-		height: 836px;
+		height: 100%;
         font-family: Courier;
         font-weight: bolder;
         font-size: 17pt; 
         text-align: center;
 		color: #7289DA;
-		opacity: .4;
+		opacity: 1;
+		position: absolute;
     }
 
     .menu li
@@ -71,8 +91,9 @@
         list-style-type: none;
         color: #7289DA;
         margin-left: -40;
-        transition : .25s;
+        transition : .1s;
         position: relative;
+        text-align: left;
 		opacity: 1;
     }
     
@@ -82,7 +103,8 @@
         background-color: #000000;
         margin-left: -20px;
         text-shadow: 0px 0px 10px;
-        transition : .25s;
+        transition : .1s;
+        text-align: left;
 		opacity: 1;
     }
     
@@ -94,15 +116,17 @@
         top: 0px;
         width: 200px;
         background-color: #000000;
-        transition : .25s;  
+        transition : .1s;  
+        text-align: left;
 		opacity: 1;
     }
     
     .menu ul li:hover > ul
     {
         display: block;
-        transition : .25s;
+        transition : .1s;
         background-color: #000000;
+        text-align: left;
 		opacity: 1;
     }
     
@@ -119,11 +143,7 @@
       background-color: #2C2F33;
       text-align: center;
       width: 100%;
-	  position: relative;
-      margin: 0em 0em 0em 0em;
-      clear: both;
 	  color: #7289DA;
-	  opacity: .4;
     }
     
     .current
