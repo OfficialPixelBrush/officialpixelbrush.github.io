@@ -14,6 +14,9 @@
 		background-image: url("https://i.imgur.com/dUgMnJJ.png");
 		background-repeat: no-repeat;
 		background-attachment: fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
 		background-size: cover;
     }
     
@@ -26,9 +29,13 @@
     
     .maker
     {
-      background-color: #000000;
-      height: 80px;
-      text-align: center;
+		background-color: #000000;
+		height: 80px;
+		text-align: center;
+		font-size: 50px;
+		font-family: Arial;
+        text-shadow: 0px 0px 0px 10 #e677de;
+		
     }  
 	
 	.menu {
@@ -74,6 +81,14 @@
     {
         margin-left: 20px;
 		width: 40%;
+		border:3px solid #ff63f3;
+		border-radius: 8px;
+		box-shadow: 5px 5px 0 #8c3786,
+		4px 4px 0 #8c3786,
+		3px 3px 0 #8c3786,
+		2px 2px 0 #8c3786,
+		1px 1px 0 #8c3786,
+		0px 0px 0 #8c3786;
     }
     
     .title
@@ -139,14 +154,10 @@
 		src: url(Designs/Doodle_Sans.woff);
 	}
 	
-	.prices
+	.text
 	{
 		font-family: Arial;
 		margin-left: 5%;
 		color: black;
-		text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000; 
+        text-shadow: 0px 0px 0px 5 #000000;
 	}
