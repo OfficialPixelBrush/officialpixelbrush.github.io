@@ -11,7 +11,7 @@
 
 	.site
     {
-		background-image: url("https://i.imgur.com/dUgMnJJ.png");
+		background-image: url("https://i.imgur.com/gtFxg10.png");
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		-webkit-background-size: cover;
@@ -21,7 +21,7 @@
     }
     
     .body {
-		background-image: url("https://i.imgur.com/dUgMnJJ.png");
+		background-image: url("https://i.imgur.com/gtFxg10.png");
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: cover;
@@ -81,14 +81,14 @@
     {
         margin-left: 20px;
 		width: 40%;
-		border:3px solid #ff63f3;
+		border:3px solid #d17630;
 		border-radius: 8px;
-		box-shadow: 5px 5px 0 #8c3786,
-		4px 4px 0 #8c3786,
-		3px 3px 0 #8c3786,
-		2px 2px 0 #8c3786,
-		1px 1px 0 #8c3786,
-		0px 0px 0 #8c3786;
+		box-shadow: 5px 5px 0 #6e3921,
+		4px 4px 0 #6e3921,
+		3px 3px 0 #6e3921,
+		2px 2px 0 #6e3921,
+		1px 1px 0 #6e3921,
+		0px 0px 0 #6e3921;
     }
     
     .title
