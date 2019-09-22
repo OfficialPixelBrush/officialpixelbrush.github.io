@@ -113,11 +113,11 @@
     }
 	
 	@font-face {
-		font-family: "Doodle";
-		src: url("\Designs\Doodle_Sans.ttf");
+		font-family: DoodleSans;
+		src: url(Designs/Doodle_Sans.ttf);
 	}
 	
 	.h1
 	{
-		font-family: "Doodle"; /* no .ttf */
+		font-family: DoodleSans;
 	}
