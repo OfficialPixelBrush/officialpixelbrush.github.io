@@ -11,20 +11,17 @@
 
 	.site
     {
-	  margin-left: -8px;
-      margin-top: -8px;
-		background-image: url("https://i.imgur.com/dUgMnJJ.png"); 
-		background-repeat: repeat-x;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-  background-position: center;
+		background-image: url("https://i.imgur.com/dUgMnJJ.png");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
 		background-size: cover;
-  background-attachment: fixed;
-		height:100%;
     }
     
     .body {
-		height: 100%;
+		background-image: url("https://i.imgur.com/dUgMnJJ.png");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
 	}
     
     .maker
@@ -55,7 +52,6 @@
     {
         margin-left: 20px;
 		width: 40%;
-		float: right;
     }
     
     .title
@@ -71,64 +67,6 @@
 		height: 100%;
 		position:relative;		
 	}
-	
-    .menu
-    {
-        background-color: #2C2F33;
-        width: 200px;
-		height: 100%;
-        font-family: Courier;
-        font-weight: bolder;
-        font-size: 17pt; 
-        text-align: center;
-		color: #7289DA;
-		opacity: 1;
-		position: absolute;
-    }
-
-    .menu li
-    {
-        list-style-type: none;
-        color: #7289DA;
-        margin-left: -40;
-        transition : .1s;
-        position: relative;
-        text-align: left;
-		opacity: 1;
-    }
-    
-    .menu li:hover
-    {
-        list-style-type: none;
-        background-color: #000000;
-        margin-left: -20px;
-        text-shadow: 0px 0px 10px;
-        transition : .1s;
-        text-align: left;
-		opacity: 1;
-    }
-    
-    .menu ul ul
-    {
-        display: none;
-        position: absolute;
-        left: 180px;
-        top: 0px;
-        width: 200px;
-        background-color: #000000;
-        transition : .1s;  
-        text-align: left;
-		opacity: 1;
-    }
-    
-    .menu ul li:hover > ul
-    {
-        display: block;
-        transition : .1s;
-        background-color: #000000;
-        text-align: left;
-		opacity: 1;
-    }
     
     .owner
     {
@@ -173,3 +111,13 @@
         font-size: 20pt;
         font-family: Courier;  
     }
+	
+	@font-face {
+		font-family: "Doodle";
+		src: url("\Designs\Doodle_Sans.ttf");
+	}
+	
+	.h1
+	{
+		font-family: "Doodle"; /* no .ttf */
+	}
