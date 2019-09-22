@@ -30,6 +30,28 @@
       height: 80px;
       text-align: center;
     }  
+	
+	.menu {
+		width: 100%;
+		background-color: #3f3845;
+		text-align: justify;
+		overflow-x: auto;
+		overflow-y: hidden;
+        padding:0;
+		font-size: 200%;
+	}
+	
+	.menu:hover {
+		width: 100%;
+		background-color: #685d70;
+		text-align: justify;
+		overflow-x: auto;
+		overflow-y: hidden;
+        padding:0;
+		font-size: 200%;
+	}
+		
+	}
     
     .titlecolor
     {
@@ -114,10 +136,17 @@
 	
 	@font-face {
 		font-family: DoodleSans;
-		src: url(Designs/Doodle_Sans.ttf);
+		src: url(Designs/Doodle_Sans.woff);
 	}
 	
-	.h1
+	.prices
 	{
-		font-family: DoodleSans;
+		font-family: Arial;
+		margin-left: 5%;
+		color: black;
+		text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000; 
 	}
