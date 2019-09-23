@@ -1,0 +1,31 @@
+body
+{
+    background-color: #E5E5E5;
+    text-align: center;
+    margin-top: 14.5%;
+    border: double 10px;
+}
+
+form
+{
+    color: black;
+    text-shadow: 0px 0px 2px;
+}
+
+input
+{
+    text-shadow: 0px 0px 2px;
+}
+
+a
+{
+    font-size: 50pt;
+    font-family: Courier;
+    text-decoration: underline;
+}
+
+.signin
+{
+    background-color: #D3D3D3;
+    text-shadow: 0px 0px 4px;
+}
