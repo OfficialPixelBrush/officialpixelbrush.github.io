@@ -18,6 +18,7 @@
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
+		margin:0;
     }
     
     .body {
@@ -25,33 +26,26 @@
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: cover;
+		margin:0;
 	}
-    
-    .maker
-    {
-		background-color: #000000;
-		height: 80px;
-		text-align: center;
-		font-size: 50px;
-		font-family: Arial;
-        text-shadow: 0px 0px 0px 10 #e677de;
-		
-    }  
 	
 	.menu {
 		width: 100%;
 		background-color: #3f3845;
-		text-align: justify;
+		text-align: center;
 		overflow-x: auto;
 		overflow-y: hidden;
         padding:0;
 		font-size: 200%;
+		position: sticky;
+		top: 0;
+		height: 4%;
 	}
 	
 	.menu:hover {
 		width: 100%;
-		background-color: #685d70;
-		text-align: justify;
+		background-color: #3f3845;
+		text-align: center;
 		overflow-x: auto;
 		overflow-y: hidden;
         padding:0;
@@ -169,4 +163,22 @@
 		color: white;
         text-shadow: 0px 0px 0px 5 #000000;
         font-size: 200%;
+    }
+	
+	.selection
+	{   
+		font-family: Arial;
+		color: white;
+        text-shadow: 0px 0px 0px 5 #000000;
+        font-size: 200%;
+		text-align: center;
+    }
+	
+	.title
+	{   
+		font-family: Arial;
+		color: white;
+        text-shadow: 0px 0px 0px 5 #000000;
+        font-size: 400%;
+		margin-left: 10%
     }
