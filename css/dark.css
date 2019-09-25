@@ -9,6 +9,10 @@
 		color: #FFFFFF;
 	}
 
+	.maker {
+		width: auto;	
+	}
+	
 	.site
     {
 		background-image: url("https://i.imgur.com/gtFxg10.png");
@@ -35,11 +39,9 @@
 		text-align: center;
 		overflow-x: auto;
 		overflow-y: hidden;
-        padding:0;
+        	padding:0;
 		font-size: 200%;
 		position: sticky;
-		top: 0;
-		height: 4%;
 	}
 	
 	.menu:hover {
@@ -48,8 +50,9 @@
 		text-align: center;
 		overflow-x: auto;
 		overflow-y: hidden;
-        padding:0;
+        	padding:0;
 		font-size: 200%;
+		position: sticky;
 	}
 		
 	}
