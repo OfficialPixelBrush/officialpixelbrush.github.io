@@ -28,6 +28,7 @@
 		-o-background-size: cover;
 		background-size: cover;
 		margin:0;
+		background-position: center;
     }
     
     .body {
@@ -36,6 +37,7 @@
 		background-attachment: fixed;
 		background-size: cover;
 		margin:0;
+		background-position: center;
 	}
 	
 	.menu {
