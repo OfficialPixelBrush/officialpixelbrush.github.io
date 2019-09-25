@@ -10,11 +10,9 @@
 	}
 
 	.maker {
-    		max-width: 100%; 
-    		height: auto; 	
-		overflow-x: auto;
-		overflow-y: hidden;
-        	padding:0;
+  		background: url('https://raw.githubusercontent.com/OfficialPixelBrush/officialpixelbrush.github.io/master/images/banner.png');
+ 		 background-repeat: no-repeat;
+  		background-size: cover;
 	}
 	
 	.site
