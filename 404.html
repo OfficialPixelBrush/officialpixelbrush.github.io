@@ -3,25 +3,59 @@
 <head>
   <title>404 - Pixel Brush</title>
   <link rel="stylesheet" type="text/css" href="css/dark.css" /> 
-
-    <style type="text/css">  
+ 
+ <style>
         body {
-		background-image: url("https://github.com/OfficialPixelBrush/officialpixelbrush.github.io/raw/master/images/no_image.png");
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		background-position: center;
-		margin:0;
+			background-color: #E1A168;
 		}
 		
-    </style> 
+		404 {
+			height: 100%; /*can be anything*/
+			width: 100%; /*can be anything*/
+			display: inline-block;
+			position: relative;
+		}
+		
+		img {
+			max-height: 100%;
+			max-width: 100%;
+			width: auto;
+			height: auto;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;	
+		}
+		
+		menu {
+			box-shadow: 0 0px 20px rgba(0, 0, 0, 0.3);
+		}
+		
+		p {   
+		font-family: Arial;
+		color: white;
+		background-color: #AA5F36;
+        font-size: 300%;
+		text-align: center;
+		width: 100%
+		margin: 0;
+			box-shadow: 0px 0px 10px #AA5F36;
+		}
+
+</style>
 </head>
 <body>
+<div class="full">
 	<div class="menu">
 	  <a class="hotbar_selector" href="index.html">Back to Homepage</a>
 	</div>
+	
+	<div class="404">
+    <img src="images/404.png" alt="404">
+</div>
+	<p>This Page doesn't exist.</p>
+</div>
 </body>
 </html>
