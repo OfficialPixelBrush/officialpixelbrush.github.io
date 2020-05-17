@@ -1,4 +1,15 @@
-	
+	html
+	{
+		background-image: url("https://i.imgur.com/gtFxg10.png");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		margin:0;
+		background-position: center;
+	}
 	
 	@font-face {
 		font-family: DoodleSans32;
@@ -46,6 +57,42 @@
 		background-size: auto 216px;
         background-position:top;
 	    height: 216px;
+	}
+	
+	.post {
+		margin-bottom: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+		border:3px solid #d17630;
+		border-radius: 8px;
+		box-shadow: 5px 5px 0 #6e3921,
+		4px 4px 0 #6e3921,
+		3px 3px 0 #6e3921,
+		2px 2px 0 #6e3921,
+		1px 1px 0 #6e3921,
+		0px 0px 0 #6e3921;
+		
+		padding-top: 10px;
+		padding-bottom: 10px;
+		
+		background-color: #3f3845;
+		text-align: center;
+	}
+	
+	.date
+	{
+        margin-left: 10px;
+		margin-bottom: 10px;
+		font-family: DoodleSans;
+		font-size: 200%;
+		border:3px solid #d17630;
+		border-radius: 8px;
+		
+		padding-top: 3px;
+		padding-right: 3px;
+		padding-bottom: 3px;
+		padding-left: 3px;
+		background-color: #3f3845;
 	}
 	
 	.site
@@ -186,8 +233,9 @@
 	
 	.text
 	{
+        margin-left: 10px;
+        margin-right: 10px;
 		font-family: Arial;
-		margin-left: 5%;
 		color: black;
         text-shadow: 0px 0px 0px 5 #000000;
 	}
