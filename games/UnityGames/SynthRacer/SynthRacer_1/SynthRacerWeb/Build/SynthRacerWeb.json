@@ -1,0 +1,16 @@
+{
+"companyName": "TeamStride",
+"productName": "3DPlatformerTest",
+"productVersion": "0.1",
+"dataUrl": "SynthRacerWeb.data.unityweb",
+"wasmCodeUrl": "SynthRacerWeb.wasm.code.unityweb",
+"wasmFrameworkUrl": "SynthRacerWeb.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.13f1"
+}
