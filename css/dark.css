@@ -95,6 +95,12 @@
 		background-color: #3f3845;
 	}
 	
+	blockquote
+	{
+    width:auto;
+	display:table
+	}
+	
 	.site
     {
 		background-image: url("https://i.imgur.com/gtFxg10.png");
