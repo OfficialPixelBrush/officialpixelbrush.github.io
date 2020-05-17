@@ -1,3 +1,33 @@
+	
+	
+	@font-face {
+		font-family: DoodleSans32;
+		src: url(DoodleSans32.woff) format('woff'),
+			 url(DoodleSans32.ttf) format('truetype');
+		font-weight: normal;
+	}
+	
+	@font-face {
+		font-family: DoodleSans;
+		src: url(Doodle_Sans.ttf);
+	}
+	
+	h1 
+	{
+		font-family: DoodleSans;
+		font-size: 400%;
+	}
+	
+	.center 
+	{
+		height: auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex:direction: column;
+		font-size: 200%;
+	}
+	
 	.main
 	{
 		float: none;
@@ -41,6 +71,7 @@
 	}
 	
 	.menu {
+		font-family: DoodleSans32;
 		width: 100%;
 		background-color: #3f3845;
 		text-align: center;
@@ -74,7 +105,8 @@
     .image
     {
         margin-left: 20px;
-		width: 40%;
+		width: auto;
+		height: 50%;
 		border:3px solid #d17630;
 		border-radius: 8px;
 		box-shadow: 5px 5px 0 #6e3921,
@@ -151,11 +183,6 @@
         font-size: 20pt;
         font-family: Courier;  
     }
-	
-	@font-face {
-		font-family: DoodleSans;
-		src: url(Designs/Doodle_Sans.woff);
-	}
 	
 	.text
 	{
