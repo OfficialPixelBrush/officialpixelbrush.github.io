@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="android.svg"
+   id="svg68"
+   version="1.1"
+   viewBox="-147 -70 294 345">
+  <metadata
+     id="metadata74">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs72">
+    <clipPath
+       id="clipPath904"
+       clipPathUnits="userSpaceOnUse">
+      <use
+         id="use906"
+         xlink:href="#g900"
+         y="0"
+         x="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     inkscape:current-layer="svg68"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="258.9325"
+     inkscape:cx="106.75525"
+     inkscape:zoom="3.3531209"
+     showgrid="false"
+     id="namedview70"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <g
+     style="fill:#ffffff"
+     id="g58"
+     fill="#a4c639">
+    <use
+       style="fill:#ffffff"
+       id="use43"
+       stroke="#FFF"
+       xlink:href="#b"
+       stroke-width="14.4" />
+    <use
+       style="stroke:none;fill:#ffffff"
+       id="use45"
+       transform="scale(-1,1)"
+       xlink:href="#a" />
+    <g
+       style="fill:#ffffff"
+       stroke-width="7.2"
+       stroke="#FFF"
+       id="a">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="rect47"
+         x="14"
+         y="-86"
+         width="13"
+         height="86"
+         transform="rotate(29)"
+         rx="6.5" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1"
+         x="-137.33363"
+         y="47.56105"
+         width="42.333614"
+         height="126.43895"
+         rx="21.017689"
+         id="c" />
+      <use
+         style="stroke:none;fill:#ffffff;fill-opacity:1"
+         id="use50"
+         xlink:href="#c"
+         x="85"
+         y="97" />
+    </g>
+    <g
+       style="fill:#ffffff"
+       id="b">
+      <path
+         sodipodi:nodetypes="sccscccccccccccc"
+         transform="translate(-147,-70)"
+         d="M 147,27 C 96.742088,27 56,64.608081 56,111 H 238 C 238,64.608081 197.25791,27 147,27 Z m -42,36.017578 c 4.02126,-3.83e-4 7.28132,3.125886 7.28125,6.982422 7e-5,3.856536 -3.25999,6.982805 -7.28125,6.982422 C 100.97874,76.982805 97.718678,73.856536 97.71875,70 97.718678,66.143464 100.97874,63.017195 105,63.017578 Z m 83.93555,0.298828 c 0.0215,-1.04e-4 0.043,-1.04e-4 0.0644,0 3.69114,2.63e-4 6.68333,2.992457 6.68359,6.683594 -2.6e-4,3.691137 -2.99245,6.683331 -6.68359,6.683594 -3.69114,-2.63e-4 -6.68333,-2.992457 -6.68359,-6.683594 9e-5,-3.666116 2.9532,-6.647983 6.61914,-6.683594 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:0"
+         id="ellipse53" />
+      <rect
+         ry="28.331818"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.923127"
+         id="rect55"
+         x="-91"
+         y="46.906334"
+         width="182"
+         height="155.09366"
+         rx="28.33182" />
+    </g>
+  </g>
+  <g
+     style="fill:#ffffff"
+     id="g66"
+     fill="#FFF"
+     stroke-width="7.2"
+     stroke="#FFF">
+    <path
+       style="stroke:none;stroke-opacity:0;fill:#ffffff"
+       id="path60"
+       d="m-95 44.5h190" />
+    <g
+       style="fill:#ffffff"
+       clip-path="url(#clipPath904)"
+       id="g902">
+      <g
+         style="fill:#ffffff"
+         id="g900"
+         inkscape:label="Clip" />
+    </g>
+  </g>
+  <rect
+     y="46.906334"
+     x="-91"
+     height="65.610191"
+     width="182.28548"
+     id="rect928"
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1" />
+</svg>
