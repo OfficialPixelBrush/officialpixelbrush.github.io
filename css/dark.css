@@ -209,6 +209,9 @@
 
     .hotbar_selector
     {
+		font-family: DoodleSans32;
+		text-align: center;
+		
         color: #f280ff;
         text-shadow: 0 0 2px #ce73d9;
         text-decoration: none;
@@ -220,6 +223,9 @@
     
     .hotbar_selector:hover
     {
+		font-family: DoodleSans32;
+		text-align: center;
+		
         color: #f59eff;
         text-shadow: 0 0 5px #cd81d6;
         text-decoration: none;
