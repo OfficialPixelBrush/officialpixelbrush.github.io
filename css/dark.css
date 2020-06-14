@@ -246,28 +246,12 @@
         text-shadow: 0px 0px 5px #345E10;
     }
 	
-    @media screen and (orientation: portrait) and (max-width: 480px) {
-    .image
-    {
-        margin-left: 20px;
-		width: 90%;
-		border:3px solid #d17630;
-		border-radius: 8px;
-		box-shadow: 5px 5px 0 #6e3921,
-		4px 4px 0 #6e3921,
-		3px 3px 0 #6e3921,
-		2px 2px 0 #6e3921,
-		1px 1px 0 #6e3921,
-		0px 0px 0 #6e3921;
-    }
-	}
 
-	@media screen and (orientation: landscape) {
 	.image
     {
-        margin-left: 20px;
-		width: auto;
-		height: 50%;
+        margin-left: 1%;
+        margin-right: 1%;
+		width: 75%;
 		border:3px solid #d17630;
 		border-radius: 8px;
 		box-shadow: 5px 5px 0 #6e3921,
@@ -276,24 +260,6 @@
 		2px 2px 0 #6e3921,
 		1px 1px 0 #6e3921,
 		0px 0px 0 #6e3921;
-    }
-	}
-
-	@media screen and (min-width: 480px) {
-	.image
-    {
-        margin-left: 20px;
-		width: auto;
-		height: 50%;
-		border:3px solid #d17630;
-		border-radius: 8px;
-		box-shadow: 5px 5px 0 #6e3921,
-		4px 4px 0 #6e3921,
-		3px 3px 0 #6e3921,
-		2px 2px 0 #6e3921,
-		1px 1px 0 #6e3921,
-		0px 0px 0 #6e3921;
-	} 
 	}
     
     .title
