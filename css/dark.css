@@ -47,6 +47,8 @@
 	{
 		font-family: DoodleSans;
 		font-size: 400%;
+		margin-bottom: 0%;
+		margin-top: 0%;
 	}
 	
 	.center 
@@ -64,6 +66,11 @@
 	{
 		float: none;
 		clear: both;
+	}
+	
+	button 
+	{
+		font-size: 100%;
 	}
 	
 	.highlight
@@ -255,6 +262,10 @@
 
 	.image
     {
+		margin-left: 10%;
+		margin-right: 10%;
+		min-width: 100px;
+		max-width: 25%;
 		border:3px solid #d17630;
 		border-radius: 8px;
 		box-shadow: 5px 5px 0 #6e3921,
