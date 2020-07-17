@@ -12,8 +12,8 @@ function FileHelper(pathOfFileToReadFrom) {
 
 function loadPost() {
 	document.getElementById('mainpost').innerHTML = FileHelper('posts/' + nmbr + '.txt');
-	document.getElementById('mainpost2').innerHTML = FileHelper('posts/' + (nmbr-1) + '.txt');
-	document.getElementById('mainpost3').innerHTML = FileHelper('posts/' + (nmbr-2)  + '.txt');
+	document.getElementById('mainpost2').innerHTML = FileHelper('posts/' + nmbr + '.txt');
+	document.getElementById('mainpost3').innerHTML = FileHelper('posts/' + nmbr  + '.txt');
 }
 
 function next() {
@@ -24,7 +24,7 @@ function next() {
 }
 
 function previous() {
-	if (nmbr-3 < 1) {
+	if (nmbr-3 !< 1) {
 		nmbr = nmbr-3
 		loadPost();
 	}
