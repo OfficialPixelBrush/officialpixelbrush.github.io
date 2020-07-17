@@ -2,37 +2,21 @@ import os.path
 from os import path
 from pathlib import Path
 from datetime import datetime
-import updateTime
 
-print("Reading Session File...")
-if os.path.isfile("scripts/main.js"):
-    mainjs = open("scripts/main.js", "r")
-    nmbr_of_posts = mainjs.readline()
-    nmbr_2 = mainjs.readline()
 
-    data = mainjs.read();
+if os.path.isfile("index.html"):
+    index = open("index.html", "r")
+    
+    data = index.read();
         
-    mainjs.close() 
-    nmbr = nmbr_of_posts.split("=", 1)[1]
-    nmbr = nmbr.split(";", 1)[0]
-
-    text = input("Text (| = </br>): ")
-    text = text.replace("|", "\n</br>\n")
+    index.close() 
     
 
-    
-    nmbr_of_posts = nmbr_of_posts.split("=", 1)[0]
-    
-    nmbr = int(nmbr)+1;
+    new_file_content = ""
 
-    print(nmbr_of_posts + "= " + str(nmbr)+ ";");
-    
-    mainjs = open("scripts/main.js", "w")
-    mainjs.write(nmbr_of_posts + "= " + str(nmbr)+ ";\n" + "let nmbr = " + str(nmbr)+ ";\n" + data);
-    mainjs.close() 
 
     now = datetime.now()
-
+    
     current_time = now.strftime("%H:%M")
     dt = datetime.today()
     day = int(dt.day);
@@ -83,14 +67,10 @@ if os.path.isfile("scripts/main.js"):
         
     date_today = day_word + " of " + month_word + ", " + str(dt.year)
     
-    date_front = '\n</br>\n</br>\n<a id="postdate" class="date">'
-    date = str(date_today) + " - " + str(current_time)
-    date_back = "</a>"
 
-    full_date = date_front + date + date_back;
-    
-    f= open("posts/" + str(nmbr) + ".txt","w+")
-    f.write(text + full_date)
-    f.close() 
-    print("\""+ text+full_date + "\"")
-    
+    date = str(date_today) + " - " + str(current_time)
+
+
+    lines = open("index.html").read().splitlines()
+    lines[48] = '    <a class="date"> Last Updated: ' + date + '</a>'
+    open("index.html",'w').write('\n'.join(lines))
