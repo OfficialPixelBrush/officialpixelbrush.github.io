@@ -1,5 +1,5 @@
-let nmbr_of_posts = 0;
-let nmbr = 0;
+let nmbr_of_posts = 15;
+let nmbr = 15;
 
 const fs = require('fs');
 const dir = './posts/';
@@ -19,9 +19,9 @@ function FileHelper(pathOfFileToReadFrom) {
 }
 
 function loadPost() {
-	document.getElementById('mainpost').innerHTML = FileHelper('./posts/' + nmbr + '.txt');
-	document.getElementById('mainpost2').innerHTML = FileHelper('./posts/' + nmbr-1 + '.txt');
-	document.getElementById('mainpost3').innerHTML = FileHelper('./posts/' + nmbr-2 + '.txt');
+	document.getElementById('mainpost').innerHTML = FileHelper('posts/' + nmbr + '.txt');
+	document.getElementById('mainpost2').innerHTML = FileHelper('posts/' + nmbr-1 + '.txt');
+	document.getElementById('mainpost3').innerHTML = FileHelper('posts/' + nmbr-2 + '.txt');
 }
 
 function next() {
