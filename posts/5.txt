@@ -1,4 +1,4 @@
- Added a favicon and made the Website more Mobile Friendly.
+Added some cool download icons to the game page for crossplatform games (So just SynthRacer for now)
 	</br>
 	</br>
-	<a class="date">24th of May, 2020 - 16:04</a>
+	<a class="date">21th of May, 2020 - 1:19</a>

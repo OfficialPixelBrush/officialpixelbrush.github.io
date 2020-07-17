@@ -1,7 +1,6 @@
- Today begins the great rewrite. I've already revamped the CSS Document today, deleting unused stuff, and reworking some other to reduce clutter in the actual HTML Files, this rewrite will include Javscript implementation to improve loading times, especially in <a href="animations.html">Animations</a>. 
+ Implemented Javascript for the first time in Prices. It's still a WiP, more images will be added in the future.
+	</br>
+	I hope I can edit these Posts in such a way so not all are loaded with the page. Maybe tomorrow.
 	</br>
 	</br>
-	The loading times in that are almost sad lmao.
-	</br>
-	</br>
-	<a class="date">17th of July, 2020 - 02:29</a>
+	<a class="date">17th of July, 2020 - 01:31</a>

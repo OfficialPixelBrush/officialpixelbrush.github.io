@@ -1,6 +1,4 @@
- The Interactive Homepage finally works! Hooray!
-	</br>
-	Some bugs should still be expected.
+The homepage now works using Javascript. At least I hope so.
 	</br>
 	</br>
-	<a class="date">17th of July, 2020 - 14:18</a>
+	<a id="postdate" class="date">17th of July, 2020 - 12:55</a>

@@ -1,5 +1,5 @@
-let nmbr_of_posts = 18;
-let nmbr = 18;
+let nmbr_of_posts = 19;
+let nmbr = 19;
 
 function FileHelper(pathOfFileToReadFrom) {
     var request = new XMLHttpRequest();

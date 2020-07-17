@@ -1,14 +1,8 @@
-I've created another tool, which is also available on the <a href="https://github.com/OfficialPixelBrush/officialpixelbrush.github.io">GitHub Page</a> that is used to update the time whenever a new commit happens.
+This Post right here was created using a new utility so I don't have to manually update all the post messages when I want to add one.
 </br>
-Unfortunately I have no idea how to do this automatically yet, since GitHub's Javascript API apparently can't easily do that.
+This system may not be optimal but it's hopefully functional and relatively bug free.
 </br>
-
-</br>
-I am however quite glad that these tools will make keeping this website up to date qutie a bit easier. Have a pointless button.
-</br>
-
-</br>
-<button>You can click me</button>
+If any of you want to use this rather rudementary tool yourselves, check out the <a href="https://github.com/OfficialPixelBrush/officialpixelbrush.github.io">GitHub Page</a>.
 </br>
 </br>
-<a id="postdate" class="date">17th of July, 2020 - 20:36</a>
+<a id="postdate" class="date">17th of July, 2020 - 18:57</a>

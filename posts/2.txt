@@ -1,4 +1,4 @@
- A lot of Stuff got added yesterday and today. Hope it'll improve the overall experience.
+ Sorry that the mainpage looks a lil' broken!
 	</br>
 	</br>
-	<a class="date">17th of May, 2020 -	20:42</a>
+	<a class="date">17th of May, 2020 -	20:20</a>
