@@ -1,0 +1,4 @@
+ Updated the SynthRacer (Android) APK to have better controls.
+	</br>
+	</br>
+	<a class="date">18th of May, 2020 -	21:27</a>

@@ -1,0 +1,4 @@
+ Replaced most Embeds with Links to reduce slowdown
+	</br>
+	</br>
+	<a class="date">14th of June, 2020 - 05:13</a>

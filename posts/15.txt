@@ -1,1 +1,4 @@
-The homepage now works using Javascript
+The homepage now works using Javascript. At least I hope so.
+	</br>
+	</br>
+	<a id="postdate" class="date">17th of July, 2020 - 12:55</a>

@@ -1,0 +1,6 @@
+ Implemented Javascript for the first time in Prices. It's still a WiP, more images will be added in the future.
+	</br>
+	I hope I can edit these Posts in such a way so not all are loaded with the page. Maybe tomorrow.
+	</br>
+	</br>
+	<a class="date">17th of July, 2020 - 01:31</a>

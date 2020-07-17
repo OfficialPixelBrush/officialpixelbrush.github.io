@@ -1,0 +1,7 @@
+ Today begins the great rewrite. I've already revamped the CSS Document today, deleting unused stuff, and reworking some other to reduce clutter in the actual HTML Files, this rewrite will include Javscript implementation to improve loading times, especially in <a href="animations.html">Animations</a>. 
+	</br>
+	</br>
+	The loading times in that are almost sad lmao.
+	</br>
+	</br>
+	<a class="date">17th of July, 2020 - 02:29</a>

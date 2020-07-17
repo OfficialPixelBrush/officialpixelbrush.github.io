@@ -1,0 +1,4 @@
+Added some cool download icons to the game page for crossplatform games (So just SynthRacer for now)
+	</br>
+	</br>
+	<a class="date">21th of May, 2020 - 1:19</a>

@@ -1,0 +1,4 @@
+ Updated Portfolio Page severely and made the Website's Page Menu into a Table instead of a bunch of a's
+	</br>
+	</br>
+	<a class="date">14th of June, 2020 - 04:11</a>
