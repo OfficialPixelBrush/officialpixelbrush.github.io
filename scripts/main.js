@@ -11,11 +11,31 @@ function FileHelper(pathOfFileToReadFrom) {
 }
 
 function loadPost() {
-	document.getElementById('mainpost').innerHTML = FileHelper('posts/' + nmbr + '.txt');
-	document.getElementById('mainpost2').innerHTML = FileHelper('posts/' + (nmbr-1) + '.txt');
-	document.getElementById('mainpost3').innerHTML = FileHelper('posts/' + (nmbr-2)  + '.txt');
-	document.getElementById('mainpost4').innerHTML = FileHelper('posts/' + (nmbr-3)  + '.txt');
-	document.getElementById('mainpost5').innerHTML = FileHelper('posts/' + (nmbr-4)  + '.txt');
+	if (nbmr != null) {
+		document.getElementById('mainpost').innerHTML = FileHelper('posts/' + nmbr + '.txt');
+	} else {
+		document.getElementById('mainpost').innerHTML = '-';
+	}
+	if (nbmr-1 != null) {
+		document.getElementById('mainpost2').innerHTML = FileHelper('posts/' + (nmbr-1) + '.txt');
+	} else {
+		document.getElementById('mainpost2').innerHTML = '-';
+	}
+	if (nbmr-2 != null) {
+		document.getElementById('mainpost3').innerHTML = FileHelper('posts/' + (nmbr-2)  + '.txt');
+	} else {
+		document.getElementById('mainpost3').innerHTML = '-';
+	}
+	if (nbmr-3 != null) {
+		document.getElementById('mainpost4').innerHTML = FileHelper('posts/' + (nmbr-3)  + '.txt');
+	} else {
+		document.getElementById('mainpost4').innerHTML = '-';
+	}
+	if (nbmr-4 != null) {
+		document.getElementById('mainpost5').innerHTML = FileHelper('posts/' + (nmbr-4)  + '.txt');
+	} else {
+		document.getElementById('mainpost5').innerHTML = '-';
+	}
 }
 
 function next() {
