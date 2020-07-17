@@ -1,8 +1,6 @@
 let nmbr_of_posts = 18;
 let nmbr = 18;
 
-let latestcommit="";
-
 function FileHelper(pathOfFileToReadFrom) {
     var request = new XMLHttpRequest();
     request.open("GET", pathOfFileToReadFrom, false);
