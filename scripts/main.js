@@ -24,7 +24,7 @@ function next() {
 }
 
 function previous() {
-	if (nmbr-3 !< 1) {
+	if (nmbr-3 > 0) {
 		nmbr = nmbr-3
 		loadPost();
 	}
