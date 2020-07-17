@@ -1,0 +1,6 @@
+ The Interactive Homepage finally works! Hooray!
+	</br>
+	Some bugs should still be expected.
+	</br>
+	</br>
+	<a class="date">17th of July, 2020 - 14:18</a>
