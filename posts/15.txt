@@ -1,0 +1,1 @@
+The homepage now works using Javascript

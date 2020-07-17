@@ -7,7 +7,6 @@
         body { margin:0; }  
     </style>    
 	
-<script data-ad-client="ca-pub-4617690453170979" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <link rel="shortcut icon" href="favicon/favicon.ico" />
 <link rel="apple-touch-icon-precomposed" href="favicon/apple-touch-icon.png" />
 <meta name="viewport" content="width=device-width, initial-scale=0.75" /> 
@@ -17,9 +16,10 @@
 <meta property="og:url" content="https://officialpixelbrush.github.io/" />
 <meta property="og:image" content="https://github.com/OfficialPixelBrush/officialpixelbrush.github.io/raw/master/images/embed.png" />
 
+
 </head>
 
-<body>
+<body onload="loadPost(15)">
  
 <div class="site">
       
@@ -49,6 +49,13 @@
 	<a class="date"> Last Updated: 17th of July, 2020 - 02:29</a>
 	</br>
 	</br>
+	
+	<div class="post"> 
+	<a id="mainpost"></a>
+	</br>
+	</br>
+	<a id="postdate" class="date">17th of July, 2020 - 10:33</a>
+	</div>
 	
 	<div class="post"> Today begins the great rewrite. I've already revamped the CSS Document today, deleting unused stuff, and reworking some other to reduce clutter in the actual HTML Files, this rewrite will include Javscript implementation to improve loading times, especially in <a href="animations.html">Animations</a>. 
 	</br>
@@ -92,7 +99,9 @@
 	<div class="post"> Shoutout to MediExcalibur2012 for featuring the Crash Bandicoot TF2 Mod I made for him!
 	</br>
 	</br>
+	<!--
 	<iframe width="64%" height="36%" src="https://www.youtube.com/embed/ZPdtnFQrUVI" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	-->
 	</br>
 	</br>
 	<a class="date">10th of July, 2020 - 18:41</a>
@@ -151,5 +160,6 @@
 </div>
 
 
+<script src="scripts/main.js"></script>
 </body>
 </html>
