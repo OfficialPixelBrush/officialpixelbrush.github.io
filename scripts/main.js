@@ -1,5 +1,5 @@
-let nmbr_of_posts = 19;
-let nmbr = 19;
+let nmbr_of_posts = 20;
+let nmbr = 20;
 
 function FileHelper(pathOfFileToReadFrom) {
     var request = new XMLHttpRequest();
@@ -50,4 +50,12 @@ function previous() {
 		nmbr = nmbr-5
 		loadPost();
 	}
+}
+
+function disableCSS() {
+	swapStyleSheet("");
+}
+
+function swapStyleSheet(sheet) {
+    document.getElementById("pagestyle").setAttribute("href", sheet);  
 }
