@@ -11,27 +11,27 @@ function FileHelper(pathOfFileToReadFrom) {
 }
 
 function loadPost() {
-	if (nbmr != null) {
+	if (nbmr > 0) {
 		document.getElementById('mainpost').innerHTML = FileHelper('posts/' + nmbr + '.txt');
 	} else {
 		document.getElementById('mainpost').innerHTML = '-';
 	}
-	if (nbmr-1 != null) {
+	if (nbmr-1 > 0) {
 		document.getElementById('mainpost2').innerHTML = FileHelper('posts/' + (nmbr-1) + '.txt');
 	} else {
 		document.getElementById('mainpost2').innerHTML = '-';
 	}
-	if (nbmr-2 != null) {
+	if (nbmr-2 > 0) {
 		document.getElementById('mainpost3').innerHTML = FileHelper('posts/' + (nmbr-2)  + '.txt');
 	} else {
 		document.getElementById('mainpost3').innerHTML = '-';
 	}
-	if (nbmr-3 != null) {
+	if (nbmr-3 > 0) {
 		document.getElementById('mainpost4').innerHTML = FileHelper('posts/' + (nmbr-3)  + '.txt');
 	} else {
 		document.getElementById('mainpost4').innerHTML = '-';
 	}
-	if (nbmr-4 != null) {
+	if (nbmr-4 > 0) {
 		document.getElementById('mainpost5').innerHTML = FileHelper('posts/' + (nmbr-4)  + '.txt');
 	} else {
 		document.getElementById('mainpost5').innerHTML = '-';
