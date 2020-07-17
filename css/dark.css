@@ -1,3 +1,4 @@
+	/* Main */
 	html
 	{
 		background-image: url("https://i.imgur.com/gtFxg10.png");
@@ -24,24 +25,9 @@
 		font-weight: normal;
 	}
 	
-@media screen and (orientation: portrait) and (max-width: 600px) {
-	.platformIcon {
-		width: 28%;
-	} 
-}
-
-@media screen and (orientation: landscape) and (min-width: 600px) {
-	.platformIcon {
-		width: 15%;
-	} 
-}
-
-
-@media screen and (min-width: 600px) {
-	.platformIcon {
-		width: 10%;
-	} 
-}
+	
+	
+	/* Hotbar */
 	
 	h1 
 	{
@@ -49,106 +35,6 @@
 		font-size: 400%;
 		margin-bottom: 0%;
 		margin-top: 0%;
-	}
-	
-	.center 
-	{
-		height: auto;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex:direction: column;
-		font-size: 300%;
-		font-family: DoodleSans32;
-	}
-	
-	.main
-	{
-		float: none;
-		clear: both;
-	}
-	
-	button 
-	{
-		font-size: 100%;
-	}
-	
-	.highlight
-	{
-		color: #FFFFFF;
-	}
-
-	.maker {
-  		background: url('https://raw.githubusercontent.com/OfficialPixelBrush/officialpixelbrush.github.io/master/images/banner.png');
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-        background-position:top;
-		
-		height: 216px;
-	}
-	
-	.post {
-		margin-bottom: 10px;
-        margin-left: 5%;
-        margin-right: 5%;
-		border:3px solid #d17630;
-		border-radius: 8px;
-		box-shadow: 5px 5px 0 #6e3921,
-		4px 4px 0 #6e3921,
-		3px 3px 0 #6e3921,
-		2px 2px 0 #6e3921,
-		1px 1px 0 #6e3921,
-		0px 0px 0 #6e3921;
-		
-		padding-top: 10px;
-		padding-bottom: 10px;
-		
-		background-color: #6e3921;
-		text-align: center;
-	}
-	
-	.date
-	{
-        margin-left: 10px;
-		margin-bottom: 10px;
-		font-family: DoodleSans32;
-		font-size: 200%;
-		border:3px solid #d17630;
-		border-radius: 8px;
-		
-		padding-top: 3px;
-		padding-right: 3px;
-		padding-bottom: 3px;
-		padding-left: 3px;
-		background-color: #6e3921;
-	}
-	
-	blockquote
-	{
-    width:auto;
-	display:table
-	}
-	
-	.site
-    {
-		background-image: url("https://i.imgur.com/gtFxg10.png");
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		margin:0;
-		background-position: center;
-    }
-    
-    .body {
-		background-image: url("https://i.imgur.com/gtFxg10.png");
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-size: cover;
-		margin:0;
-		background-position: center;
 	}
 	
 	.menu {
@@ -164,46 +50,6 @@
 		top: 0;
 		height: auto; 
 		display: block;
-		padding: 0.5% 0;
-		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-	}
-	
-	table {
-		margin-right: auto;
-		margin-left: auto;
-	}
-	
-	@media screen and (orientation: portrait) and (max-width: 480px) {
-		th
-		{
-			font-size: 150%;
-		}
-	}
-
-	@media screen and (orientation: landscape) {
-		th
-		{
-			font-size: 150%;
-		}
-	}
-
-	@media screen and (min-width: 480px) {
-		th
-		{
-			font-size: 200%;
-		}
-	}
-	
-	
-    .menu2 {
-		font-family: DoodleSans32;
-		background-color: #3f3845;
-		text-align: center;
-		overflow-x: auto;
-		overflow-y: hidden;
-        padding:0;
-		text-align: center;
-		font-size: 300%;
 		padding: 0.5% 0;
 		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 	}
@@ -242,30 +88,66 @@
         transition: color 0.2s, text-shadow 0.2s, background-color 0.2s;
     }
 	
-    .titlecolor
-    {
-      text-shadow: 0px 0px 10px;
-      font-weight: bolder;
-      font-family: Arial;
-      color: #eb5bff;
-      font-size: 50px;
-      text-decoration: none;  
-    }
-    
-    .welcome
-    {
-        text-decoration: none;
-        color: #7289DA;
-        text-shadow: 0px 0px 5px #345E10;
-    }
+	table {
+		margin-right: auto;
+		margin-left: auto;
+	}
 	
+	@media screen and (orientation: portrait) and (max-width: 480px) {
+		th
+		{
+			font-size: 150%;
+		}
+	}
 
-	.image
-    {
-		margin-left: 10%;
-		margin-right: 10%;
-		min-width: 100px;
-		max-width: 25%;
+	@media screen and (orientation: landscape) {
+		th
+		{
+			font-size: 150%;
+		}
+	}
+
+	@media screen and (min-width: 480px) {
+		th
+		{
+			font-size: 200%;
+		}
+	}
+	
+    .menu_horizontal {
+		font-family: DoodleSans32;
+		background-color: #3f3845;
+		text-align: center;
+		overflow-x: auto;
+		overflow-y: hidden;
+        padding:0;
+		text-align: center;
+		font-size: 300%;
+		padding: 0.5% 0;
+		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+	}
+	
+	
+	/* Main Page */
+	
+	a {
+		color: white;
+	}
+	
+	.banner {
+  		background: url('https://raw.githubusercontent.com/OfficialPixelBrush/officialpixelbrush.github.io/master/images/banner.png');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+        background-position:top;
+		
+		height: 216px;
+	}
+	
+	
+	.post {
+		margin-bottom: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
 		border:3px solid #d17630;
 		border-radius: 8px;
 		box-shadow: 5px 5px 0 #6e3921,
@@ -273,89 +155,37 @@
 		3px 3px 0 #6e3921,
 		2px 2px 0 #6e3921,
 		1px 1px 0 #6e3921,
-		0px 0px 0 #6e3921;		
-		width: 100%;
-	}
-	
-	.price-text {
-		font-family: DoodleSans32;
-		color: white;
-		font-size: 500%;
+		0px 0px 0 #6e3921;
+		
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 10%;
+		padding-right: 10%;
+		
+		background-color: #6e3921;
 		text-align: center;
-		margin-left: 20%;
-	}
-	
-	.price {
-		font-family: DoodleSans;
+		
 		color: white;
-		font-size: 300%;
-		text-align: center;
-		margin-left: 20%;
-	}
-    
-	.price-container {
-		table-layout: fixed;
-		width: 100%;
+		font-family: Arial;
 	}
 	
-    .title
-    {
-        font-size: 30px;
-        font-weight: bolder;
-        font-family: Courier;
-        margin-left: auto;
-    }
-    
-	.content
-	{
-		height: 100%;
-		position:relative;		
-	}
-    
-    .owner
-    {
-        font-size: small;
-        font-weight: bold;
-        color: red;
-        text-align: center;
-    }
-    
-    .bottom 
-    {
-      background-color: #2C2F33;
-      text-align: center;
-      width: 100%;
-	  color: #7289DA;
-    }
-    
-    .current
-    {
-        color: #38680E;
-        text-shadow: 0px 0px 10px;
-        text-decoration: none;  
-    }
-    
-    .tab
-    {
-        color: #5D9F23;
-        text-shadow: 0px 0px 10px;
-        font-weight: bolder;
-        table-layout: auto;
-        margin: auto;
-        width: 50%;
-        text-align: center;
-        height: 30%;
-        font-size: 20pt;
-        font-family: Courier;  
-    }
-	
-	.text
+
+	.date
 	{
         margin-left: 10px;
-        margin-right: 10px;
-		font-family: Arial;
-		color: black;
-        text-shadow: 0px 0px 0px 5 #000000;
+		margin-bottom: 10px;
+		font-family: DoodleSans32;
+		font-size: 200%;
+		border:3px solid #d17630;
+		border-radius: 8px;
+		
+		padding-top: 3px;
+		padding-right: 3px;
+		padding-bottom: 3px;
+		padding-left: 3px;
+		background-color: #6e3921;
+		
+		color: white;
 	}
 	
 	.links
@@ -369,20 +199,66 @@
 		font-family: DoodleSans32;
     }
 	
-	.selection
-	{   
-		font-family: Arial;
-		color: white;
-        text-shadow: 0px 0px 0px 5 #000000;
-        font-size: 200%;
-		text-align: center;
-    }
+	.center 
+	{
+		height: auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex:direction: column;
+		font-size: 300%;
+		font-family: DoodleSans32;
+	}
 	
-	.title
-	{   
-		font-family: Arial;
-		color: white;
-        text-shadow: 0px 0px 0px 5 #000000;
-        font-size: 400%;
-		margin-left: 10%
-    }
+	
+	
+	/* Games Page */
+	
+	@media screen and (orientation: portrait) and (max-width: 600px) {
+		.platformIcon {
+			width: 28%;
+		} 
+	}
+
+	@media screen and (orientation: landscape) and (min-width: 600px) {
+		.platformIcon {
+			width: 15%;
+		} 
+	}
+
+
+	@media screen and (min-width: 600px) {
+		.platformIcon {
+			width: 10%;
+		} 
+	}
+
+
+
+	/* Image */
+	
+	.image
+    {
+		margin-left: 10%;
+		margin-right: 10%;
+		min-width: 200px;
+		max-width: 30%;
+		border:3px solid #d17630;
+		border-radius: 8px;
+		box-shadow: 5px 5px 0 #6e3921,
+		4px 4px 0 #6e3921,
+		3px 3px 0 #6e3921,
+		2px 2px 0 #6e3921,
+		1px 1px 0 #6e3921,
+		0px 0px 0 #6e3921;		
+		width: 100%;
+	}
+	
+	
+	
+	/* Price Page */
+	
+	button 
+	{
+		font-size: 100%;
+	}
