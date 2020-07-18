@@ -1,6 +1,6 @@
 let nmbr_of_posts = 20;
 let nmbr = 20;
-disCSS = 0;
+let disCSS = 0;
 
 function FileHelper(pathOfFileToReadFrom) {
     var request = new XMLHttpRequest();
