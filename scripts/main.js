@@ -1,5 +1,6 @@
 let nmbr_of_posts = 20;
 let nmbr = 20;
+disCSS = 0;
 
 function FileHelper(pathOfFileToReadFrom) {
     var request = new XMLHttpRequest();
@@ -53,7 +54,15 @@ function previous() {
 }
 
 function disableCSS() {
-	swapStyleSheet("");
+	if (disCSS = 0) {
+		swapStyleSheet("");
+		document.getElementById('90smode').innerHTML = 'modern mode';
+		disCSS = 1;
+	} else {
+		swapStyleSheet("css/dark.css");
+		document.getElementById('90smode').innerHTML = '90s mode';
+		disCSS = 0;
+	}
 }
 
 function swapStyleSheet(sheet) {

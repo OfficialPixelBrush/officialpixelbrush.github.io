@@ -2,7 +2,7 @@ Okay. This button will actually do something lmao.
 </br>
 
 </br>
-<button onclick="disableCSS()">90s mode</button>
+<button id="90smode" onclick="disableCSS()">90s mode</button>
 </br>
 </br>
 <a id="postdate" class="date">18th of July, 2020 - 01:48</a>
