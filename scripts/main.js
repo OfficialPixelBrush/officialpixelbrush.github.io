@@ -54,7 +54,7 @@ function previous() {
 }
 
 function disableCSS() {
-	if (disCSS = 0) {
+	if (disCSS == 0) {
 		swapStyleSheet("");
 		document.getElementById('90smode').innerHTML = 'modern mode';
 		disCSS = 1;
