@@ -1,0 +1,12 @@
+Adding a new Animation to the Animation section!
+</br>
+Voiced by Gravitas himself
+</br>
+Animated by me.
+</br>
+<h1>Pikuseru X Suraimuyagi (Subbed)</h1>
+</br>
+<video width="64%" height="36%" controls><source src="animations\pikuseru_x_suraimuyagi_subbed.mp4" type="video/mp4"></video> 
+</br>
+</br>
+<a id="postdate" class="date">24th of July, 2020 - 21:13</a>
