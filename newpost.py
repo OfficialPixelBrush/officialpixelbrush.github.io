@@ -93,5 +93,5 @@ if os.path.isfile("scripts/main.js"):
     f.write(text + full_date)
     f.close() 
     print("\""+ text+full_date + "\"")
-    updateTime
+    updateTime.uT()
     

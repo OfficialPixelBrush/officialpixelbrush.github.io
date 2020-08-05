@@ -1,97 +1,97 @@
-<img class="image" src="0 - Cover.png" alt="0 - Cover">
+<img class="image" src="images\archive\sketch20182019\0 - Cover.png" alt="0 - Cover">
 </br>
 </br>
-<img class="image" src="1.png" alt="1">
+<img class="image" src="images\archive\sketch20182019\1.png" alt="1">
 </br>
 </br>
-<img class="image" src="2.png" alt="2">
+<img class="image" src="images\archive\sketch20182019\2.png" alt="2">
 </br>
 </br>
-<img class="image" src="3.png" alt="3">
+<img class="image" src="images\archive\sketch20182019\3.png" alt="3">
 </br>
 </br>
-<img class="image" src="4.png" alt="4">
+<img class="image" src="images\archive\sketch20182019\.png" alt="4">
 </br>
 </br>
-<img class="image" src="5.png" alt="5">
+<img class="image" src="images\archive\sketch20182019\5.png" alt="5">
 </br>
 </br>
-<img class="image" src="6.png" alt="6">
+<img class="image" src="images\archive\sketch20182019\6.png" alt="6">
 </br>
 </br>
-<img class="image" src="7.png" alt="7">
+<img class="image" src="images\archive\sketch20182019\7.png" alt="7">
 </br>
 </br>
-<img class="image" src="8.png" alt="8">
+<img class="image" src="images\archive\sketch20182019\8.png" alt="8">
 </br>
 </br>
-<img class="image" src="9.png" alt="9">
+<img class="image" src="images\archive\sketch20182019\9.png" alt="9">
 </br>
 </br>
-<img class="image" src="10.png" alt="10">
+<img class="image" src="images\archive\sketch20182019\10.png" alt="10">
 </br>
 </br>
-<img class="image" src="11.png" alt="11">
+<img class="image" src="images\archive\sketch20182019\11.png" alt="11">
 </br>
 </br>
-<img class="image" src="12.png" alt="12">
+<img class="image" src="images\archive\sketch20182019\12.png" alt="12">
 </br>
 </br>
-<img class="image" src="13.png" alt="13">
+<img class="image" src="images\archive\sketch20182019\13.png" alt="13">
 </br>
 </br>
-<img class="image" src="13 Addendum.png" alt="13 Addendum">
+<img class="image" src="images\archive\sketch20182019\13 Addendum.png" alt="13 Addendum">
 </br>
 </br>
-<img class="image" src="14.png" alt="14">
+<img class="image" src="images\archive\sketch20182019\14.png" alt="14">
 </br>
 </br>
-<img class="image" src="15.png" alt="15">
+<img class="image" src="images\archive\sketch20182019\15.png" alt="15">
 </br>
 </br>
-<img class="image" src="16.png" alt="16">
+<img class="image" src="images\archive\sketch20182019\16.png" alt="16">
 </br>
 </br>
-<img class="image" src="17.png" alt="17">
+<img class="image" src="images\archive\sketch20182019\17.png" alt="17">
 </br>
 </br>
-<img class="image" src="18.png" alt="18">
+<img class="image" src="images\archive\sketch20182019\18.png" alt="18">
 </br>
 </br>
-<img class="image" src="19.png" alt="19">
+<img class="image" src="images\archive\sketch20182019\19.png" alt="19">
 </br>
 </br>
-<img class="image" src="20.png" alt="20">
+<img class="image" src="images\archive\sketch20182019\20.png" alt="20">
 </br>
 </br>
-<img class="image" src="21.png" alt="21">
+<img class="image" src="images\archive\sketch20182019\21.png" alt="21">
 </br>
 </br>
-<img class="image" src="22.png" alt="22">
+<img class="image" src="images\archive\sketch20182019\22.png" alt="22">
 </br>
 </br>
-<img class="image" src="23.png" alt="23">
+<img class="image" src="images\archive\sketch20182019\23.png" alt="23">
 </br>
 </br>
-<img class="image" src="24.png" alt="24">
+<img class="image" src="images\archive\sketch20182019\24.png" alt="24">
 </br>
 </br>
-<img class="image" src="25.png" alt="25">
+<img class="image" src="images\archive\sketch20182019\25.png" alt="25">
 </br>
 </br>
-<img class="image" src="26.png" alt="26">
+<img class="image" src="images\archive\sketch20182019\26.png" alt="26">
 </br>
 </br>
-<img class="image" src="27.png" alt="27">
+<img class="image" src="images\archive\sketch20182019\27.png" alt="27">
 </br>
 </br>
-<img class="image" src="28.png" alt="28">
+<img class="image" src="images\archive\sketch20182019\28.png" alt="28">
 </br>
 </br>
-<img class="image" src="29.png" alt="29">
+<img class="image" src="images\archive\sketch20182019\29.png" alt="29">
 </br>
 </br>
-<img class="image" src="30 - Back.png" alt="30 - Back">
+<img class="image" src="images\archive\sketch20182019\30 - Back.png" alt="30 - Back">
 </br>
 </br>
-<a class="date"> Last Updated: 6th of August, 2020 - 00:08</a>
+<a class="date"> Last Updated: 6th of August, 2020 - 00:27</a>
