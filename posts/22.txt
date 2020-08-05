@@ -6,7 +6,7 @@ Been meaning to scan it for quite a while because it's just deteriorating more a
 </br>
 
 </br>
-<img src="images/archive/sketch20182019/1.png">
+<img class="image" src="images/archive/sketch20182019/1.png">
 </br>
 </br>
 <a id="postdate" class="date">6th of August, 2020 - 00:13</a>

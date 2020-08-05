@@ -1,5 +1,5 @@
-let nmbr_of_posts = 22;
-let nmbr = 22;
+let nmbr_of_posts = 23;
+let nmbr = 23;
 let disCSS = 0;
 
 function FileHelper(pathOfFileToReadFrom) {

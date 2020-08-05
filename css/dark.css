@@ -24,8 +24,8 @@
 		src: url(Doodle_Sans.ttf) format('truetype');
 		font-weight: normal;
 	}
-	
-	
+
+
 	
 	/* Hotbar */
 	
@@ -210,6 +210,10 @@
 		font-family: DoodleSans32;
 	}
 	
+	.postNbmr
+	{
+		text-align: left;
+	}
 	
 	
 	/* Games Page */
@@ -262,3 +266,5 @@
 	{
 		font-size: 100%;
 	}
+	
+	

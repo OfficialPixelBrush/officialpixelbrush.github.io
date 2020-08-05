@@ -1,0 +1,19 @@
+<a class='postNbmr'>#23</a>
+</br>
+</br>
+Made the Post Creator considerably more usable, by adding a tkinter UI!
+</br>
+
+</br>
+Check it out on the <a href="https://github.com/OfficialPixelBrush/officialpixelbrush.github.io"> GitHub page!</a>
+</br>
+
+</br>
+This also just makes me doing this considerably easier.
+</br>
+Also notice the addition of a Post Number in the Corner of the post!
+</br>
+Neat, huh?
+</br>
+</br>
+<a id="postdate" class="date">6th of August, 2020 - 01:26</a>
