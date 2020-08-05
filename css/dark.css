@@ -213,6 +213,14 @@
 	.postNbmr
 	{
 		text-align: left;
+		border:3px solid #d17630;
+		border-radius: 8px;
+		
+		padding-top: 3px;
+		padding-right: 3px;
+		padding-bottom: 3px;
+		padding-left: 3px;
+		float: left;
 	}
 	
 	
