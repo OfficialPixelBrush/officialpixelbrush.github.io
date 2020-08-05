@@ -72,5 +72,5 @@ if os.path.isfile("index.html"):
 
 
     lines = open("index.html").read().splitlines()
-    lines[48] = '    <a class="date"> Last Updated: ' + date + '</a>'
+    lines[50] = '    <a class="date"> Last Updated: ' + date + '</a>'
     open("index.html",'w').write('\n'.join(lines))

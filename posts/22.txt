@@ -1,0 +1,12 @@
+Introducing the <a href="images.html">Images</a> Page!
+</br>
+At the moment it only contains my Late 2018 to Early 2019 Sketchbook which is at the very least somewhat noteworthy.
+</br>
+Been meaning to scan it for quite a while because it's just deteriorating more and more by the day, so I finally got around to scanning it!
+</br>
+
+</br>
+<img src="images/archive/sketch20182019/1.png">
+</br>
+</br>
+<a id="postdate" class="date">6th of August, 2020 - 00:13</a>
