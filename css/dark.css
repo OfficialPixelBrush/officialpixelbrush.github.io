@@ -1,7 +1,7 @@
 	/* Main */
 	html
 	{
-		background-image: url("https://i.imgur.com/gtFxg10.png");
+  		background: url('../images/bg.png');
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		-webkit-background-size: cover;
@@ -134,15 +134,46 @@
 		color: white;
 	}
 	
+	/* Banner */
 	.banner {
-  		background: url('https://raw.githubusercontent.com/OfficialPixelBrush/officialpixelbrush.github.io/master/images/banner.png');
-		background-repeat: no-repeat;
+		overflow: hidden;
 		background-attachment: fixed;
         background-position:top;
-		
+  		background: url('../images/banner.png');
+		background-repeat: no-repeat; 
 		height: 216px;
+	
 	}
 	
+	.dust {
+		background: url("../images/websiteBanner_particle.png") repeat right top;
+		background-repeat: repeat !important; 
+		height: 432px;
+		width: 1920px;
+		animation: slide 60s linear infinite;
+        background-position:top;
+		background-attachment: fixed;
+	}
+ 
+	@keyframes slide{
+		0%{
+			transform: translate3d(1920px, -864px, 0);
+		}
+		50%{
+			transform: translate3d(0, 0 , 0);
+		}
+		100%{
+			transform: translate3d(-1920px, 864px, 0);
+		}
+	}
+	
+	.bannerText {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  min-width: 705;
+	}
 	
 	.post {
 		margin-bottom: 10px;
