@@ -1,0 +1,17 @@
+<a class='postNbmr'>#25</a>
+</br>
+</br>
+It took me a little while, but I finally decided to join and partake in a Game Jam.
+</br>
+I took part in the 60th Mini Jam. This one's Theme was Crime. One of the limitations was that Pausing must be a main mechanic.
+</br>
+
+</br>
+It's available on both <a href="https://pixelbrush6584.itch.io/time-detectives-and-robbers">itch.io</a> and here, <a href="/games">pixelbrush.dev</a>.
+</br>
+
+</br>
+<img class="image" src="images/postImages/tdar.png">
+</br>
+</br>
+<a id="postdate" class="date">10th of August, 2020 - 06:06</a>
