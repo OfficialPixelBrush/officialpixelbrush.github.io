@@ -1,7 +1,7 @@
 	/* Main */
 	html
 	{
-  		background: url('../images/bg.png');
+  		background: url('../images/darkModeLegacy/bg.png');
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		-webkit-background-size: cover;
@@ -10,7 +10,7 @@
 		background-size: cover;
 		margin:0;
 		background-position: center;
-  		background: url('../images/bg_loop.png');
+  		background: url('../images/darkModeLegacy/bg_loop.png');
 	}
 	
 	@font-face {
@@ -140,14 +140,14 @@
 		overflow: hidden;
 		background-attachment: fixed;
         background-position:top;
-  		background: url('../images/banner.png');
+  		background: url('../images/darkModeLegacy/banner.png');
 		background-repeat: no-repeat; 
 		height: 216px;
 	
 	}
 	
 	.dust {
-		background: url("../images/websiteBanner_particle.png") repeat right top;
+		background: url("../images/darkModeLegacy/websiteBanner_particle.png") repeat right top;
 		background-repeat: repeat !important; 
 		height: 432px;
 		width: 1920px;
