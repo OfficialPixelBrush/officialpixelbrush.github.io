@@ -23,11 +23,11 @@ The old, legacy theme will be viewable via this button
 </br>
 
 </br>
-<button onclick="swapStyleSheet("../css/darkLegacy.css")">darkLegacy.css</button>
+<button onclick="swapStyleSheet('/css/darkLegacy.css')">darkLegacy.css</button>
 </br>
 
 </br>
-will become more and more broken as time goes on. 
+and will become more and more broken as time goes on. 
 </br>
 It will not be updated in the near future.
 </br>
