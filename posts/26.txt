@@ -23,7 +23,7 @@ The old, legacy theme will be viewable via this button
 </br>
 
 </br>
-<button onclick="swapStyleSheet("../css/darkLegacy.css")">90s mode</button>
+<button onclick="swapStyleSheet("../css/darkLegacy.css")">darkLegacy.css</button>
 </br>
 
 </br>
