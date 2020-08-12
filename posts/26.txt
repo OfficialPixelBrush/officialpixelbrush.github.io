@@ -1,0 +1,39 @@
+<a class='postNbmr'>#26</a>
+</br>
+</br>
+Introducing the Website's new Style!
+</br>
+
+</br>
+<h1>dark.css</h1>
+</br>
+(version 2, i guess)
+</br>
+
+</br>
+It's... very synthwavey...
+</br>
+
+</br>
+
+</br>
+I may add other themes as time goes on but for now it'll just be this. 
+</br>
+The old, legacy theme will be viewable via this button
+</br>
+
+</br>
+<button onclick="swapStyleSheet("../css/darkLegacy.css")">90s mode</button>
+</br>
+
+</br>
+will become more and more broken as time goes on. 
+</br>
+It will not be updated in the near future.
+</br>
+
+</br>
+However, I'm considering adding a "orange" option, for those that prefered the old color scheme.
+</br>
+</br>
+<a id="postdate" class="date">12th of August, 2020 - 23:32</a>

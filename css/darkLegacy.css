@@ -1,25 +1,16 @@
-	:root {
-		/* Custom Colors go here */
-		--backgroundPink: #560E46;
-		--glowPinkDarker: #D56FCB;
-		--glowOrange: #FCC120;
-		--glowOrangeBrighter: #FFFF00;
-		--postBgPink: #8B3781;
-		--bgColor: #340829;
-	}
-	
 	/* Main */
-	html {
-  		background-color: #340829;
-	}
-	
-	.site
+	html
 	{
   		background: url('../images/bg.png');
-		margin:0;
-        background-position:top;
 		background-repeat: no-repeat;
-		height: 100%;
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		margin:0;
+		background-position: center;
+  		background: url('../images/bg_loop.png');
 	}
 	
 	@font-face {
@@ -50,7 +41,7 @@
 	.menu {
 		font-family: DoodleSans32;
 		width: 100%;
-		background-color: var(--backgroundPink);
+		background-color: #3f3845;
 		text-align: center;
 		overflow-x: auto;
 		overflow-y: hidden;
@@ -61,13 +52,13 @@
 		height: auto; 
 		display: block;
 		padding: 0.5% 0;
-		/*box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);*/
+		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 	}
 	
 	.devider {
 		border-left: 2px solid;
 		height: 100%;
-		border-left-color: var(--bgColor);
+		border-left-color: #35303b;
 	}
 
     .hotbar_selector
@@ -75,9 +66,10 @@
 		font-family: DoodleSans32;
 		text-align: center;
 		
-        color: var(--glowOrangeBrighter);
-        text-shadow: 0 0 2px var(--glowOrange);
+        color: #f280ff;
+        text-shadow: 0 0 2px #ce73d9;
         text-decoration: none;
+		background-color: #3f3845;
 		padding: 1px 1px 1px 1px;
 		margin: 5px 5px 2px 5px;
         transition: color 0.2s, text-shadow 0.2s, background-color 0.2s;
@@ -88,9 +80,10 @@
 		font-family: DoodleSans32;
 		text-align: center;
 		
-        color: var(--glowOrangeBrighter);
-        text-shadow: 0 0 8px var(--glowOrange);
+        color: #f59eff;
+        text-shadow: 0 0 5px #cd81d6;
         text-decoration: none;
+		background-color: #584d61;
 		padding: 1px 1px 1px 1px;
 		margin: 5px 5px 2px 5px;
         transition: color 0.2s, text-shadow 0.2s, background-color 0.2s;
@@ -124,7 +117,7 @@
 	
     .menu_horizontal {
 		font-family: DoodleSans32;
-		background-color: var(--backgroundPink);
+		background-color: #3f3845;
 		text-align: center;
 		overflow-x: auto;
 		overflow-y: hidden;
@@ -145,30 +138,33 @@
 	/* Banner */
 	.banner {
 		overflow: hidden;
-  		background: url('../images/banner.png');
-		margin:0;
-		background-repeat: no-repeat; 
+		background-attachment: fixed;
         background-position:top;
+  		background: url('../images/banner.png');
+		background-repeat: no-repeat; 
 		height: 216px;
 	
 	}
 	
 	.dust {
-		background: url("../images/websiteBanner_particle.png");
+		background: url("../images/websiteBanner_particle.png") repeat right top;
+		background-repeat: repeat !important; 
 		height: 432px;
-		animation: slide 200s linear infinite;
-		background-attachment: fixed;
-		margin:0;
-		background-repeat: repeat;
+		width: 1920px;
+		animation: slide 60s linear infinite;
         background-position:top;
+		background-attachment: fixed;
 	}
  
 	@keyframes slide{
 		0%{
-			background-position: 1920px -432px;
+			transform: translate3d(1920px, -864px, 0);
+		}
+		50%{
+			transform: translate3d(0, 0 , 0);
 		}
 		100%{
-			background-position: -1920px 432px;
+			transform: translate3d(-1920px, 864px, 0);
 		}
 	}
 	
@@ -184,21 +180,21 @@
 		margin-bottom: 10px;
         margin-left: 5%;
         margin-right: 5%;
-		border:3px solid var(--glowPinkDarker);
+		border:3px solid #d17630;
 		border-radius: 8px;
-		box-shadow: 5px 5px 0 var(--postBgPink),
-		4px 4px 0 var(--postBgPink),
-		3px 3px 0 var(--postBgPink),
-		2px 2px 0 var(--postBgPink),
-		1px 1px 0 var(--postBgPink),
-		0px 0px 0 var(--postBgPink);
+		box-shadow: 5px 5px 0 #6e3921,
+		4px 4px 0 #6e3921,
+		3px 3px 0 #6e3921,
+		2px 2px 0 #6e3921,
+		1px 1px 0 #6e3921,
+		0px 0px 0 #6e3921;
 		
 		padding-top: 10px;
 		padding-bottom: 10px;
 		padding-left: 10%;
 		padding-right: 10%;
 		
-		background-color: var(--backgroundPink);
+		background-color: #6e3921;
 		text-align: center;
 		
 		color: white;
@@ -219,9 +215,8 @@
 		padding-right: 3px;
 		padding-bottom: 3px;
 		padding-left: 3px;
-		border:3px solid var(--glowPinkDarker);
+		background-color: #6e3921;
 		
-		background-color: var(--backgroundPink);
 		color: white;
 	}
 	
@@ -250,7 +245,7 @@
 	.postNbmr
 	{
 		text-align: left;
-		border:3px solid var(--glowPinkDarker);
+		border:3px solid #d17630;
 		border-radius: 8px;
 		
 		padding-top: 3px;
@@ -292,14 +287,14 @@
 		margin-right: 10%;
 		min-width: 200px;
 		max-width: 50%;
-		border:3px solid var(--glowPinkDarker);
+		border:3px solid #d17630;
 		border-radius: 8px;
-		box-shadow: 5px 5px 0 var(--postBgPink),
-		4px 4px 0 var(--postBgPink),
-		3px 3px 0 var(--postBgPink),
-		2px 2px 0 var(--postBgPink),
-		1px 1px 0 var(--postBgPink),
-		0px 0px 0 var(--postBgPink);
+		box-shadow: 5px 5px 0 #6e3921,
+		4px 4px 0 #6e3921,
+		3px 3px 0 #6e3921,
+		2px 2px 0 #6e3921,
+		1px 1px 0 #6e3921,
+		0px 0px 0 #6e3921;		
 		width: 100%;
 	}
 	
