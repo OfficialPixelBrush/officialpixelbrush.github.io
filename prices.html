@@ -66,15 +66,16 @@
 	
 <div style="color: white;" class="text">
 		<div class="post">
-			<a href="https://paypal.me/pixelbrushart" style="color: white" class="center">I only accept Payment via PayPal!</a>
+			<a class="center">I only accept Payment via PayPal!</a>
+			<a href="https://paypal.me/pixelbrushart" style="color: white; font-family: DoodleSans" class="center">My PayPal</a>
 		</div>
 		
 		<div class="post">
 			</br>
-		<button onclick="location.reload();">Reset Choices</button>
+		<button onclick="reload()">Reset Choices</button>
 			</br>
 			</br>
-		<div class="menu">
+		<div style="width: 100%; font-size: 200%;">
 				<div id="body" style="visibility: visible;">
 				<table>
 				<th><button onclick="youwant_body(1)">Full Body</button></th>
@@ -94,10 +95,14 @@
 			</div>
 			
 			</br>
-			<img class="image" src="images/prices/amber_empty.png" id="example">
+			<a>Character Credit: </a>
+			<a id="characterName"></a>
+			</br>
+			<img style="max-height: 512px; min-height: 0px;" class="image" src="images/prices/amber_empty.png" id="example">
+			</br>
 			</br>
 
-			<a>So you want a </a>
+			<a >So you want a </a>
 			<a id="want_style"></a>
 			<a id="want_body"></a>
 			<a>Drawing?</a>

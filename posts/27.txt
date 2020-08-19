@@ -1,0 +1,13 @@
+<a class='postNbmr'>#27</a>
+</br>
+</br>
+The <a href="/prices">Prices Page</a> now has actual Preview Images!
+</br>
+Though they are partially just placeholders until I get around to making proper preview images.
+</br>
+
+</br>
+<img class="image" src="images/prices/temp/braixen_lad_glasses.png">
+</br>
+</br>
+<a id="postdate" class="date">19th of August, 2020 - 21:06</a>
