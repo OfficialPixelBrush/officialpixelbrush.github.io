@@ -85,14 +85,7 @@
     
     .hotbar_selector:hover
     {
-		font-family: DoodleSans32;
-		text-align: center;
-		
-        color: var(--glowOrangeBrighter);
         text-shadow: 0 0 8px var(--glowOrange);
-        text-decoration: none;
-		padding: 1px 1px 1px 1px;
-		margin: 5px 5px 2px 5px;
         transition: color 0.2s, text-shadow 0.2s, background-color 0.2s;
     }
 	
@@ -154,9 +147,9 @@
 	}
 	
 	.dust {
-		background: url("../images/websiteBanner_particle.png");
+		background: url("../images/websiteBannerBack.png");
 		height: 432px;
-		animation: slide 200s linear infinite;
+		animation: slide 300s linear infinite;
 		background-attachment: fixed;
 		margin:0;
 		background-repeat: repeat;
@@ -164,6 +157,25 @@
 	}
  
 	@keyframes slide{
+		0%{
+			background-position: 1920px -432px;
+		}
+		100%{
+			background-position: -1920px 432px;
+		}
+	}
+	
+	.dustFront {
+		background: url("../images/websiteBannerFront.png");
+		height: 432px;
+		animation: slideSlow 150s linear infinite;
+		background-attachment: fixed;
+		margin:0;
+		background-repeat: repeat;
+        background-position:top;
+	}
+ 
+	@keyframes slideSlow{
 		0%{
 			background-position: 1920px -432px;
 		}
@@ -205,7 +217,38 @@
 		font-family: Arial;
 	}
 	
+	.postButton {
+		margin-bottom: 10px;
+        margin-left: 1%;
+		border:3px solid var(--glowPinkDarker);
+		border-radius: 8px;
+		box-shadow: 5px 5px 0 var(--postBgPink),
+		4px 4px 0 var(--postBgPink),
+		3px 3px 0 var(--postBgPink),
+		2px 2px 0 var(--postBgPink),
+		1px 1px 0 var(--postBgPink),
+		0px 0px 0 var(--postBgPink);
+		
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 5%;
+		padding-right: 5%;
+		
+		background-color: var(--backgroundPink);
+		text-align: center;
+		
+		color: white;
+		font-family: DoodleSans32;
+        transition: color 0.2s, text-shadow 0.2s, background-color 0.2s;
+	}
 
+	
+	.postButton:hover
+	{		
+        text-shadow: 0 0 6px white;
+        transition: color 0.2s, text-shadow 0.2s, background-color 0.2s;
+	}
+	
 	.date
 	{
         margin-left: 10px;

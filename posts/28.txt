@@ -1,0 +1,13 @@
+<a class='postNbmr'>#28</a>
+</br>
+</br>
+The <a href="/animations">Animations Page</a> has been reworked slightly so all Videos that have ever been put there won't load right away. Instead now you can simply click on the Year you'd like to View.
+</br>
+</br>
+I also updated the Banner sligthly, not to mention that I fixed the small gap that was on the <a href="/contacts">Contacts Page</a>.
+</br>
+</br>
+Make sure to check it out!
+</br>
+</br>
+<a id="postdate" class="date">23th of August, 2020 - 19:54</a>

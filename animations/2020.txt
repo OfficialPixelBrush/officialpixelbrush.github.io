@@ -1,0 +1,58 @@
+		<div class="post">
+		<h1>Pikuseru X Suraimuyagi (Subbed)</h1>
+		<video width="64%" height="36%" controls>
+		<source src="animations\pikuseru_x_suraimuyagi_subbed.mp4" type="video/mp4">
+		</video> 
+		<br/>
+		<br/>	
+		<a>Published on: 24nd of July, 2020</a>
+		</div>
+		<br/>
+		
+		<div class="post">
+		<h1>Do the Bootlegio</h1>
+		<video width="64%" height="36%" controls>
+		<source src="animations\do_the_bootlegio.mp4" type="video/mp4">
+		</video> 
+		<br/>
+		<br/>	
+		<a>Published on: 22nd of June, 2020</a>
+		</div>
+		<br/>
+		
+		<div class="post">
+		<h1>Peace out Pixel</h1>
+		<video width="64%" height="36%" controls>
+		<source src="animations\time to get outta here0001-0013.mp4" type="video/mp4">
+		</video> 
+		<br/>
+		<br/>	
+		<a>Published on: 2nd of June, 2020</a>
+		</div>
+		<br/>
+			
+		<div class="post">
+		<h1>Lagoon X Sarcin</h1>
+		<br/>	
+		<video width="64%" height="36%" controls>
+		<source src="animations\the_best_fanfiction_ever_created.mp4" type="video/mp4">
+		</video>
+		<br/>
+		<a href="https://twitter.com/pixel_brush/status/1251604355834404867?ref_src=twsrc%5Etfw" class="links">Original Tweet</a>
+		<br/>
+		<a>Published on: 18th of April, 2020</a>
+		</div>
+		<br/>
+		
+		<div class="post">
+		<h1>Sauce or Loss</h1>
+		<br/>	
+		<video width="64%" height="36%" controls>
+		<source src="animations\epic_animation0001-0915.mp4" type="video/mp4">
+		</video>
+		<br/>
+		<a href="https://www.youtube.com/embed/qfWYOE-9JTM" class="links">Original YouTube Video</a>
+		<br/>
+		<a>Published on: 1st of April, 2020</a>
+		</div>
+		<br/>

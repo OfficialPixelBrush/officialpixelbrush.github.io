@@ -1,0 +1,34 @@
+		<div class="post">
+		<h1>Sleeping Pixel</h1>
+		<br/>	
+		<iframe width="64%" height="36%" src="https://www.youtube.com/embed/4Fcqb18Gm_A" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<br/>
+		<a>Published on: 3rd of October, 2019</a>
+		</div>
+		<br/>
+		
+		<div class="post">
+		<h1>Bees - Grease Pencil Test</h1>
+		<br/>	
+		<iframe width="64%" height="36%" src="https://www.youtube.com/embed/TPS1PquwgpQ" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<br/>
+		<a>Published on: 16th of September, 2019</a>
+		</div>
+		<br/>
+		
+		<div class="post">
+		<h1>Valve Intro (Team Fortress 2)</h1>
+		<iframe width="64%" height="36%" src="https://www.youtube.com/embed/o7LNqM4QJbY" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>		<br/>
+		<a>Published on: 11th of November, 2019</a>
+		</div>
+		<br/>
+		
+		<div class="post">
+		<h1>SMG4 - 3 Million Special Entry</h1>
+		<iframe width="64%" height="36%" src="https://www.youtube.com/embed/uF-oSl7kJRQ" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<br/>
+		<a>Published on: 28th of April, 2019</a>
+		<br/>
+		<a href="https://www.youtube.com/watch?v=BPM8xQ1COEI" class="hotbar_selector" style="font-size: 200%;">MAKING OF</a>
+		</div>
+		<br/>
