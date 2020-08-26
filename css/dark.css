@@ -356,9 +356,10 @@
 	}
 	
 	/* Comic Pages */
-	.comic
+	.comic	
 	{
 		border:10px solid black;
+		max-width: 100%;
 	}
 	
 	
