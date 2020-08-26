@@ -1,0 +1,27 @@
+<a class='postNbmr'>#29</a>
+</br>
+</br>
+My new Comic,
+</br>
+<h1>Kangaskan's Life</h1>
+</br>
+is officially out!
+</br>
+
+</br>
+The first page at least, check it out on here on it's own Page, located by going to my Webpages Section, then clicking <a href="/kangaskhanslife">Kangaskhan's Life</a>!
+</br>
+
+</br>
+More pages will hopefully follow soon, though I'm rather busy with school!
+</br>
+
+</br>
+<img class="comic" src="comics/kangaskhanslife/page_1_1.png">
+</br>
+
+</br>
+Have a nice day!
+</br>
+</br>
+<a id="postdate" class="date">26th of August, 2020 - 21:21</a>

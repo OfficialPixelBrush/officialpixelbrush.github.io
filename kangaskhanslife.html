@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=0.75" /> 
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="Pixel Brush - Homepage" />
+<meta property="og:title" content="Pixel Brush - Kangaskhan's Life" />
 <meta property="og:url" content="https://officialpixelbrush.github.io/" />
 <meta property="og:image" content="/images/embed.png" />
 </head>
@@ -25,7 +25,8 @@
 		<img class="bannerText" src="images/bannerText.png"></div>	
     </div>       
     </div>       
-
+    
+<!--
 <div class="menu">
 <table>
 <th><a href="/index" class="hotbar_selector">Homepage</a></th>
@@ -44,45 +45,36 @@
 <th class="devider"></th>
 <th><a href="/contact" class="hotbar_selector">Contact</a></th>
 </table>
-</div>
+</div>-->
 
 <div class="site">
 <div class="text">
 	</br>
-    <a class="date"> Last Updated: 26th of August, 2020 - 21:21</a>
-	
-	<button style="font-size: 150%;" onclick="previous()">Previous</button>
-	<button style="font-size: 150%;" onclick="next()">Next</button>
+	<button style="font-size: 200%;" onclick="previous()">Latest</button>
+	<button style="font-size: 200%;" onclick="next()">First</button>
 	</br>
 	</br>
 	
 	<div class="post"> 
-	<a id="mainpost"></a>
-	</div>
-	
-	<div class="post"> 
-	<a id="mainpost2"></a>
-	</div>
-	
-	<div class="post"> 
-	<a id="mainpost3"></a>
-	</div>
-	
-	<div class="post"> 
-	<a id="mainpost4"></a>
-	</div>
-	
-	<div class="post"> 
-	<a id="mainpost5"></a>
+    <a class="postNbmr" id="pageNmbr"></a>
+	</br>
+	</br>
+	<img id="part1" class="comic" src="comics/kangaskhanslife/page_1_1.png">
+	<img id="part2" style="margin-top: -10px;" class="comic" src="comics/kangaskhanslife/page_1_2.png">
+	</br>
+	</br>
+    <a class="date" id="postdate"></a>
 	</div>
 	
 	</br>
-	<button style="font-size: 150%;" onclick="previous()">Previous</button>
-	<button style="font-size: 150%;" onclick="next()">Next</button>
+	<div class="post">
+	<button style="font-size: 300%;" onclick="previous()">Previous</button>
+	<button style="font-size: 300%;" onclick="next()">Next</button>
+	</div>
 	
 </div>
 
 
-<script src="scripts/main.js"></script>
+<script src="scripts/comic.js"></script>
 </body>
 </html>

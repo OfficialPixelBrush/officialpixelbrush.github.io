@@ -355,4 +355,10 @@
 		font-size: 100%;
 	}
 	
+	/* Comic Pages */
+	.comic
+	{
+		border:10px solid black;
+	}
+	
 	
