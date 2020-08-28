@@ -12,9 +12,9 @@ function FileHelper(pathOfFileToReadFrom) {
 
 function loadPost() {
 	document.getElementById('pageNumber').innerHTML = ('#' + nmbr);
-	document.getElementById('part1').src = FileHelper('comics/kangaskhanslife/page_' + nmbr + '_1.png');
-	document.getElementById('part2').src = FileHelper('comics/kangaskhanslife/page_' + nmbr + '_2.png');
-	document.getElementById('postdate').innerHTML = FileHelper('comics/kangaskhanslife/page_' + nmbr + '.txt');
+	document.getElementById('part1').src = ('comics/kangaskhanslife/page_' + nmbr + '_1.png');
+	document.getElementById('part2').src = ('comics/kangaskhanslife/page_' + nmbr + '_2.png');
+	document.getElementById('postdate').innerHTML = FileHelper('/comics/kangaskhanslife/page_' + nmbr + '.txt');
 }
 
 function next() {
