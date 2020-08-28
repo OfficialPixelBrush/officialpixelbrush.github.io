@@ -18,8 +18,8 @@ function loadPost() {
 }
 
 function next() {
-	if (nmbr+1 <= nmbr_of_posts) {
-		nmbr = nmbr+1
+	if (nmbr+1 <= nmbr_of_pages) {
+		nmbr = nmbr+1;
 		loadPost();
 	}
 }
@@ -36,7 +36,7 @@ function latest() {
 
 function previous() {
 	if (nmbr-1 > 0) {
-		nmbr = nmbr-1
+		nmbr = nmbr-1;
 		loadPost();
 	}
 }
