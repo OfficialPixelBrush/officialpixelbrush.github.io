@@ -1,5 +1,5 @@
-let nmbr_of_pages = 1;
-let nmbr = 1;
+let nmbr_of_pages = 2;
+let nmbr = 2;
 let disCSS = 0;
 
 function FileHelper(pathOfFileToReadFrom) {
@@ -18,10 +18,7 @@ function loadPost() {
 		document.getElementById('post2').src = FileHelper('comics/kangaskhanslife/page_' + nmbr + '_2.png');
 		document.getElementById('postdate').innerHTML = FileHelper('comics/kangaskhanslife/page_' + nmbr + '.txt');
 	} else {
-		document.getElementById('pageNmbr').innerHTML = '';
-		document.getElementById('post1').src = FileHelper('comics/kangaskhanslife/page_1_1.png');
-		document.getElementById('post2').src = FileHelper('comics/kangaskhanslife/page_2_1.png');
-		document.getElementById('postdate').innerHTML = FileHelper('');
+		
 	}
 }
 
