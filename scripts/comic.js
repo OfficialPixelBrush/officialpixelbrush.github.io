@@ -12,13 +12,13 @@ function FileHelper(pathOfFileToReadFrom) {
 }
 
 function loadPost() {
-	if (nmbr != null) {
-		document.getElementById('pageNmbr').innerHTML = '#' + nmbr;
-		document.getElementById('post1').src = FileHelper('comics/kangaskhanslife/page_' + nmbr + '_1.png');
-		document.getElementById('post2').src = FileHelper('comics/kangaskhanslife/page_' + nmbr + '_2.png');
-		document.getElementById('postdate').innerHTML = FileHelper('comics/kangaskhanslife/page_' + nmbr + '.txt');
-	} else {
-		
+	if (nmbr > 0) {
+		if (nmbr < nmbr_of_pages+1) {
+			document.getElementById('pageNmbr').innerHTML = FileHelper('#' + nmbr);
+			document.getElementById('part1').src = FileHelper('comics/kangaskhanslife/page_' + nmbr + '_1.png');
+			document.getElementById('part2').src = FileHelper('comics/kangaskhanslife/page_' + nmbr + '_2.png');
+			document.getElementById('postdate').innerHTML = FileHelper('comics/kangaskhanslife/page_' + nmbr + '.txt');
+		}
 	}
 }
 
