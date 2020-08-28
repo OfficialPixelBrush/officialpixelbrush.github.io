@@ -14,7 +14,7 @@ function FileHelper(pathOfFileToReadFrom) {
 function loadPost() {
 	if (nmbr > 0) {
 		if (nmbr < nmbr_of_pages+1) {
-			document.getElementById('pageNmbr').innerHTML = FileHelper('Page ' + nmbr);
+			document.getElementById('pageNumber').innerHTML = FileHelper('Page ' + nmbr);
 			document.getElementById('part1').src = FileHelper('comics/kangaskhanslife/page_' + nmbr + '_1.png');
 			document.getElementById('part2').src = FileHelper('comics/kangaskhanslife/page_' + nmbr + '_2.png');
 			document.getElementById('postdate').innerHTML = FileHelper('comics/kangaskhanslife/page_' + nmbr + '.txt');
