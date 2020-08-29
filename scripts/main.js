@@ -5,8 +5,14 @@ let disCSS = 0;
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const post_type = urlParams.get('post')
-nmbr = post_type;
-loadPost();
+
+if (post_type = null) {
+	nmbr = nmbr_of_posts;
+	loadPost();
+} else {
+	nmbr = post_type;
+	loadPost();
+}
 
 function FileHelper(pathOfFileToReadFrom) {
     var request = new XMLHttpRequest();
@@ -49,7 +55,6 @@ function loadPost() {
 function next() {
 	if (nmbr+5 <= nmbr_of_posts) {
 		nmbr = nmbr+5;
-		updatePageNumberURL();
 		loadPost();
 	}
 }
@@ -57,7 +62,6 @@ function next() {
 function previous() {
 	if (nmbr-5 > 0) {
 		nmbr = nmbr-5;
-		updatePageNumberURL();
 		loadPost();
 	}
 }
