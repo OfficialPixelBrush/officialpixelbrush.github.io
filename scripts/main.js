@@ -2,6 +2,12 @@ let nmbr_of_posts = 30;
 let nmbr = 30;
 let disCSS = 0;
 
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const post_type = urlParams.get('post')
+nmbr = post_type;
+loadPost();
+
 function FileHelper(pathOfFileToReadFrom) {
     var request = new XMLHttpRequest();
     request.open("GET", pathOfFileToReadFrom, false);
@@ -13,6 +19,7 @@ function FileHelper(pathOfFileToReadFrom) {
 
 function loadPost() {
 	if (nmbr > 0) {
+		updatePageNumberURL();
 		document.getElementById('mainpost').innerHTML = FileHelper('posts/' + nmbr + '.txt');
 	} else {
 		document.getElementById('mainpost').innerHTML = '-';
@@ -41,14 +48,16 @@ function loadPost() {
 
 function next() {
 	if (nmbr+5 <= nmbr_of_posts) {
-		nmbr = nmbr+5
+		nmbr = nmbr+5;
+		updatePageNumberURL();
 		loadPost();
 	}
 }
 
 function previous() {
 	if (nmbr-5 > 0) {
-		nmbr = nmbr-5
+		nmbr = nmbr-5;
+		updatePageNumberURL();
 		loadPost();
 	}
 }
@@ -67,4 +76,10 @@ function disableCSS() {
 
 function swapStyleSheet(sheet) {
     document.getElementById("pagestyle").setAttribute("href", sheet);  
+}
+
+function updatePageNumberURL() {
+	var queryParams = new URLSearchParams(window.location.search);
+	queryParams.set("post", nmbr);
+	history.replaceState(null, null, "?"+queryParams.toString());
 }
