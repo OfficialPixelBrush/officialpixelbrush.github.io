@@ -1,0 +1,13 @@
+<a class='postNbmr'>#30</a>
+</br>
+</br>
+Started looking into URL Parameters. They're already fully functional for <a href="/kangaskhanslife">Kangaskhan's Life</a>'s Pages.
+</br>
+So yeah!
+</br>
+
+</br>
+Next I'll introduce them to the <a href="/animations">Animation</a>, <a href="/images">Image</a> and <a href="/index">Homepage</a>.
+</br>
+</br>
+<a id="postdate" class="date">29th of August, 2020 - 02:16</a>
