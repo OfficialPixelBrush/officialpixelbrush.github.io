@@ -1,5 +1,5 @@
-let nmbr_of_pages = 2;
-let nmbr = 2;
+let nmbr_of_pages = 3;
+let nmbr = 3;
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
