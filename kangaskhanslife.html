@@ -22,10 +22,11 @@
 <div class="banner">	
 		<div class="dust">
 		<div class="dustFront">
+		<a href="/index">
 		<img class="bannerText" src="images/bannerText.png"></div>	
+		</a>
     </div>       
-    </div>       
-    
+</div>      
 
 <div class="menu">
 <table>
@@ -50,28 +51,34 @@
 <div class="site">
 <div class="text">
 	</br>
-	<button style="font-size: 200%;" onclick="latest()">Latest</button>
-	<button style="font-size: 200%;" onclick="first()">First</button>
+	<div class="post">
+	<a href="http://kangaskhanslife.thecomicseries.com/">Also on ComicFury!</a>
 	</br>
-	</br>
+	<table style="width: 100%">
+		<th>
+			<button onclick="first()">First</button>
+		</th>
+
+		<th>
+			<a class="links" id="pageNumber"></a>
+		</th>
+
+		<th>
+			<button onclick="latest()">Latest</button>
+		</th>
+	</table>
 	
-	<div class="post"> 
-    <a class="postNbmr" id="pageNumber"></a>
-	</br>
-	</br>
 	<img id="part1" class="comic" src="comics/kangaskhanslife/page_2_1.png">
 	<img id="part2" style="margin-top: -10px;" class="comic" src="comics/kangaskhanslife/page_2_2.png">
 	</br>
 	</br>
     <a class="date" id="postdate">26th of August, 2020 - 21:12</a>
-	</div>
+	</br>
 	
 	</br>
-	<div class="post">
 	<button style="font-size: 300%;" onclick="previous()">Previous</button>
 	<button style="font-size: 300%;" onclick="next()">Next</button>
-	</div>
-	
+    </div>
 </div>
 
 
