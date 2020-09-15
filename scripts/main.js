@@ -52,8 +52,8 @@ function loadPost() {
 }
 
 function next() {
-	if (nmbr+1 <= nmbr_of_posts) {
-		nmbr = nmbr+1;
+	if (nmbr+5 <= nmbr_of_posts) {
+		nmbr = nmbr+5;
 		updatePageNumberURL();
 		loadPost();
 	}
@@ -72,7 +72,7 @@ function latest() {
 }
 
 function previous() {
-	if (nmbr-1 > 0) {
+	if (nmbr-5 > 0) {
 		nmbr = nmbr-5;
 		updatePostNumberURL();
 		loadPost();
