@@ -19,8 +19,8 @@ function FileHelper(pathOfFileToReadFrom) {
 }
 
 function loadPost() {
-	if ((nmbr <= nmbr_of_pages) && (nmbr > 0)) {
-		updatePageNumberURL();
+	if ((nmbr <= nmbr_of_posts) && (nmbr > 0)) {
+		updatePostNumberURL();
 		if (nmbr > 0) {
 			document.getElementById('mainpost').innerHTML = FileHelper('posts/' + nmbr + '.txt');
 		} else {
@@ -47,12 +47,12 @@ function loadPost() {
 			document.getElementById('mainpost5').innerHTML = '-';
 		}
 	} else {
-		first();
+		latest();
 	}
 }
 
 function next() {
-	if (nmbr+1 <= nmbr_of_pages) {
+	if (nmbr+1 <= nmbr_of_posts) {
 		nmbr = nmbr+1;
 		updatePageNumberURL();
 		loadPost();
@@ -66,7 +66,7 @@ function first() {
 }
 
 function latest() {
-	nmbr = nmbr_of_pages;
+	nmbr = nmbr_of_posts;
 	updatePostNumberURL();
 	loadPost();
 }
