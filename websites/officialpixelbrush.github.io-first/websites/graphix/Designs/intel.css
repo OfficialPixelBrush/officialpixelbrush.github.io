@@ -1,0 +1,132 @@
+    .site
+    {
+      width: auto;
+      margin: auto; 
+    }
+    
+    body
+    {
+        height: 100%;
+        background-color: #66B3FF; 
+    }
+        
+    .maker
+    {
+      background-color: #007EFF;
+      height: 80px;
+      text-align: center;
+    }
+
+    .titlecolor
+    {
+      font-family: Arial;
+      color: #FFFFFF;
+      font-size: 50px;
+      font-weight: bolder;
+      text-shadow: 0px 0px 10px;
+      text-decoration: none;
+    }
+    
+    
+    .cards 
+    {
+       background-color: #66B3FF;
+       margin-left: 200px;
+       height: 100%;
+       width: auto;
+       text-align: center;
+       color: #FFFFFF;
+    }
+    
+    .image
+    {
+        margin-left: 20px;
+    }
+    
+    .title
+    {
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: Arial;
+        margin-left: auto;
+    }
+    
+    .menu
+    {
+        background-color: #006EFF;  
+        width: 200px;
+        float: left;
+        height: 100%;
+        font-family: Courier;
+        font-weight: bolder;
+        font-size: 17pt; 
+        text-align: center;
+        text-shadow: 0px 0px 10px;
+        color: #FFFFFF;
+    }
+    
+    .menu li
+    {
+        list-style-type: none;
+        color: #468310;
+        margin-left: -40;
+        transition : .25s;
+        position: relative;
+    }
+
+    .menu li:hover
+    {
+        list-style-type: none;
+        background-color: #0099FF;
+        margin-left: -20px;
+        text-shadow: 0px 0px 10px;
+        transition : .25s;
+    }
+
+    .menu ul ul
+    {
+        display: none;
+        position: absolute;
+        left: 180px;
+        top: 0px;
+        width: 200px;
+        background-color: #006EFF;
+        transition : .25s;
+    }
+
+    .menu ul li:hover > ul
+    {
+        display: block;
+        transition : .25s;
+        background-color: #0099FF;
+    }
+    
+    .owner
+    {
+        font-size: small;
+        font-weight: bold;
+        color: red;
+        text-align: center;
+    }
+    
+    .bottom 
+    {
+      background-color: #006EFF;
+      clear:both;
+      text-align: center;
+      text-shadow: 0px 0px 10px; 
+    }
+    
+    .current
+    {
+        color: #98C9FF;
+        text-shadow: 0px 0px 10px;
+        text-decoration: none;
+    }
+    
+    .company
+    {
+        color: #FFFFFF;
+        text-shadow: 0px 0px 10px;
+        text-decoration: none;
+    }

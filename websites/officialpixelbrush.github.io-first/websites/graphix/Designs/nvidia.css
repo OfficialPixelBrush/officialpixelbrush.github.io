@@ -1,0 +1,158 @@
+    .site
+    {
+      width: auto;
+      margin: auto;
+    }
+    
+    body
+    {
+        height: 100%;
+      background-color: #E7FFD0;
+    }
+    
+    .maker
+    {
+      background-color: #66C512;
+      height: 80px;
+      text-align: center;
+    }  
+    
+    .titlecolor
+    {
+      text-shadow: 0px 0px 10px;
+      font-weight: bolder;
+      font-family: Arial;
+      color: #3E6915;
+      font-size: 50px;
+      text-decoration: none;  
+    }
+    
+    .titlecolor
+    {
+      text-shadow: 0px 0px 10px;
+      font-weight: bolder;
+      font-family: Arial;
+      color: #3E6915;
+      font-size: 50px;
+      text-decoration: none;
+    }
+    
+    .welcome
+    {
+        text-decoration: none;
+        color: #38680E;
+        text-shadow: 0px 0px 5px #345E10;
+    }
+    
+    .cards 
+    {
+       background-color: #E7FFD0;
+       text-align: center;
+    }
+    
+    .image
+    {
+        margin-left: 20px;
+    }
+    
+    .title
+    {
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: Courier;
+        margin-left: auto;
+    }
+    
+    .menu
+    {
+        background-color: #9FD66E;
+        float: left;
+        width: 200px;
+        height: 130%;
+        font-family: Courier;
+        font-weight: bolder;
+        font-size: 17pt; 
+        text-align: center;
+        text-shadow: 0px 0px 10px;
+        color: #2F4515; 
+    }
+
+    .menu li
+    {
+        list-style-type: none;
+        color: #468310;
+        margin-left: -40;
+        transition : .25s;
+        position: relative;
+    }
+    
+    .menu li:hover
+    {
+        list-style-type: none;
+        background-color: #82C642;
+        margin-left: -20px;
+        text-shadow: 0px 0px 10px;
+        transition : .25s;
+    }
+    
+    .menu ul ul
+    {
+        display: none;
+        position: absolute;
+        left: 180px;
+        top: 0px;
+        width: 200px;
+        background-color: #9FD66E;
+        transition : .25s;  
+    }
+    
+    .menu ul li:hover > ul
+    {
+        display: block;
+        transition : .25s;
+        background-color: #82C642;
+    }
+    
+    .owner
+    {
+        font-size: small;
+        font-weight: bold;
+        color: red;
+        text-align: center;
+    }
+    
+    .bottom 
+    {
+      background-color: #A4E56B;
+      text-align: center;
+      text-shadow: 0px 0px 10px;
+      width: 100%;
+    }
+    
+    .current
+    {
+        color: #38680E;
+        text-shadow: 0px 0px 10px;
+        text-decoration: none;
+    }
+    
+    .company
+    {
+        color: #5D9F23;
+        text-shadow: 0px 0px 10px;
+        text-decoration: none;
+    }
+    
+    .tab
+    {
+        color: #5D9F23;
+        text-shadow: 0px 0px 10px;
+        font-weight: bolder;
+        table-layout: auto;
+        margin: auto;
+        width: 50%;
+        text-align: center;
+        height: 30%;
+        font-size: 20pt;
+        font-family: Courier;  
+    }
