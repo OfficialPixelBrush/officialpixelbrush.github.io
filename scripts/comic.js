@@ -1,6 +1,7 @@
 let nmbr_of_pages = 3;
 let nmbr = 3;
 
+
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const page_type = urlParams.get('page')

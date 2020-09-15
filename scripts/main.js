@@ -5,14 +5,9 @@ let disCSS = 0;
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const post_type = urlParams.get('post')
+nmbr = post_type;
+loadPost();
 
-if (post_type = null) {
-	nmbr = nmbr_of_posts;
-	loadPost();
-} else {
-	nmbr = post_type;
-	loadPost();
-}
 
 function FileHelper(pathOfFileToReadFrom) {
     var request = new XMLHttpRequest();
@@ -24,47 +19,73 @@ function FileHelper(pathOfFileToReadFrom) {
 }
 
 function loadPost() {
-	if (nmbr > 0) {
+	if ((nmbr <= nmbr_of_pages) && (nmbr > 0)) {
 		updatePageNumberURL();
-		document.getElementById('mainpost').innerHTML = FileHelper('posts/' + nmbr + '.txt');
+		if (nmbr > 0) {
+			document.getElementById('mainpost').innerHTML = FileHelper('posts/' + nmbr + '.txt');
+		} else {
+			document.getElementById('mainpost').innerHTML = '-';
+		}
+		if (nmbr-1 > 0) {
+			document.getElementById('mainpost2').innerHTML = FileHelper('posts/' + (nmbr-1) + '.txt');
+		} else {
+			document.getElementById('mainpost2').innerHTML = '-';
+		}
+		if (nmbr-2 > 0) {
+			document.getElementById('mainpost3').innerHTML = FileHelper('posts/' + (nmbr-2)  + '.txt');
+		} else {
+			document.getElementById('mainpost3').innerHTML = '-';
+		}
+		if (nmbr-3 > 0) {
+			document.getElementById('mainpost4').innerHTML = FileHelper('posts/' + (nmbr-3)  + '.txt');
+		} else {
+			document.getElementById('mainpost4').innerHTML = '-';
+		}
+		if (nmbr-4 > 0) {
+			document.getElementById('mainpost5').innerHTML = FileHelper('posts/' + (nmbr-4)  + '.txt');
+		} else {
+			document.getElementById('mainpost5').innerHTML = '-';
+		}
 	} else {
-		document.getElementById('mainpost').innerHTML = '-';
-	}
-	if (nmbr-1 > 0) {
-		document.getElementById('mainpost2').innerHTML = FileHelper('posts/' + (nmbr-1) + '.txt');
-	} else {
-		document.getElementById('mainpost2').innerHTML = '-';
-	}
-	if (nmbr-2 > 0) {
-		document.getElementById('mainpost3').innerHTML = FileHelper('posts/' + (nmbr-2)  + '.txt');
-	} else {
-		document.getElementById('mainpost3').innerHTML = '-';
-	}
-	if (nmbr-3 > 0) {
-		document.getElementById('mainpost4').innerHTML = FileHelper('posts/' + (nmbr-3)  + '.txt');
-	} else {
-		document.getElementById('mainpost4').innerHTML = '-';
-	}
-	if (nmbr-4 > 0) {
-		document.getElementById('mainpost5').innerHTML = FileHelper('posts/' + (nmbr-4)  + '.txt');
-	} else {
-		document.getElementById('mainpost5').innerHTML = '-';
+		first();
 	}
 }
 
 function next() {
-	if (nmbr+5 <= nmbr_of_posts) {
-		nmbr = nmbr+5;
+	if (nmbr+1 <= nmbr_of_pages) {
+		nmbr = nmbr+1;
+		updatePageNumberURL();
 		loadPost();
 	}
 }
 
+function first() {
+	nmbr = 1;
+	updatePostNumberURL();
+	loadPost();
+}
+
+function latest() {
+	nmbr = nmbr_of_pages;
+	updatePostNumberURL();
+	loadPost();
+}
+
 function previous() {
-	if (nmbr-5 > 0) {
+	if (nmbr-1 > 0) {
 		nmbr = nmbr-5;
+		updatePostNumberURL();
 		loadPost();
 	}
 }
+
+function updatePostNumberURL() {
+	var queryParams = new URLSearchParams(window.location.search);
+	queryParams.set("post", nmbr);
+	history.replaceState(null, null, "?"+queryParams.toString());
+}
+
+/* misc stuff */
 
 function disableCSS() {
 	if (disCSS == 0) {
@@ -80,10 +101,4 @@ function disableCSS() {
 
 function swapStyleSheet(sheet) {
     document.getElementById("pagestyle").setAttribute("href", sheet);  
-}
-
-function updatePageNumberURL() {
-	var queryParams = new URLSearchParams(window.location.search);
-	queryParams.set("post", nmbr);
-	history.replaceState(null, null, "?"+queryParams.toString());
 }
