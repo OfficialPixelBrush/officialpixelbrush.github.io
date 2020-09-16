@@ -64,7 +64,7 @@
 		/*box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);*/
 	}
 	
-	.devider {
+	.divider {
 		border-left: 2px solid;
 		height: 100%;
 		border-left-color: var(--bgColor);
