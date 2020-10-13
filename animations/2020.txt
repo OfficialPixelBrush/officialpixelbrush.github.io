@@ -1,5 +1,6 @@
 		<div class="post">
 		<h1>#rembersdistractioncollab</h1>
+		<br/>
 		<a>Made for the #rembersdistractioncollab, my first time properly animating on 1s.</a>
 		<br/>
 		<video width="64%" height="36%" controls loop>
@@ -13,6 +14,7 @@
 
 		<div class="post">
 		<h1>Uh oh Meth</h1>
+		<br/>
 		<a>Voiced by Gravitas Shortfall, animated by me within an hour as a challenge.</a>
 		<br/>
 		<video width="64%" height="36%" controls>
@@ -27,6 +29,9 @@
 		
 		<div class="post">
 		<h1>Pikuseru X Suraimuyagi (Subbed)</h1>
+		<br/>
+		<a>Voiced by Gravitas Shortfall</a>
+		<br/>
 		<video width="64%" height="36%" controls>
 		<source src="animations\pikuseru_x_suraimuyagi_subbed.mp4" type="video/mp4">
 		</video> 
@@ -38,6 +43,7 @@
 		
 		<div class="post">
 		<h1>Do the Bootlegio</h1>
+		<br/>
 		<video width="64%" height="36%" controls>
 		<source src="animations\do_the_bootlegio.mp4" type="video/mp4">
 		</video> 
@@ -49,6 +55,7 @@
 		
 		<div class="post">
 		<h1>Peace out Pixel</h1>
+		<br/>
 		<video width="64%" height="36%" controls>
 		<source src="animations\time to get outta here0001-0013.mp4" type="video/mp4">
 		</video> 
@@ -60,6 +67,8 @@
 			
 		<div class="post">
 		<h1>Lagoon X Sarcin</h1>
+		<br/>
+		<a>Voiced by Gravitas Shortfall</a>
 		<br/>	
 		<video width="64%" height="36%" controls>
 		<source src="animations\the_best_fanfiction_ever_created.mp4" type="video/mp4">
@@ -73,6 +82,8 @@
 		
 		<div class="post">
 		<h1>Sauce or Loss</h1>
+		<br/>	
+		<a>Voiced by Gravitas Shortfall</a>
 		<br/>	
 		<video width="64%" height="36%" controls>
 		<source src="animations\epic_animation0001-0915.mp4" type="video/mp4">
