@@ -1,6 +1,7 @@
 		<div class="post">
 		<h1>#rembersdistractioncollab</h1>
 		<a>Made for the #rembersdistractioncollab, my first time properly animating on 1s.</a>
+		<br/>
 		<video width="64%" height="36%" controls loop>
 		<source src="animations\distractiondance_final_rerender0000-0109.mp4" type="video/mp4">
 		</video> 
@@ -13,6 +14,7 @@
 		<div class="post">
 		<h1>Uh oh Meth</h1>
 		<a>Voiced by Gravitas Shortfall, animated by me within an hour as a challenge.</a>
+		<br/>
 		<video width="64%" height="36%" controls>
 		<source src="animations\uhohmeth0001-0464.mp4" type="video/mp4">
 		</video> 
