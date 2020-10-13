@@ -13,4 +13,7 @@ function FileHelper(pathOfFileToReadFrom) {
 
 function loadImages(pImages) {
 	document.getElementById('images').innerHTML = FileHelper('images/archive/' + pImages + '/' + pImages + '.txt');
+	if (pImages == "empty") {
+		document.getElementById('images').innerHTML = '';
+	}
 }
