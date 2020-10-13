@@ -1,5 +1,5 @@
-let nmbr_of_posts = 30;
-let nmbr = 30;
+let nmbr_of_posts = 31;
+let nmbr = 31;
 let disCSS = 0;
 
 const queryString = window.location.search;
@@ -54,7 +54,7 @@ function loadPost() {
 function next() {
 	if (nmbr+5 <= nmbr_of_posts) {
 		nmbr = nmbr+5;
-		updatePageNumberURL();
+		updatePostNumberURL();
 		loadPost();
 	}
 }

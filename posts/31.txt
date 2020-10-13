@@ -1,0 +1,13 @@
+<a class='postNbmr'>#31</a>
+</br>
+</br>
+I spent a lotta time on this so <i>yeet</i>.
+</br>
+<video width="64%" height="36%" controls loop><source src="animations\distractiondance_final0000-0105.mp4" type="video/mp4"></video> 
+</br>
+
+</br>
+Enjoy.
+</br>
+</br>
+<a id="postdate" class="date">14th of October, 2020 - 01:16</a>
