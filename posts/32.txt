@@ -1,7 +1,7 @@
 <a class='postNbmr'>#32</a>
 </br>
 </br>
-So ye. I've added my old PMD Comic, <a href="/adventuresofkyleandpixel>Adventures of Team Stride/Adventures of Kyle and Pixel</a> to the Webpages section. 
+So ye. I've added my old PMD Comic, <a href="/adventuresofkyleandpixel">Adventures of Team Stride/Adventures of Kyle and Pixel</a> to the Webpages section. 
 </br>
 
 </br>
@@ -14,11 +14,8 @@ Go wild!
 
 </br>
 <table>
-</br>
 <th><img class="comic" style="max-height: 500px" src="images/archive/bonusAdventuresOfKyleAndPixel/cover.png"></th>
-</br>
 <th><img class="comic" style="max-height: 500px" src="images/archive/bonusAdventuresOfKyleAndPixel/new cover yay.png"></th>
-</br>
 </table>
 </br>
 </br>
