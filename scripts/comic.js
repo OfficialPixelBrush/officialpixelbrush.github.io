@@ -45,7 +45,7 @@ function loadPost() {
 			updatePageNumberURL();
 			document.getElementById('pageNumber').innerHTML = ('#' + nmbr);
 			document.getElementById('part1').src = ('comics/' + title[comicID] + '/page_' + nmbr + '.png');
-			document.getElementById('postdate').innerHTML = FileHelper('/comics/' + title[comicID] + '/page_' + nmbr + '.txt');
+			//document.getElementById('postdate').innerHTML = FileHelper('/comics/' + title[comicID] + '/page_' + nmbr + '.txt');
 		} else {
 			first();
 		}
