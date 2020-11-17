@@ -13,10 +13,12 @@ Go wild!
 </br>
 
 </br>
+<a href="/adventuresofkyleandpixel">
 <table>
 <th><img class="comic" style="max-height: 500px" src="images/archive/bonusAdventuresOfKyleAndPixel/cover.png"></th>
 <th><img class="comic" style="max-height: 500px" src="images/archive/bonusAdventuresOfKyleAndPixel/new cover yay.png"></th>
 </table>
+</a>
 </br>
 </br>
 <a id="postdate" class="date">17th of November, 2020 - 23:43</a>
