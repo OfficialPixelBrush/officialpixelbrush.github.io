@@ -10,8 +10,7 @@ function FileHelper(pathOfFileToReadFrom) {
 // Number setup
 let nmbr_of_pages = 3;
 let nmbr = 3;
-let comicName = "adventuresofkyleandpixel";
-let amountOfImages = 1;
+let comicID = 0;
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
@@ -20,16 +19,16 @@ nmbr = page_type;
 
 
 // Load the appropriate page number and name for the Comic
-function loadComic(pComicName, pAmountofImages) {
-	nmbr_of_pages = FileHelper('/comics/' + pComicName +'/numberOfPages.txt');
+function loadComic(pComicID) {
+	var title = FileHelper('/comics/comicIDlist.txt').split("\n");
+	nmbr_of_pages = FileHelper('/comics/' + title[pComicID] +'/numberOfPages.txt');
 	nmbr = 1;
-	comicName = pComicName;
-	amountOfImages = pAmountofImages;
+	comicID = pComicID;
 	loadPost();
 }
 
 function loadPost() {
-	if (amountOfImages == 2) {
+	if (comicID == 1) {
 		if ((nmbr <= nmbr_of_pages) && (nmbr > 0)) {
 			updatePageNumberURL();
 			document.getElementById('pageNumber').innerHTML = ('#' + nmbr);
@@ -39,7 +38,7 @@ function loadPost() {
 		} else {
 			first();
 		}
-	} else if (amountOfImages == 1) {
+	} else if (comicID == 0) {
 		if ((nmbr <= nmbr_of_pages) && (nmbr > 0)) {
 			updatePageNumberURL();
 			document.getElementById('pageNumber').innerHTML = ('#' + nmbr);
