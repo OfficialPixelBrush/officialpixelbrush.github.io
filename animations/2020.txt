@@ -1,4 +1,18 @@
 		<div class="post">
+		<h1>3D Pixel Lip Sync Test</h1>
+		<br/>
+		<a>Learning how to sculpt model and lip sync in Blender, Audio recorded by me at 3:30AM or so.</a>
+		<br/>
+		<video width="64%" height="36%" controls>
+		<source src="animations\render_v11_test0000-0067.mp4" type="video/mp4">
+		</video> 
+		<br/>
+		<br/>	
+		<a>Published on: 8th of November, 2020</a>
+		</div>
+		<br/>
+		
+		<div class="post">
 		<h1>#rembersdistractioncollab</h1>
 		<br/>
 		<a>Made for the #rembersdistractioncollab, my first time properly animating on 1s.</a>
