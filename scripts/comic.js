@@ -22,8 +22,8 @@ nmbr = page_type;
 // Load the appropriate page number and name for the Comic
 function loadComic(pComicID) {
 	title = FileHelper('/comics/comicIDlist.txt').split("\n");
-	console.log('pComicID: '+ title[pComicID])
-	nmbr_of_pages = FileHelper('/comics/ + 'title[pComicID]' + /numberOfPages.txt');
+	console.log('pComicID: '+ title[pComicID]);
+	nmbr_of_pages = FileHelper('/comics/' + title[pComicID] + '/numberOfPages.txt');
 	nmbr = 1;
 	comicID = pComicID;
 	loadPost();
