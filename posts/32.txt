@@ -1,0 +1,25 @@
+<a class='postNbmr'>#32</a>
+</br>
+</br>
+So ye. I've added my old PMD Comic, <a href="/adventuresofkyleandpixel>Adventures of Team Stride/Adventures of Kyle and Pixel</a> to the Webpages section. 
+</br>
+
+</br>
+I am eventually planning on remaking the old theme I had for it as best as possible, alongside a semi-accurate bonus page, onto which I'll also tag the Firealpaaca files which show the insides of these pages. 
+</br>
+
+</br>
+Go wild!
+</br>
+
+</br>
+<table>
+</br>
+<th><img class="comic" style="max-height: 500px" src="images/archive/bonusAdventuresOfKyleAndPixel/cover.png"></th>
+</br>
+<th><img class="comic" style="max-height: 500px" src="images/archive/bonusAdventuresOfKyleAndPixel/new cover yay.png"></th>
+</br>
+</table>
+</br>
+</br>
+<a id="postdate" class="date">17th of November, 2020 - 23:43</a>

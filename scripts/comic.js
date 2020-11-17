@@ -11,6 +11,7 @@ function FileHelper(pathOfFileToReadFrom) {
 let nmbr_of_pages = 3;
 let nmbr = 3;
 let comicID = 0;
+var title;
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
@@ -20,8 +21,9 @@ nmbr = page_type;
 
 // Load the appropriate page number and name for the Comic
 function loadComic(pComicID) {
-	var title = FileHelper('/comics/comicIDlist.txt').split("\n");
-	nmbr_of_pages = FileHelper('/comics/' + title[pComicID] +'/numberOfPages.txt');
+	title = FileHelper('/comics/comicIDlist.txt').split("\n");
+	console.log('pComicID: '+ title[pComicID])
+	nmbr_of_pages = FileHelper('/comics/ + 'title[pComicID]' + /numberOfPages.txt');
 	nmbr = 1;
 	comicID = pComicID;
 	loadPost();
@@ -32,9 +34,9 @@ function loadPost() {
 		if ((nmbr <= nmbr_of_pages) && (nmbr > 0)) {
 			updatePageNumberURL();
 			document.getElementById('pageNumber').innerHTML = ('#' + nmbr);
-			document.getElementById('part1').src = ('comics/' + comicName + '/page_' + nmbr + '_1.png');
-			document.getElementById('part2').src = ('comics/' + comicName + '/page_' + nmbr + '_2.png');
-			document.getElementById('postdate').innerHTML = FileHelper('/comics/' + comicName + '/page_' + nmbr + '.txt');
+			document.getElementById('part1').src = ('comics/' + title[comicID] + '/page_' + nmbr + '_1.png');
+			document.getElementById('part2').src = ('comics/' + title[comicID] + '/page_' + nmbr + '_2.png');
+			document.getElementById('postdate').innerHTML = FileHelper('/comics/' + title[comicID] + '/page_' + nmbr + '.txt');
 		} else {
 			first();
 		}
@@ -42,8 +44,8 @@ function loadPost() {
 		if ((nmbr <= nmbr_of_pages) && (nmbr > 0)) {
 			updatePageNumberURL();
 			document.getElementById('pageNumber').innerHTML = ('#' + nmbr);
-			document.getElementById('part1').src = ('comics/' + comicName + '/page_' + nmbr + '.png');
-			document.getElementById('postdate').innerHTML = FileHelper('/comics/' + comicName + '/page_' + nmbr + '.txt');
+			document.getElementById('part1').src = ('comics/' + title[comicID] + '/page_' + nmbr + '.png');
+			document.getElementById('postdate').innerHTML = FileHelper('/comics/' + title[comicID] + '/page_' + nmbr + '.txt');
 		} else {
 			first();
 		}
