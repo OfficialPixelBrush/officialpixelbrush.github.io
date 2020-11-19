@@ -1,0 +1,614 @@
+
+#comic_image {
+	max-width: 1200px;
+	height: auto;
+}
+
+/* Overall
+----------------------------------------------------- */
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background: #eee;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+
+.clear {
+	line-height: 0;
+	clear: both;
+	margin : 0;
+	padding: 0;
+	border: 0;
+	list-style-type: none;
+}
+
+a {
+	color: #364a7f;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#overall_wrapper {
+	position: relative;
+	min-height: 99%;
+}
+
+#overall_header {
+	height: 94px;
+	line-height: 88px;
+	background: #e0e0e0;
+	position: relative;
+}
+
+#overall_header .title {
+	font-size: 48px;
+	font-weight: bold;
+	margin: 0 26px;
+	color: #202020;
+}
+
+#overall_header .title:hover {
+	text-decoration: none;
+}
+
+#footer_ph {
+	height: 88px;
+}
+
+#overall_footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	font-size: 12px;
+}
+
+#overall_footer .sj {
+	display: inline-block;
+	padding: 2px 0 2px 16px;
+	background: url(../../../images/github_smol.png) no-repeat 0 50%;
+}
+
+.subtle {
+	display: none;
+}
+
+#oh_icons {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 50%;
+	margin-top: -16px;
+	right: 14px;
+	height: 32px;
+}
+
+#oh_icons li {
+	padding: 0;
+	margin: 0 10px 0 0;
+	float: left;
+	list-style-type: none;
+	display: block;
+}
+
+#oh_icons li a {
+	display: block;
+	width: 32px;
+	height: 32px;
+	background: url(https://web.archive.org/web/20190623111834im_/http://www.smackjeeves.com/templates/modern/images/header_icons.png) no-repeat;
+}
+
+#oh_icons .patreon {
+	background-position: 0px 0px;
+}
+
+#oh_icons .facebook {
+	background-position: -42px 0px;
+}
+
+#oh_icons .twitter {
+	background-position: -85px 0px;
+}
+
+#oh_icons .rss {
+	background-position: -128px 0px;
+}
+
+#oh_icons .fav {
+	background-position: -170px 0px;
+}
+
+
+#overall_navbar {
+	border-bottom: 2px solid rgba(0,0,0,0.1);
+}
+
+#overall_navbar > div {
+	background: #363636;
+}
+
+#overall_navbar ul {
+	margin: 0 0 0 4px;;
+	padding: 0;
+}
+
+#overall_navbar ul li {
+	list-style-type: none;
+}
+
+#overall_navbar ul li a {
+	display: block;
+	float: left;
+	list-style-type: none;
+	padding: 8px 22px 7px;
+	margin: 0;
+	font-size: 18px;
+	color: #e0e0e0;
+	font-weight: normal;
+}
+
+#overall_navbar ul li a:hover {
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+	text-decoration: none;
+	color: #fff;
+}
+
+#overall_content {
+	text-align: center;
+}
+
+
+/* Comic
+----------------------------------------------------- */
+
+#comic_header {
+	padding: 22px 0;
+}
+
+h1 {
+	font-size: 32px;
+	padding: 0 0 2px;
+	margin: 0;
+	font-weight: normal;
+	color: #363636;
+}
+
+.subheader {
+	font-size: 14px;
+	font-style: italic;
+	color: #737373;
+}
+
+#comic_image {
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.comic_nav {
+	padding: 24px 0;
+	cursor: default;
+}
+
+.comic_nav a {
+	display: inline-block;
+	padding: 4px 6px;
+	margin: 0 18px;
+}
+
+#comic_jumpbox {
+	display: inline-block;
+	padding: 0 24px;
+	position: relative;
+	top: -3px;
+}
+
+#comic_comments_wrapper {
+	max-width: 968px;
+	margin: 0 auto;
+}
+
+#comic_comments_wrapper > * {
+	vertical-align: top;
+}
+
+.card {
+	border-radius: 3px;
+	background: white;
+	text-align: left;
+	border: 1px solid #d8d8d8;
+	border-bottom-width: 2px;
+	border-top-width: 0;
+	font-size: 13px;
+}
+
+.comments-container {
+	margin-bottom: 16px;
+}
+
+.comments-container.vertical {
+	display: inline-block;
+	margin-right: 12px;
+}
+
+.comments-container.vertical:last-child {
+	margin-right: 0;
+}
+
+.comments-container.vertical > div {
+	width: 474px;
+}
+
+.comments-container.vertical .body iframe, .comments-container.vertical .body img {
+	max-width: 368px;
+}
+
+.comments-container .header {
+	height: 54px;
+	line-height: 54px;
+	padding: 0 16px;
+	position: relative;
+}
+
+.comments-container .header .title {
+	font-size: 20px;
+	color: #363636;
+	font-weight: 600;
+}
+
+.comments-container .post_comment {
+	color: #364a7f;
+	font-size: 14px;
+	position: absolute;
+	right: 16px;
+	top: 0;
+}
+
+.comments-container .comment {
+	position: relative;
+	padding: 6px 0 18px;
+}
+
+.comments-container .comment:hover .post_tools {
+	display: block;
+}
+
+.comments-container .comment .post_tools {
+	position: absolute;
+	right: 6px;
+	top: 8px;
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+
+.comments-container .comment .post_tools li {
+	list-style-type: none;
+	display: block;
+	float: left;
+}
+
+.comments-container .comment .post_tools li a {
+	display: block;
+	width: 13px;
+	height: 12px;
+	background: url(https://web.archive.org/web/20190623111834im_/http://www.smackjeeves.com/templates/modern/images/comment_tools.png) no-repeat;
+	margin-right: 10px;
+}
+
+.comments-container .comment .post_tools li a.reply {
+	background-position: 0px 0;
+}
+
+.comments-container .comment .post_tools li a.edit {
+	background-position: -24px 0;
+}
+
+.comments-container .comment .post_tools li a.delete {
+	background-position: -49px 0;
+}
+
+.comments-container .comment .avatar {
+	float: left;
+	padding: 4px 0 0 16px;
+}
+
+.comments-container .comment.reply .avatar {
+	padding-left: 48px;
+}
+
+.comments-container .comment .avatar img {
+	max-width: 64px;
+	max-height: 64px;
+}
+
+.comments-container .comment .content {
+	padding: 0 16px 0 90px;
+}
+
+.comments-container .comment.reply .content {
+	padding-left: 122px;
+}
+
+.comments-container .comment .content .poster a {
+	color: #404040;
+}
+
+.comments-container.author .comment .content .poster a {
+	font-size: 15px;
+}
+
+.comments-container .comment .content .poster .comicDate {
+	font-size: 12px;
+	color: #999;
+	font-style: italic;
+	margin-left: 5px;
+}
+
+.comments-container.author .comment .content .poster .comicDate {
+	font-size: 13px;
+}
+
+.comments-container.author .comment .content .body {
+	font-size: 14px;
+}
+
+.comments-container .comment .content .body {
+	margin-top: 2px;
+	overflow-wrap: break-word;
+	line-height: 1.5em;
+}
+
+.comments-container .comment .content .title {
+	font-weight: 600;
+}
+
+.comments-container .footer {
+	position: relative;
+	height: 32px;
+	line-height: 20px;
+}
+
+
+/* Home / News
+----------------------------------------------------- */
+
+#home_wrapper {
+	width: 968px;
+	margin: 16px auto 0;
+}
+
+#home_card_wrapper > * {
+	vertical-align: top;
+}
+
+#home_card_wrapper {
+	margin: 0 0 18px;
+}
+
+.home.card {
+	display: inline-block;
+	text-align: center;
+}
+
+.home.card a {
+	display: block;
+	padding: 16px;
+	color: #404040;
+}
+
+#home_welcome {
+	margin: 0 12px 0 0;
+	width: 588px;
+}
+
+#home_latest {
+	width: 360px;
+}
+
+#home_welcome img.thumb {
+	float: left;
+	margin: 4px 14px 14px 2px;
+}
+
+#home_card_wrapper img.thumb {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.25);
+}
+
+.home.card .title {
+	display: inline-block;
+	font-size: 24px;
+	margin: 0 0 12px;
+	color: #363636;
+}
+
+.home.card .description {
+	display: inline-block;
+	margin: 0 0 16px;
+	text-align: left;
+}
+
+#home_latest img.thumb {
+	margin: 4px 0 20px;
+}
+
+.home.card .read_link {
+	display: inline-block;
+	font-size: 24px;
+	color: #363636;
+	padding: 0 32px 0 0;
+	background: url(https://web.archive.org/web/20190623111834im_/http://www.smackjeeves.com/templates/modern/images/home-start.png) no-repeat 100% 7px;
+}
+
+#home_latest .read_link {
+	background: url(https://web.archive.org/web/20190623111834im_/http://www.smackjeeves.com/templates/modern/images/home-arrow.png) no-repeat 100% 7px;
+}
+
+h2 {
+	font-size: 36px;
+	color: #1f1f1f;
+	padding: 0;
+	margin: 0;
+	font-weight: 600;
+}
+
+#home_news .news-body img, #home_news .news-body iframe {
+	max-width: 922px;
+}
+
+.news.card .comicPost {
+	padding: 20px 22px 68px;
+	position: relative;
+	border-bottom: 1px solid #e5e5e5;
+	line-height: 1.75em;
+}
+
+.news.card .comicPost:last-child {
+	border-bottom: none;
+}
+
+.news.card .comments-link {
+	position: absolute;
+	bottom: 14px;
+	right: 20px;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.news.card .avatar {
+	max-height: 64px;
+	max-width: 64px;
+	float: left;
+	margin: 0 16px 2px 0;
+}
+
+.news.card .news-header {
+	margin: 0 0 16px;
+}
+
+.news.card .post-title {
+	display: inline-block;
+	font-size: 24px;
+	font-weight: 600;
+	color: #404040;
+}
+
+.news.card .author {
+	font-size: 14px;
+	font-weight: normal;
+	margin-left: 6px;
+}
+
+.news.card .comicDate {
+	font-size: 12px;
+	color: #737373;
+}
+
+.older-news a {
+	margin: 12px 0;
+	display: inline-block;
+	font-size: 18px;
+	padding: 0 23px 0 0;
+	background: url(https://web.archive.org/web/20190623111834im_/http://www.smackjeeves.com/templates/modern/images/news-arrow.png) no-repeat 100% 6px;
+}
+
+/* News Archive
+----------------------------------------------------- */
+
+#news_archive_wrapper {
+	max-width: 968px;
+	margin: 18px auto;
+}
+
+#archive_left {
+	float: left;
+	width: 646px;
+	margin: 0 16px 0 0;
+}
+
+.news-body {
+	overflow-wrap: break-word;
+}
+
+#archive_news .news-body img, #archive_news .news-body iframe {
+	max-width: 602px;
+}
+
+#archive_news .comicPost {
+	padding-bottom: 28px;
+}
+
+#archive_news .comments {
+	background: #fafafa;	
+}
+
+#archive_right {
+	float: left;
+	width: 306px;
+}
+
+#archive_list .header {
+	font-size: 16px;
+	font-weight: 600;
+	padding: 12px 0 0;
+	text-align: center;
+}
+
+ul.months {
+	margin: 10px 10px 12px;
+	padding: 0;
+}
+
+.months li {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	list-style-type: none;
+}
+
+.months a:link, .months a:visited {
+	display: block;
+	padding: 3px 4px;
+	margin: 2px;
+}
+
+.months li.post-item a {
+	margin: 5px;
+	padding: 4px 4px 5px 25px;
+	background-image: url("https://web.archive.org/web/20190623111834im_/http://www.smackjeeves.com/images/icon-arrow-sm.gif");
+	background-repeat: no-repeat;
+	background-position:  8px 50%;
+	border-radius: 3px;
+}
+
+.months li.post-item.selected a {
+	background-color: #efefef;
+}
+/*
+     FILE ARCHIVED ON 11:18:34 Jun 23, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:36:15 Nov 19, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  esindex: 0.016
+  PetaboxLoader3.resolve: 224.637 (3)
+  RedisCDXSource: 39.126
+  CDXLines.iter: 23.388 (3)
+  PetaboxLoader3.datanode: 286.93 (4)
+  captures_list: 416.679
+  load_resource: 207.717
+  exclusion.robots: 0.256
+  exclusion.robots.policy: 0.24
+  LoadShardBlock: 345.943 (3)
+*/
