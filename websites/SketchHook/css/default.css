@@ -1,5 +1,41 @@
-.body {
+body {
 	background-color: black;
 }
 
-.logo
+
+/* ----- Banner ----- */
+.banner {
+	height: 50px;
+	background-color: grey;
+}
+
+/* logo */
+.logo {
+	max-width: 10%;
+	float: left;
+	min-width: 50px;	
+	float: left;
+}
+
+/* search */
+.search {
+	min-width: 50%;	
+	max-width: 40%;
+	height: 100%;
+	float: left;
+	background-color: white;
+}
+
+/* upload */
+.upload {
+	float: right;
+	width: 10%;
+	height: 100%;
+}
+
+/* account */
+.account {
+	width: 50px;
+	height: 100%;
+	float: right;
+}
