@@ -2,6 +2,12 @@ body {
 	background-color: black;
 }
 
+/* ----- Misc ----- */
+.version {
+	background-color: white;
+	width: 200px;
+	text-align: center;
+}
 
 /* ----- Banner ----- */
 .banner {
@@ -24,6 +30,9 @@ body {
 	height: 100%;
 	float: left;
 	background-color: white;
+	line-height: 50px;
+	padding-left: 10px;
+	color: grey;
 }
 
 /* account */
@@ -41,4 +50,8 @@ body {
 	float: right;
 	width: 10%;
 	height: 100%;
+	background-color: white;
+	text-align: center;
+	line-height: 50px;
+	margin-right: 10px;
 }
