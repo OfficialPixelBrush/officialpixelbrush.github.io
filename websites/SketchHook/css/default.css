@@ -11,10 +11,10 @@ body {
 
 /* logo */
 .logo {
-	max-width: 10%;
+	width: 200px;
 	float: left;
-	min-width: 50px;	
-	float: left;
+	background-image: url('../images/logo.png');
+	height: 100%;
 }
 
 /* search */
@@ -26,16 +26,19 @@ body {
 	background-color: white;
 }
 
-/* upload */
-.upload {
-	float: right;
-	width: 10%;
-	height: 100%;
-}
-
 /* account */
 .account {
 	width: 50px;
 	height: 100%;
 	float: right;
+	background-image: url('../images/defaultAccount.png');
+	height: 100%;
+	border-radius: 50px;
+}
+
+/* upload */
+.upload {
+	float: right;
+	width: 10%;
+	height: 100%;
 }
