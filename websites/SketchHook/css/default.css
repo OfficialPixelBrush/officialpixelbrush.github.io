@@ -78,7 +78,7 @@ body {
 /* ----- Left Side ----- */
 .left {
 	float: left;
-	width: 60%;
+	width: 70%;
 }
 
 .image {
@@ -95,14 +95,45 @@ body {
 
 .title {
 	font-size: 200%;
+	width: 75%;
 	margin-left: 1%;
-	margin-right: 1%;
-	width: 100%;
 	background-color: grey;
-	padding-right: 1%;
 	padding-left: 1%;
 	padding-top: 1%;
 	padding-bottom: 1%;
+	float:left;
+	
+}
+
+.ratings {
+	font-size: 200%;
+	width: 25%;
+	background-color: grey;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	float: right;
+	margin-left: -7%;
+	margin-right: -3%;
+	text-align: center;
+}
+
+.tags {
+	font-size: 100%;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 1%;
+	width: 100%;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+
+.tag {
+	background-color: grey;
+	padding-right: .5%;
+	padding-left: .5%;
+	padding-top: 0.1%;
+	padding-bottom: 0.1%;
+	border-radius: 3px;
 }
 
 .description {
@@ -116,12 +147,27 @@ body {
 	padding-left: 1%;
 	padding-top: 1%;
 	padding-bottom: 1%;
+	float:left;
+}
+
+.ad {
+	background-color: grey;
+	float:left;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 1%;
+	padding-right: 1%;
+	padding-left: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	width: 100%;
+	height: 100px;
 }
 
 /* ----- Right Side ----- */
 .right {
 	float: right;
-	width: 36%;
+	width: 25.5%;
 	margin-right: 1%;
 	margin-bottom: 1%;
 	padding-right: 1%;
