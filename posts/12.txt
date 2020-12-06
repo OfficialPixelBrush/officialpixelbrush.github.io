@@ -1,7 +1,7 @@
  Added a page for all my Custom TF2 stuff. I'll put the link in the <a href="webpages.html">WebPages</a> Section as well.
 	</br>
 	</br>
-	<a class="hotbar_selector" href="tf2_custom.html" style="font-size: 300%">Custom TF2 Stuff Link</a>
+	<a class="hotbar_selector" href="misc/CustomTF2Stuff/tf2_custom.html" style="font-size: 300%">Custom TF2 Stuff Link</a>
 	</br>
 	</br>
 	<a class="date">12th of July, 2020 - 12:18</a>
