@@ -3,6 +3,9 @@ from os import path
 from pathlib import Path
 from datetime import datetime
 
+lineNumber = 52
+lineNumber = lineNumber-1
+
 def uT():
     if os.path.isfile("index.html"):
         index = open("index.html", "r")
@@ -72,7 +75,7 @@ def uT():
 
 
         lines = open("index.html").read().splitlines()
-        lines[54] = '    <a class="date"> Last Updated: ' + date + '</a>'
+        lines[lineNumber] = '    <a class="date"> Last Updated: ' + date + '</a>'
         open("index.html",'w').write('\n'.join(lines))
 
 uT()
