@@ -11,7 +11,7 @@ It's available on both <a href="https://pixelbrush6584.itch.io/time-detectives-a
 </br>
 
 </br>
-<img class="image" src="images/postImages/tdar.png">
+<img class="image" src="images/postImages/25/tdar.jpg">
 </br>
 </br>
 <a id="postdate" class="date">10th of August, 2020 - 06:06</a>

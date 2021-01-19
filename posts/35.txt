@@ -1,7 +1,7 @@
 <a class='postNbmr'>#35</a>
 </br>
 </br>
-A lot of <a href="/games">Games & Apps</a>has been reworked to now feature small Thumbnails, alongside more icons and links to improve the general usability and visiblity.
+A lot of <a href="/games">Games & Apps</a> has been reworked to now feature small Thumbnails, alongside more icons and links to improve the general usability and visiblity.
 </br>
 
 </br>
