@@ -3,7 +3,7 @@
 		<br/>	
 		
 		<video width="64%" height="36%" controls loop>
-		<source src="animations\sleeping_pixel.mp4" type="video/mp4">
+		<source src="animations\sleeping_pixel_compressed.mp4" type="video/mp4">
 		</video> 
 		
 		<br/>
