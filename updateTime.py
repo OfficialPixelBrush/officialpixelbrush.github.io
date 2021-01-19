@@ -3,7 +3,7 @@ from os import path
 from pathlib import Path
 from datetime import datetime
 
-lineNumber = 52
+lineNumber = 50
 lineNumber = lineNumber-1
 
 def uT():

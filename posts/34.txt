@@ -1,0 +1,23 @@
+<a class='postNbmr'>#34</a>
+</br>
+</br>
+Currently experimenting with some new Post Layouts, mostly to make it so some of them don't take up half the screen. 
+</br>
+
+</br>
+I've already updated <a href="webpages">WebPages</a> to test this, and I'm rather happy with the result, expect me to add more images to things (prolly JPEGs to avoid loading thousands of uncompressed PNG images), alongside a more easily navigatable site in general.
+</br>
+
+</br>
+<img class="image" src="images/postImages/34/newPostLayout.JPG">
+</br>
+
+</br>
+I'll also be trying to cut down the Navbar elements and reorganize them slightly, all in the name of being more pleasant to look at and easier to navigate.
+</br>
+
+</br>
+<img class="image" src="images/postImages/34/newNavbar.JPG">
+</br>
+</br>
+<a id="postdate" class="date">19th of January, 2021 - 09:23</a>
