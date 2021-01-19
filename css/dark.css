@@ -233,7 +233,6 @@
 	
 	.postTable {
 		background-position: center;
-		background-repeat: no-repeat;
 		background-size: 100% auto;
 		border:3px solid var(--glowPinkDarker);
 		border-radius: 8px;
@@ -334,6 +333,11 @@
 		color: white;
 	}
 	
+	.updated
+	{
+			font-size: 50%;
+	}
+	
 	.links
 	{   
 		margin-left: 5%;
@@ -374,12 +378,14 @@
 	@media screen and (orientation: portrait) and (max-width: 600px) {
 		.platformIcon {
 			width: 28%;
+			-webkit-filter: drop-shadow(0px 0px 3px rgba(0,0,0,0.5));
 		} 
 	}
 
 	@media screen and (orientation: landscape) and (min-width: 600px) {
 		.platformIcon {
 			width: 15%;
+			-webkit-filter: drop-shadow(0px 0px 3px rgba(0,0,0,0.5));
 		} 
 	}
 
@@ -387,15 +393,14 @@
 	@media screen and (min-width: 600px) {
 		.platformIcon {
 			width: 10%;
+			-webkit-filter: drop-shadow(0px 0px 3px rgba(0,0,0,1));
 		} 
 	}
 
 	/* Thumbnail */
 	.thumbnail {
-		width: auto;
-		max-width: 300px;
-		max-height: 300px;
-		height: auto;
+		width: 100%;
+		max-width: 200px;
 	}
 
 

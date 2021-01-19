@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="html5.svg"
+   id="svg95"
+   version="1.1"
+   viewBox="0 0 512 512">
+  <metadata
+     id="metadata101">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>HTML5 Logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs99" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg95"
+     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-x="-7"
+     inkscape:cy="159.62353"
+     inkscape:cx="256"
+     inkscape:zoom="1.6601562"
+     showgrid="false"
+     id="namedview97"
+     inkscape:window-height="1008"
+     inkscape:window-width="958"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <title
+     id="title83">HTML5 Logo</title>
+  <path
+     style="fill:#ffffff"
+     id="path85"
+     d="M108.4 0h23v22.8h21.2V0h23v69h-23V46h-21v23h-23.2M206 23h-20.3V0h63.7v23H229v46h-23M259.5 0h24.1l14.8 24.3L313.2 0h24.1v69h-23V34.8l-16.1 24.8l-16.1-24.8v34.2h-22.6M348.7 0h23v46.2h32.6V69h-55.6" />
+  <path
+     style="fill:#ffffff"
+     d="M 74.599609 100.59961 L 107.59961 471 L 255.69922 512 L 404.40039 470.80078 L 437.40039 100.59961 L 74.599609 100.59961 z M 142 176.30078 L 255.80078 176.30078 L 256 176.30078 L 369.59961 176.30078 L 365.40039 221.69922 L 256 221.69922 L 255.80078 221.69922 L 191.80078 221.69922 L 196 268.19922 L 255.80078 268.19922 L 256 268.19922 L 361.30078 268.19922 L 348.80078 407.59961 L 256 433.3457 L 256 433.59961 L 162.80078 407.59961 L 156.40039 336.30078 L 202 336.30078 L 205.19922 372.59961 L 255.90039 386.17188 L 306.5 372.59961 L 311.80078 313.59961 L 255.80078 313.59961 L 255.80078 313.5 L 154.40039 313.5 L 142 176.30078 z "
+     id="path87" />
+</svg>
