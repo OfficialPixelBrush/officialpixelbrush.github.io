@@ -1,7 +1,7 @@
 <a class='postNbmr'>#36</a>
 </br>
 </br>
-The latest Update of PMD Online brings along some important features, alongside actually reliable, seed-based Dungeon Generation, alongside the ability to edit the resulting Dungeons as you like.
+The latest Update of PMD Online brings along some important features, like actually reliable, seed-based Dungeon Generation, alongside the ability to edit the resulting Dungeons as you like.
 </br>
 
 </br>
