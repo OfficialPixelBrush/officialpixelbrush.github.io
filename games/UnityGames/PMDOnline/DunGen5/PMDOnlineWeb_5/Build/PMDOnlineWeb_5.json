@@ -1,7 +1,7 @@
 {
 "companyName": "Team Stride",
 "productName": "PMD_Online_4",
-"productVersion": "0.4",
+"productVersion": "0.6",
 "dataUrl": "PMDOnlineWeb_5.data.unityweb",
 "wasmCodeUrl": "PMDOnlineWeb_5.wasm.code.unityweb",
 "wasmFrameworkUrl": "PMDOnlineWeb_5.wasm.framework.unityweb",
