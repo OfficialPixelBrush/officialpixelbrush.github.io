@@ -1,0 +1,19 @@
+<a class='postNbmr'>#36</a>
+</br>
+</br>
+The latest Update of PMD Online brings along some important features, alongside actually reliable, seed-based Dungeon Generation, alongside the ability to edit the resulting Dungeons as you like.
+</br>
+
+</br>
+Also added the ability to zoom and move around, 'cause it's nice to not be locked into one position.
+</br>
+
+</br>
+<img class="image" src="images/postImages/36/pmd_online.jpg">
+</br>
+
+</br>
+Enjoy the Update!
+</br>
+</br>
+<a id="postdate" class="date">23th of January, 2021 - 02:22</a>
