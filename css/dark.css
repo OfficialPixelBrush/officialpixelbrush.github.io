@@ -10,7 +10,7 @@
 	
 	/* Main */
 	html {
-  		background-color: #340829;
+  		background-color: var(--bgColor);
 	}
 	
 	.site
@@ -235,14 +235,14 @@
 	.postTable {
 		background-position: center;
 		background-size: 100% auto;
-		border:3px solid var(--glowPinkDarker);
+		/*border:3px solid var(--glowPinkDarker);
 		border-radius: 8px;
 		box-shadow: 5px 5px 0 var(--postBgPink),
 		4px 4px 0 var(--postBgPink),
 		3px 3px 0 var(--postBgPink),
 		2px 2px 0 var(--postBgPink),
 		1px 1px 0 var(--postBgPink),
-		0px 0px 0 var(--postBgPink);
+		0px 0px 0 var(--postBgPink);*/
 		
 		background-color: var(--backgroundPink);
 		text-align: center;
@@ -258,12 +258,22 @@
 		
 		width: 100%;
 		height: 100%;
-        transition: background-size 0.2s;
+		box-shadow: 0 0px 4px rgba(0, 0, 0, 100);
+		z-index: 1;
+        transition: background-size 0.2s, z-index 0.2s, box-shadow 0.2s;
 	}
 	
 	.postTable:hover {
 		background-size: 110% auto;
         transition: background-size 0.2s;
+        transition: background-size 0.2s, z-index 0.2s, box-shadow 0.2s;
+		z-index: 5;
+	}
+	
+	.description {
+		float: top;
+		position: absolute;
+		z-index: 10;
 	}
 	
 	.postTableOrg {

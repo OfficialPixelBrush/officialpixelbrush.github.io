@@ -1,0 +1,7 @@
+<a class='postNbmr'>#37</a>
+</br>
+</br>
+Updated some design stuffs in <a href="/games">Games</a> and <a href="/webpages">Webpages</a>, like adding icons and removing the borders. Had to make the design look a little less like 2005 somehow.
+</br>
+</br>
+<a id="postdate" class="date">30th of January, 2021 - 01:02</a>
