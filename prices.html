@@ -51,37 +51,37 @@
 			<a target="_blank" rel="noopener noreferrer" href="https://paypal.me/pixelbrushart" style="color: white; font-family: DoodleSans" class="center">My PayPal</a>
 		</div>
 		
-		<div class="post">
-			</br>
-		<button class="menu hotbar_selector" style="font-size:200%" onclick="reload()">Reset Choices</button>
-			</br>
-			</br>
-		<div style="width: 100%; font-size: 200%;">
-				<div id="body" style="visibility: visible;">
-				<table>
-				<th><button class="postButton" onclick="youwant_body(1)">Full Body</button></th>
-				<th><button class="postButton" onclick="youwant_body(2)">Half Body</button></th>
-				<th><button class="postButton" onclick="youwant_body(3)">Headshot</button></th>
-				</table>
-				</div>
-				<button class="menu hotbar_selector" id="confirm_body" style="font-size: 100%; visibility: visible; width: 100%" onclick="confirmBody()">Confirm</button>
-				
-				<div id="style" style="visibility: hidden;">
-				<table>
-				<th><button class="postButton" onclick="youwant_style(2)">Cell Shaded</button></th>
-				<th><button class="postButton" onclick="youwant_style(3)">Colored</button></th>
-				</table>
-				</div>
-			</div>
+		<div style="padding-left: 3%; padding-right: 3%;" class="post">
+		<table style="height: 50%">
+		<tr>
+			<th>
+				<a style="font-size: 50%">Character Credit: </a>
+				<a style="font-size: 50%" id="characterName"></a>
+				</br>
+				<img style="width: 100%" class="image" src="images/prices/amber_empty.png" id="example">
+			</th>
 			
-			</br>
-			<a>Character Credit: </a>
-			<a id="characterName"></a>
-			</br>
-			<img style="max-height: 512px; min-height: 0px; max-width: 512px; min-width: 0px;" class="image" src="images/prices/amber_empty.png" id="example">
-			</br>
-			</br>
-
+			<th>
+				<button class="menu hotbar_selector" style="font-size: 100%; box-shadow: 0 0px 4px rgba(0, 0, 0, 100); border: 0px; z-index: 5;" onclick="reload()">Reset Choices</button>
+				<div style="width: 100%; font-size: 200%;">
+					<div id="body" style="visibility: visible;">
+					<table>
+					<th><button class="postButton" onclick="youwant_body(1)">Full Body</button></th>
+					<th><button class="postButton" onclick="youwant_body(2)">Half Body</button></th>
+					<th><button class="postButton" onclick="youwant_body(3)">Headshot</button></th>
+					</table>
+					</div>
+					<button class="menu hotbar_selector" id="confirm_body" style="box-shadow: 0 0px 4px rgba(0, 0, 0, 100); border: 0px; z-index: 5; font-size: 100%; visibility: visible; width: 100%" onclick="confirmBody()">Confirm</button>
+					
+					<div id="style" style="visibility: hidden;">
+					<table>
+					<th><button class="postButton" onclick="youwant_style(2)">Cell Shaded</button></th>
+					<th><button class="postButton" onclick="youwant_style(3)">Colored</button></th>
+					</table>
+					</div>
+				</div>
+			</th>
+		</table>
 			<a >So you want a </a>
 			<a id="want_style"></a>
 			<a id="want_body"></a>

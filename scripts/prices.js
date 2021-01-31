@@ -62,7 +62,7 @@ function youwant_style(pStyle) {
 			if (style == 2) {
 				document.getElementById('example').src="images/prices/temp/desert boye.png";
 				document.getElementById('want_style').innerHTML="Cell Shaded";
-				document.getElementById('characterName').innerHTML="Sarcin (@Sarcin1)";
+				document.getElementById('characterName').innerHTML="Sarcin</br>(@Sarcin1)";
 				price = bodyprice + 5;
 			}
 		
@@ -78,21 +78,21 @@ function youwant_style(pStyle) {
 			if (style == 1) {
 				document.getElementById('example').src="images/prices/temp/quentin.png";
 				document.getElementById('want_style').innerHTML="Painted";
-				document.getElementById('characterName').innerHTML="Quentin the Mimikyu (@QuentinMimikyu)";
+				document.getElementById('characterName').innerHTML="Quentin the Mimikyu</br>(@QuentinMimikyu)";
 				price = bodyprice + 10;
 			}
 		
 			if (style == 2) {
 				document.getElementById('example').src="images/prices/temp/mediex2012_bg.png";
 				document.getElementById('want_style').innerHTML="Cell Shaded";
-				document.getElementById('characterName').innerHTML="MediExcalibur2012 (@MediEx2012)";
+				document.getElementById('characterName').innerHTML="MediExcalibur2012</br>(@MediEx2012)";
 				price = bodyprice + 5;
 			}
 		
 			if (style == 3) {
 				document.getElementById('example').src="images/prices/temp/smile_neutral.png";
 				document.getElementById('want_style').innerHTML="Colored";
-				document.getElementById('characterName').innerHTML="Tyler the Cat/Indeedee (@DatGamerCatto/@DatEmotionBo)";
+				document.getElementById('characterName').innerHTML="Tyler the Cat/Indeedee</br>(@DatGamerCatto/@DatEmotionBo)";
 				price = bodyprice + 0;
 			}
 		}
@@ -101,21 +101,21 @@ function youwant_style(pStyle) {
 			if (style == 1) {
 				document.getElementById('example').src="images/prices/temp/pineapple.png";
 				document.getElementById('want_style').innerHTML="Painted";
-				document.getElementById('characterName').innerHTML="Sleepingisbadatart (~Sleepingisbadatart)";
+				document.getElementById('characterName').innerHTML="Sleepingisbadatart</br>(~Sleepingisbadatart)";
 				price = bodyprice + 10;
 			}
 		
 			if (style == 2) {
 				document.getElementById('example').src="images/prices/temp/jasper.png";
 				document.getElementById('want_style').innerHTML="Cell Shaded";
-				document.getElementById('characterName').innerHTML="Flambè (@Starcario15)";
+				document.getElementById('characterName').innerHTML="Flambè</br>(@Starcario15)";
 				price = bodyprice + 5;
 			}
 		
 			if (style == 3) {
 				document.getElementById('example').src="images/prices/temp/lexx_headshot_unsigned.png";
 				document.getElementById('want_style').innerHTML="Colored";
-				document.getElementById('characterName').innerHTML="Lokoman82delta (@lokoman82delta)";
+				document.getElementById('characterName').innerHTML="Lokoman82delta</br>(@lokoman82delta)";
 				price = bodyprice + 0;
 			}
 		}

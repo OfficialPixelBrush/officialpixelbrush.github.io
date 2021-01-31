@@ -19,6 +19,7 @@
         background-position:top;
 		background-repeat: no-repeat;
 		min-height: 669px;
+		color: white;
 	}
 	
 	@font-face {
@@ -44,6 +45,7 @@
 		font-size: 400%;
 		margin-bottom: 0%;
 		margin-top: 0%;
+		color: white;
 	}
 	
 	/*.menu
