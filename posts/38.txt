@@ -1,0 +1,19 @@
+<a class='postNbmr'>#38</a>
+</br>
+</br>
+Majorly overhauled a lot of the CSS, namely the fact that now there's a transparent background behind a lot of the hoverable images to increase the visiblity in front of said image.
+</br>
+
+</br>
+Also removed a bit of depth from the posts to make them look a little less intrusive. 
+</br>
+
+</br>
+Made some elements look more in line with the rest of the Website, mainly buttons and embeds.
+</br>
+
+</br>
+Let's hope this'll improve the overall usability and appeal of the website.
+</br>
+</br>
+<a id="postdate" class="date">31th of January, 2021 - 01:17</a>

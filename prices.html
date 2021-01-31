@@ -53,23 +53,23 @@
 		
 		<div class="post">
 			</br>
-		<button onclick="reload()">Reset Choices</button>
+		<button class="menu hotbar_selector" style="font-size:200%" onclick="reload()">Reset Choices</button>
 			</br>
 			</br>
 		<div style="width: 100%; font-size: 200%;">
 				<div id="body" style="visibility: visible;">
 				<table>
-				<th><button onclick="youwant_body(1)">Full Body</button></th>
-				<th><button onclick="youwant_body(2)">Half Body</button></th>
-				<th><button onclick="youwant_body(3)">Headshot</button></th>
+				<th><button class="postButton" onclick="youwant_body(1)">Full Body</button></th>
+				<th><button class="postButton" onclick="youwant_body(2)">Half Body</button></th>
+				<th><button class="postButton" onclick="youwant_body(3)">Headshot</button></th>
 				</table>
 				</div>
-				<button id="confirm_body" style="visibility: visible;" onclick="confirmBody()">Confirm</button>
+				<button class="menu hotbar_selector" id="confirm_body" style="font-size: 100%; visibility: visible; width: 100%" onclick="confirmBody()">Confirm</button>
 				
 				<div id="style" style="visibility: hidden;">
 				<table>
-				<th><button onclick="youwant_style(2)">Cell Shaded</button></th>
-				<th><button onclick="youwant_style(3)">Colored</button></th>
+				<th><button class="postButton" onclick="youwant_style(2)">Cell Shaded</button></th>
+				<th><button class="postButton" onclick="youwant_style(3)">Colored</button></th>
 				</table>
 				</div>
 			</div>
