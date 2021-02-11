@@ -1,24 +1,24 @@
 <html>
 <head>
-  <title>Pixel Brush - Homepage</title>
-  <link  id="pagestyle" rel="stylesheet" type="text/css" href="css/dark.css" />  
+  <title>Pixel Brush - Animations</title>
+  <link rel="stylesheet" type="text/css" href="css/dark.css" />  
 
     <style type="text/css">  
         body { margin:0; }  
-    </style>    
+    </style>  
 	
 <link rel="shortcut icon" href="favicon/favicon.ico" />
 <link rel="apple-touch-icon-precomposed" href="favicon/apple-touch-icon.png" />
 <meta name="viewport" content="width=device-width, initial-scale=0.75" /> 
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="Pixel Brush - Adventures of Kyle and Pixel" />
-<meta property="og:url" content="https://officialpixelbrush.github.io/" />
+<meta property="og:title" content="Pixel Brush - Animations" />
+<meta property="og:url" content="https://officialpixelbrush.github.io/animations" />
 <meta property="og:image" content="/images/embed.png" />
 </head>
 
-<body onload="loadComic(0);">
- 
+<body>
+
 <div class="banner">	
 		<div class="dust">
 		<div class="dustFront">
@@ -26,7 +26,7 @@
 		<img class="bannerText" src="images/bannerText.webp"></div>	
 		</a>
     </div>       
-</div>      
+</div>
 
 <div class="menu">
 <table>
@@ -43,36 +43,38 @@
 </div>
 
 <div class="site">
-<div class="text">
+<div style="color: white;" class="text">
 	</br>
-	<div class="post">
-	<table style="width: 100%">
+	
+	<table>
+	<tr>
 		<th>
-			<button onclick="first()">First</button>
+			<button class="postButton" style="font-size: 100%;" onclick="loadYear(2021)">2021</button>
 		</th>
-
 		<th>
-			<a class="links" id="pageNumber"></a>
+			<button class="postButton" style="font-size: 100%;" onclick="loadYear(2020)">2020</button>
 		</th>
-
 		<th>
-			<button onclick="latest()">Latest</button>
+			<button class="postButton" style="font-size: 100%;" onclick="loadYear(2019)">2019</button>
 		</th>
+		<th>
+			<button class="postButton" style="font-size: 100%;" onclick="loadYear(2018)">2018</button>
+		</th>
+		<th>
+			<button class="postButton" style="font-size: 100%;" onclick="loadYear(2017)">2017</button>
+		</th>
+		<th>
+			<button class="postButton" style="font-size: 100%;" onclick="loadYear(2016)">2016</button>
+		</th>
+	</tr>
 	</table>
-	
-	<img id="part1" class="comic" src="comics/adventuresofkyleandpixel/page_1.png">
-	</br>
-	<!--</br>
-    <a class="date" id="postdate">26th of August, 2020 - 21:12</a>-->
 	</br>
 	
-	</br>
-	<button style="font-size: 300%;" onclick="previous()">Previous</button>
-	<button style="font-size: 300%;" onclick="next()">Next</button>
-    </div>
+	<a id="selected"></a>
 </div>
 
 
-<script src="scripts/comic.js"></script>
+<script src="scripts/animations.js"></script>
+
 </body>
 </html>

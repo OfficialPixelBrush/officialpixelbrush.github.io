@@ -1,5 +1,5 @@
-let nmbr_of_posts = 38;
-let nmbr = 38;
+let nmbr_of_posts = 39;
+let nmbr = 39;
 let disCSS = 0;
 
 const queryString = window.location.search;

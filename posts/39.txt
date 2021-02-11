@@ -1,0 +1,16 @@
+<a class='postNbmr'>#39</a>
+</br>
+</br>
+<div style="background-image: url('websites/1998PixelBrushDev/images/background.gif'); color: fuchsia; font-family: Comic Sans MS;">
+</br>Originally meant for just getting files to my Windows 2000 PC, here is a 90s looking version of my Website, though it is ultra unfinished and empty.
+<a href="/websites/1998PixelBrushDev/index">
+</br>
+</br>
+<img src="websites/1998PixelBrushDev/images/banner.gif">
+</a>
+</br>
+</br>
+</div>
+</br>
+</br>
+<a id="postdate" class="date">12th of February, 2021 - 00:12</a>

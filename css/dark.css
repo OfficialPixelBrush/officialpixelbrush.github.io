@@ -163,7 +163,7 @@
 	}
 	
 	.dust {
-		background: url("../images/websiteBannerBack.png");
+		background: url("../images/websiteBannerBack.webp");
 		height: 432px;
 		animation: slide 300s linear infinite;
 		background-attachment: fixed;
@@ -182,7 +182,7 @@
 	}
 	
 	.dustFront {
-		background: url("../images/websiteBannerFront.png");
+		background: url("../images/websiteBannerFront.webp");
 		height: 432px;
 		animation: slideSlow 150s linear infinite;
 		background-attachment: fixed;
