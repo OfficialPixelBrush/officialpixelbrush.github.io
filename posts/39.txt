@@ -6,7 +6,7 @@
 <a href="/websites/1998PixelBrushDev/index">
 </br>
 </br>
-<img src="websites/1998PixelBrushDev/images/banner.gif">
+<img style="width: 100%;" src="websites/1998PixelBrushDev/images/banner.gif">
 </a>
 </br>
 </br>
