@@ -10,50 +10,37 @@ from tkinter.scrolledtext import ScrolledText
 
 print("Started")
 def readPostNmbr():
-    if os.path.isfile("scripts/main.js"):
-        mainjs = open("scripts/main.js", "r")
+    if os.path.isfile("posts/numberOfPosts.txt"):
+        mainjs = open("posts/numberOfPosts.txt", "r")
         nmbrUI_of_posts = mainjs.readline()
-        nmbrUI_2 = mainjs.readline()
 
         data = mainjs.read();
             
-        mainjs.close() 
-        nmbrUI = nmbrUI_of_posts.split("=", 1)[1]
-        nmbrUI = nmbrUI.split(";", 1)[0]  
-
+        mainjs.close()
+        nmbrUI = int(nmbrUI_of_posts);
         
-        nmbrUI_of_posts = nmbrUI_of_posts.split("=", 1)[0]
-        
-        nmbrUI = int(nmbrUI);
-        
-        postNmbr.config(text=(str(nmbrUI)))
+        postNmbr.config(text=(str(nmbrUI_of_posts)))
         
 def makePost():
-    if os.path.isfile("scripts/main.js"):
-        mainjs = open("scripts/main.js", "r")
+    if os.path.isfile("posts/numberOfPosts.txt"):
+        mainjs = open("posts/numberOfPosts.txt", "r")
         nmbr_of_posts = mainjs.readline()
-        nmbr_2 = mainjs.readline()
 
         data = mainjs.read();
         
         mainjs.close() 
-        nmbr = nmbr_of_posts.split("=", 1)[1]
-        nmbr = nmbr.split(";", 1)[0]
 
         text = mail_message.get('1.0',END)
 
         # Space to </br>
         text = text.replace("\n", "\n</br>\n") 
+    
+        nmbr_of_posts = int(nmbr_of_posts)+1;
 
+        print(str(nmbr_of_posts) + text);
     
-        nmbr_of_posts = nmbr_of_posts.split("=", 1)[0]
-    
-        nmbr = int(nmbr)+1;
-
-        print(nmbr_of_posts + "= " + str(nmbr)+ ";");
-    
-        mainjs = open("scripts/main.js", "w")
-        mainjs.write(nmbr_of_posts + "= " + str(nmbr)+ ";\n" + "let nmbr = " + str(nmbr)+ ";\n" + data);
+        mainjs = open("posts/numberOfPosts.txt", "w")
+        mainjs.write(str(nmbr_of_posts));
         mainjs.close() 
 
         now = datetime.now()
@@ -114,8 +101,8 @@ def makePost():
 
         full_date = date_front + date + date_back;
         
-        f= open("posts/" + str(nmbr) + ".txt","w+")
-        f.write("<a class='postNbmr'>#"+ str(nmbr) +"</a>\n</br>\n</br>\n" + text + full_date)
+        f= open("posts/" + str(nmbr_of_posts) + ".txt","w+")
+        f.write("<a class='postNbmr'>#"+ str(nmbr_of_posts) +"</a>\n</br>\n</br>\n" + text + full_date)
         f.close() 
         print("Submitted post on "+ str(full_date))
         updateTime.uT()
