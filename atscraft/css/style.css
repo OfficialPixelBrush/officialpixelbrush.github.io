@@ -139,3 +139,10 @@
 		border:2px solid var(--glowPinkDarker);
 		border-radius: 3px;
 	}
+	
+	.line {
+		border-bottom: 2px solid;
+		width: 100%;
+		border-bottom-color: var(--glowPinkDarker);
+		margin-bottom: 20px;
+	}	
