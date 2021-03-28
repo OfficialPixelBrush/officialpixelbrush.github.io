@@ -345,8 +345,16 @@
 	}
 	
 	.transparentBG {
-		background-color: rgba(86,14,70,0.5);
+		height: 100%;
+		background-color: rgba(0,0,0,0.5);
 		width: 100%;
+        transition: background-color 0.2s;
+	}
+	
+	.transparentBG:hover {
+		background-color: rgba(0,0,0,0);
+		width: 100%;
+        transition: background-color 0.2s;
 	}
 	
 	.bottomOfDiv {
