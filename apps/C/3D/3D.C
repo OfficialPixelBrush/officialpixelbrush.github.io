@@ -1,0 +1,103 @@
+#include <alloc.h>
+#include <conio.h>
+#include <dos.h>
+#include <stdio.h>
+#include <string.h>
+
+#define NUM_COLORS 256
+#define SET_MODE 0x00
+#define VIDEO_INT 0x10
+#define VGA_256_COLOR_MODE 0x13
+#define TEXT_MODE 0x03
+#define SCREEN_HEIGHT 200
+#define SCREEN_WIDTH 320
+#define PALETTE_INDEX 0x3C8
+#define PALETTE_DATA 0x3C9
+
+#define SETPIX(x,y,c) *(VGA+(x)+(y)*SCREEN_WIDTH)=c
+#define GETPIX(x,y) *(VGA+(x)+(y)*SCREEN_WIDTH)
+#define MAX(x,y) ((x) > (y) ? (x) : (y))
+#define MIN(x,y) ((x) < (y) ? (x) : (y))
+
+typedef unsigned char byte;
+
+byte far *VGA=(byte far *)0xA0000000L;
+
+void set_mode(byte mode) {
+  union REGS regs;
+  regs.h.ah = SET_MODE;
+  regs.h.al = mode;
+  int86( VIDEO_INT, &regs, &regs );
+}
+
+float length(float x, float y) {
+	return sqrt(x*x + y*y);
+}
+
+float signedDstToScene(float p1, float p2) {
+	float dstToScene = maxDst;
+	
+	int i;
+	for (i = 0; i < numCircles; ++i){
+		float dstToCircle = signedDstToCircle(p1, p2, circles[i].centre1, circles[i].centre2, circles[i].radius);
+		dstToScene = MIN(dstToCircle, dstToScene);
+	}
+	
+	int i;
+	for (i = 0; i < numBoxes; ++i) {
+		float dstToBox = signedDstToBox(p1,p2, boxes[i].centre1, boxes[i].centre2, boxes[i].size1. boxes[i].size2);
+		dstToScene = MIN(dstToBox, dstToScene);
+		
+	}
+}
+
+float signedDstToCircle(float p1, float p2, float centre1, float centre2, float radius) {
+	return (length(centre1-p1,centre2-p2) - radius);
+}
+
+float signedDstToBox(float p1, float p2, float centre1, float centre2, float size1, float size2) {
+	float offset1 = abs(p1-centre1) - size1;
+	float offset2 = abs(p2-centre2) - size2;
+	float unsignedDst = length(MAX(offset1, 0), MAX(offset2, 0));
+	
+	float dstInsideBox = MAX(MIN(offset1,0), MIN(offset2,0));
+	return unsignedDst + dstInsideBox;
+}
+
+int main() {
+  char kc = 0;
+  char s[255];
+  byte *pal;
+
+  set_mode( VGA_256_COLOR_MODE );
+  
+  /* LOOP UNTIL ESCAPE */
+  while( kc != 0x1b )
+  {
+	/*
+    if (kbhit()) {
+      kc = getch();
+      if( kc == (char)0 ) {
+	kc = getch();
+	 special key handling 
+	switch( kc )
+	{
+	case 0x48:  up arrow 
+	  strcpy(s, "up arrow");
+	  break;
+	case 0x50:  down arrow 
+	  strcpy(s, "down arrow");
+	  break;
+	default:other special keys 
+	  sprintf(s, "%02x", kc);
+	  break;
+	}
+      } else {
+	sprintf(s, "%02x", kc);
+      }
+      printf("Key pressed: %s\n", s);
+    }*/
+  }
+  set_mode( TEXT_MODE );
+  return 0;
+}

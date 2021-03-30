@@ -1,0 +1,21 @@
+<a class='postNbmr'>#40</a>
+</br>
+</br>
+I made a cool little program to learn C programming!
+</br>
+</br>
+<a href="apps">Link to it here</a>
+</br>
+<img class="image" src="images/postImages/40/mndlbrtc.webp"
+</br>
+<img class="image" src="images/postImages/40/mndlbrtl.webp"
+</br>
+</br>
+</br>
+It can be used to render the Mandelbrot Set, among other popular variants and a few powers, in MS-DOS!
+</br>
+</br>
+Have fun using it!
+</br>
+</br>
+<a id="postdate" class="date">31th of March, 2021 - 01:22</a>
