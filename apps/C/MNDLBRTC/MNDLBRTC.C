@@ -1,20 +1,19 @@
-#include <alloc.h>
 #include <conio.h>
 #include <dos.h>
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
+#include <mem.h>
 
-#define COLOR_OFFSET 1
-#define NUM_COLORS 255
+#define COLOR_OFFSET 56
+#define NUM_COLORS 16
+int startcolor = 4;
 #define SET_MODE 0x00
 #define VIDEO_INT 0x10
 #define VGA_256_COLOR_MODE 0x13
 #define TEXT_MODE 0x03
 #define SCREEN_HEIGHT 200
 #define SCREEN_WIDTH 320
-#define PALETTE_INDEX 0x3C8
-#define PALETTE_DATA 0x3C9
 
 #define LEN 256
 #define SETPIX(x,y,c) *(VGA+(x)+(y)*SCREEN_WIDTH)=c
@@ -45,33 +44,33 @@ int intMod(int x, int y) {
 }
 
 double smoothColor(int i, int x, int y) {	
-	int out = intMod(i/4, NUM_COLORS)+COLOR_OFFSET;
+	int out = intMod(i/4, NUM_COLORS)+COLOR_OFFSET+startcolor;
 	int iModFour = i%4;
 	
 	/* Change dithering based on iteration */
 	switch (iModFour) {
 		case 0:
 			/* 1 */
-			if (out > NUM_COLORS+COLOR_OFFSET) {
-				out = out-NUM_COLORS+COLOR_OFFSET;
+			if (out > NUM_COLORS+COLOR_OFFSET+startcolor) {
+				out = out-NUM_COLORS+COLOR_OFFSET+startcolor;
 			}
 			return out;
 		case 1:
 			/* 2 */
 			if (y%2) {
 				if (x%2) {
-					if (out > NUM_COLORS+COLOR_OFFSET) {
-						out = out-NUM_COLORS+COLOR_OFFSET;
+					if (out > NUM_COLORS+COLOR_OFFSET+startcolor) {
+						out = out-NUM_COLORS+COLOR_OFFSET+startcolor;
 					}
 				} else {
 					++out;
-					if (out > NUM_COLORS+COLOR_OFFSET) {
-						out = out-NUM_COLORS+COLOR_OFFSET;
+					if (out > NUM_COLORS+COLOR_OFFSET+startcolor) {
+						out = out-NUM_COLORS+COLOR_OFFSET+startcolor;
 					}
 				}
 			} else {
-				if (out > NUM_COLORS+COLOR_OFFSET) {
-					out = out-NUM_COLORS+COLOR_OFFSET;
+				if (out > NUM_COLORS+COLOR_OFFSET+startcolor) {
+					out = out-NUM_COLORS+COLOR_OFFSET+startcolor;
 				}
 			}
 			
@@ -80,24 +79,24 @@ double smoothColor(int i, int x, int y) {
 			/* 3 */
 			if (y%2) {
 				if (x%2) {
-					if (out > NUM_COLORS+COLOR_OFFSET) {
-						out = out-NUM_COLORS+COLOR_OFFSET;
+					if (out > NUM_COLORS+COLOR_OFFSET+startcolor) {
+						out = out-NUM_COLORS+COLOR_OFFSET+startcolor;
 					}
 				} else {
 					++out;
-					if (out > NUM_COLORS+COLOR_OFFSET) {
-						out = out-NUM_COLORS+COLOR_OFFSET;
+					if (out > NUM_COLORS+COLOR_OFFSET+startcolor) {
+						out = out-NUM_COLORS+COLOR_OFFSET+startcolor;
 					}
 				}
 			} else {
 				if (x%2) {
 					++out;
-					if (out > NUM_COLORS+COLOR_OFFSET) {
-						out = out-NUM_COLORS+COLOR_OFFSET;
+					if (out > NUM_COLORS+COLOR_OFFSET+startcolor) {
+						out = out-NUM_COLORS+COLOR_OFFSET+startcolor;
 					}
 				} else {
-					if (out > NUM_COLORS+COLOR_OFFSET) {
-						out = out-NUM_COLORS+COLOR_OFFSET;
+					if (out > NUM_COLORS+COLOR_OFFSET+startcolor) {
+						out = out-NUM_COLORS+COLOR_OFFSET+startcolor;
 					}
 				}
 			}
@@ -108,22 +107,22 @@ double smoothColor(int i, int x, int y) {
 			if (y%2) {
 				if (x%2) {
 					++out;
-					if (out > NUM_COLORS+COLOR_OFFSET) {
-						out = out-NUM_COLORS;
+					if (out > NUM_COLORS+COLOR_OFFSET+startcolor) {
+						out = out-NUM_COLORS+startcolor;
 					}
 				} else {
-					if (out > NUM_COLORS+COLOR_OFFSET) {
-						out = out-NUM_COLORS;
+					if (out > NUM_COLORS+COLOR_OFFSET+startcolor) {
+						out = out-NUM_COLORS+startcolor;
 					}
 				}
 			} else {
 					++out;
-				if (out > NUM_COLORS+COLOR_OFFSET) {
-					out = out-NUM_COLORS;
+				if (out > NUM_COLORS+COLOR_OFFSET+startcolor) {
+					out = out-NUM_COLORS+startcolor;
 				}
 			}
 			
-			if (out < COLOR_OFFSET) {
+			if (out < COLOR_OFFSET+startcolor) {
 				out = out-1;
 			}
 			return out;
@@ -168,72 +167,29 @@ double funcY(int function, double zy, double cy, double tmp, double setCy) {
 	}
 }
 
-void drawTop(double x, double y) {
-	gotoxy(0,0);
-	if (y < 8) {
-		SETPIX((int)x,(int)y, 0);
+void clrscr() {
+	int x,y;
+	for (y = 0; y < SCREEN_HEIGHT; ++y) {
+		for (x = 0; x < SCREEN_WIDTH; ++x) {
+			SETPIX(x,y,0);
+		}
 	}
 }
-
 
 /* Main Program */
 int main()
 {	
-	char kc = 0;
-	char s[255];
-	byte *pal;
-	double res = 4;
+	int mode, fullScr, soundToggle, xSize, ySize, t;
+	double setCx, setCy, xCoord, yCoord, Zoom; 
 	
-	char filename[8];
-	char dest[255] = "C:\\";
-	int c;
-	
-	char str[512];
-	char * token;
-
-	FILE * fp;
-
-	double halfScreenWidth;
-	double halfScreenHeight;
-
-	double xCoord = 0;
-	double yCoord = 0;
-	double Zoom = 10;
-	double x = 0;
-	double y = 0;
-	double p = 10;
-	double xSize = 100;
-	double ySize = 100;
-	double t = 25;
-	int mode = 0;
-	clock_t begin;
-	clock_t end;
-	double time_spent;
-	int soundToggle = 0;
-	int readI = 0;
-	double setCx = 0;
-	double setCy = 0;
-	
-	int funcNum = 1;
-
-	clrscr();
+	/* Setup stuffs */
 	set_mode( TEXT_MODE );
-	clrscr();
+	system("cls");
 	printf("Mandelbrot Set (in C for MS-DOS)\n");
 	printf("Written by PixelBrushArt (2021)\n");
-	printf("v6.0\n");
+	printf("v7.0\n");
 	
-	printf("\n- Function -");
-	printf("\nJulia (0), Burning Ship (1), pow2 (2), pow3 (3), pow4 (4), pow5 (5): ");
-	scanf("%d", &funcNum);
-	
-	if (funcNum == 0) {
-		printf("\ncx: ");
-		scanf("%lf", &setCx);
-		printf("\ncy: ");
-		scanf("%lf", &setCy);
-	}
-	
+
 	printf("\n- Render Mode -");
 	printf("\nExit (0), Text (1), Screen (2), T&S (3), Dithered VGA (4), Exploration (5): ");
 	scanf("%d", &mode);
@@ -241,9 +197,28 @@ int main()
 		return 0;
 	}
 	
+	printf("\n- Function -");
+	printf("\nBurning Ship (1), pow2 (2), pow3 (3), pow4 (4), pow5 (5): ");
+	scanf("%d", &funcNum);
+	printf("\nSet C values (0/1) ");
+	scanf("%d", &juliaMode);
+	
+	if (juliaMode) {
+		printf("\nc = _ + []i \n");
+		scanf("%lf", &setCx);
+		printf("\n c = [] + _i \n");
+		scanf("%lf", &setCy);
+	}
+	
+	if (mode == 5) {
+		printf("\nFullscreen (0/1): ");
+		scanf("%d", &fullScr);
+	}
+	
 	if ((mode == 4) || (mode == 5)) {
 		printf("\nSound (0/1): ");
 		scanf("%d", &soundToggle);
+		set_mode( VGA_256_COLOR_MODE );
 	}
 
 	if ((mode < 5)) {
@@ -264,345 +239,77 @@ int main()
 		printf("\nHeight: ");
 		scanf("%lf", &ySize);
 	}
-
+	
 	vga:
 	if (mode != 5) {
 		printf("\nIterations: ");
 		scanf("%lf", &t);
 	}
 
-	/* Store in Text Mode */
-	if (mode == 1) {
-		for (y = 0; y < ySize; y++) {
-			for (x = 0; x < xSize; x++) {
-				double cx = mapRange(0, xSize, xCoord-20/Zoom, xCoord+20/Zoom, x);
-				double cy = mapRange(0, ySize, yCoord+20/Zoom, yCoord-20/Zoom, y);
-				double zx = cx;
-				double zy = cy;
-
-				int i = 0;
-				for (i = 0; i < t; i++) {
-					double tmp = zx;
-					zx = funcX(funcNum, zx, zy, cx, setCx);
-					zy = funcY(funcNum, zy, cy, tmp, setCy);
-
-					if ((zx*zx + zy*zy) > 4) {
-						fprintf(fp, " ");
-						break;
-					}
-				}
-				if (i == (int)t) {
-					fprintf(fp, "#");
-				}
-			}
-			clrscr();
-			fprintf(fp, "\n");
-			p = (y/ySize)*100;
-			printf("%f%\n",p);
+	/* Calculating */
+	set_mode( VGA_256_COLOR_MODE );
+	begin = clock();
+	drawSetInMode();
+	nosound();
+	end = clock();
+	time_spent = (double)(end - begin) / CLK_TCK;
+	printf("%.2lfs - Press Escape to Exit\n", time_spent);
+	while (1) {
+		if (getch() == 0x1b) {
+			goto reboot;
 		}
-		fclose(fp);
-		return 0;
 	}
+	
+	set_mode( TEXT_MODE );
+	return 0;
+}
 
-	/* Screen Render Mode */
-	if (mode == 2) {
-		for (y = 0; y < ySize; y++) {
-			double x = 0;
-			for (x = 0; x < xSize; x++) {
-				double cx = mapRange(0, xSize, xCoord-20/Zoom, xCoord+20/Zoom, x);
-				double cy = mapRange(0, ySize, yCoord+20/Zoom, yCoord-20/Zoom, y);
-				double zx = cx;
-				double zy = cy;
-
-				int i = 0;
-				for (i = 0; i < t; i++) {
-					double tmp = zx;
-					zx = funcX(funcNum, zx, zy, cx, setCx);
-					zy = funcY(funcNum, zy, cy, tmp, setCy);
-
-					if ((zx*zx + zy*zy) > 4) {
-						printf(" ");
-						break;
-					}
-				}
-				if (i == t) {
-					printf("#");
-				}
-			}
-			printf("\n");
-		}
-		printf("Press Escape to Exit\n");
-		while (1) {
-			if (getch() != 0x1b) {
-
+void drawSetInMode() {
+	switch(mode) {
+		case 4:
+			set_mode( VGA_256_COLOR_MODE );
+			xSize = SCREEN_WIDTH;
+			ySize = SCREEN_HEIGHT;
+		case 5:
+			set_mode( VGA_256_COLOR_MODE );
+			xSize = SCREEN_WIDTH;
+			ySize = SCREEN_HEIGHT;
+	}
+	
+	for (y = 0; y < ySize; y++) {
+		for (x = 0; x < xSize; x++) {
+			int i;
+			double cy,cx,zy,zx;
+			
+			/* Julia sets */
+			if (juliaMode) {
+				cx = setCx;
+				cy = setCy;
+				
+				zy = mapRange(0, ySize, yCoord+(ySize/10)/Zoom, yCoord-(ySize/10)/Zoom, y);
+				zx = mapRange(0, xSize, xCoord-(xSize/10)/Zoom, xCoord+(xSize/10)/Zoom, x);
 			} else {
-				set_mode( TEXT_MODE );
-				return 0;
-			}
-		}
-	}
-
-	/* Text and Screen */
-	if (mode == 3) {
-		for (y = 0; y < ySize; y++) {
-			for (x = 0; x < xSize; x++) {
-				double cx = mapRange(0, xSize, xCoord-20/Zoom, xCoord+20/Zoom, x);
-				double cy = mapRange(0, ySize, yCoord+20/Zoom, yCoord-20/Zoom, y);
-				double zx = cx;
-				double zy = cy;
-
-				int i = 0;
-				for (i = 0; i < t; i++) {
-					double tmp = zx;
-					zx = funcX(funcNum, zx, zy, cx, setCx);
-					zy = funcY(funcNum, zy, cy, tmp, setCy);
-
-					if ((zx*zx + zy*zy) > 4) {
-						printf(" ");
-						fprintf(fp, " ");
-						break;
-					}
-				}
-				if (i == (int)t) {
-					fprintf(fp, "#");
-					printf("#");
-				}
-			}
-			printf("\n");
-			fprintf(fp, "\n");
-		}
-		fclose(fp);
-		printf("Press Escape to Exit\n");
-		while (1) {
-			if (getch() != 0x1b) {
-
-			} else {
-				set_mode( TEXT_MODE );
-				return 0;
-			}
-		}
-	}
-
-	/* Dithered VGA Full Render */
-	if (mode == 4) {
-		set_mode( VGA_256_COLOR_MODE );
-		begin = clock();
-		for (y = 0; y < SCREEN_HEIGHT; y++) {
-			for (x = 0; x < SCREEN_WIDTH; x++) {
-				double cx = mapRange(0, SCREEN_WIDTH, xCoord-32/Zoom, xCoord+32/Zoom, x);
-				double cy = mapRange(0, SCREEN_HEIGHT, yCoord+20/Zoom, yCoord-20/Zoom, y);
-				double zx = cx;
-				double zy = cy;
-
-				int i = 0;
-				for (i = 0; i < t; ++i) {
-					double tmp = zx;
-						zx = funcX(funcNum, zx, zy, cx, setCx);
-						zy = funcY(funcNum, zy, cy, tmp, setCy);
-
-					if ((zx*zx + zy*zy) > 4) {
-						SETPIX((int)x,(int)y, (int)smoothColor(i, (int)x, (int)y));
-						if ( soundToggle == 1 ) {
-							sound(i+1);
-						}
-						break;
-					}
-				}
-			}
-		}
-		nosound();
-		end = clock();
-		time_spent = (double)(end - begin) / CLK_TCK;
-		printf("%.2lfs - Press Escape to Exit\n", time_spent);
-		while (1) {
-			if (getch() == 0x1b) {
-				set_mode( TEXT_MODE );
-				return 0;
+				cx = mapRange(0, xSize, xCoord-(xSize/10)/Zoom, xCoord+(xSize/10)/Zoom, x);
+				cy = mapRange(0, ySize, yCoord+(ySize/10)/Zoom, yCoord-(ySize/10)/Zoom, y);
+				zy = cy;
+				zx = cx;
 			}
 			
-			if (getch() == 0x09) {
-				goto explore;
-			}
-		}
-	}
+			for (i = 0; i < t; ++i) {
+				double tmp = zx;
+					zx = funcX(funcNum, zx, zy, cx);
+					zy = funcY(funcNum, zy, cy, tmp);
 
-	/* Exploration mode */
-	if (mode == 5) {
-		explore:
-		t = 25;
-		set_mode( VGA_256_COLOR_MODE );
-		clrscr();
-
-		draw:
-		if (res < 1) { res = 1; }
-
-		halfScreenWidth = SCREEN_WIDTH/res;
-		halfScreenHeight = (SCREEN_HEIGHT/res)+8;
-		if (res == 1) { halfScreenHeight = SCREEN_HEIGHT; }
-		for (y = 0; y < halfScreenHeight; y++) {
-			for (x = 0; x < SCREEN_WIDTH; x++) {
-				drawTop(x,y); 
-				
-				/* if y is greater than 8 */
-				if (x < halfScreenWidth) {
-					if (y >= 8) {
-						int i;
-						double cy = yCoord + 20 / Zoom - y * 40 / (Zoom * halfScreenHeight);
-						double cx = xCoord - 32 / Zoom + x * 64 / (Zoom * halfScreenWidth);
-						double zx = cx;
-						double zy = cy;
-
-						for (i = 0; i < t; i++) {
-							double tmp = zx;
-							zx = funcX(funcNum, zx, zy, cx, setCx);
-							zy = funcY(funcNum, zy, cy, tmp, setCy);
-
-							if ((zx*zx + zy*zy) > 4) {
-								SETPIX((int)x,(int)y, (int)smoothColor(i, (int)x, (int)y));
-								if ( soundToggle == 1 ) {
-									sound(i);
-								}
-								break;
-							} else {
-								SETPIX((int)x,(int)y,0);
-							}
-						}
+				if ((zx*zx + zy*zy) > 4) {
+					drawBasedOnMode(x,y,i);
+					if ( soundToggle == 1 ) {
+						sound(i+1);
 					}
-				}
-			}
-		}
-		nosound();
-		printf("\r%d, ",(int)t);
-		printf("%g, ",xCoord);
-		printf("%g ",yCoord);
-
-		while( kc != 0x1b ) {
-			if (kbhit()) {
-				kc = getch();
-				/* Regular Chars */
-				switch( kc ) {
-					case 0x74: /* increase resolution, T */
-						res = res/2;
-						clrscr();
-						goto draw;
-					case 0x67: /* decrease resolution, G */
-						res = res*2;
-						clrscr();
-						goto draw;
-					case 0x77: /* up, W */
-						yCoord = yCoord+2/Zoom;
-						goto draw;
-					case 0x73: /* down, S */
-						yCoord = yCoord-2/Zoom;
-						goto draw;
-					case 0x61: /* left, A */
-						xCoord = xCoord-2/Zoom;
-						goto draw;
-					case 0x64: /* right, D */
-						xCoord = xCoord+2/Zoom;
-						goto draw;
-					case 0x65: /* zoom out, Q */
-						Zoom = Zoom*1.25;
-						goto draw;
-					case 0x71: /* zoom in, E */
-						Zoom = Zoom/1.25;
-						goto draw;
-					case 0x72: /* increase iterations, R */
-						t = t+25;
-						goto draw;
-					case 0x66: /* decrease iterations, F */
-						t = t-25;
-						if (t < 1) {
-							t = 25;
-						}
-						goto draw;
-					case 0x6d: /* save location, M */
-						for (y = 0; y < 8; ++y) {
-							drawTop(x,y);
-						}
-						
-						printf("\rSave as: %s", dest);
-						scanf("%s", filename);
-						strcat(dest, filename);
-						strcat(dest, ".txt");
-						
-						fp = fopen(dest, "w");
-						
-						fprintf(fp, "%d", (int)t);
-						fprintf(fp, "iter_X=");
-						fprintf(fp, "%g", xCoord);
-						fprintf(fp, "_Y=");
-						fprintf(fp, "%g", yCoord);
-						fprintf(fp, "_Zoom=");
-						fprintf(fp, "%.2lf", Zoom);
-						
-						fclose(fp);
-						strcpy(dest,"C:\\");
-						memset(filename, 0, 8);
-						
-						clrscr();
-						goto draw;
-					case 0x6e: /* load location, N */
-						for (y = 0; y < 8; ++y) {
-							drawTop(x,y);
-						}
-						printf("\rLoad: %s", dest);
-						scanf("%s", filename);
-						strcat(dest, filename);
-						strcat(dest, ".txt");
-						gotoxy(0,10);
-						printf("\n%s", dest);
-						fp = fopen(dest, "r");
-						clrscr();
-						printf("\n");
-						if (fp != NULL) {
-							while (fgets(str, 512, fp) != NULL)
-								printf("%s", str);
-							fclose(fp);
-							
-							token = strtok(str, "iter_X_Y=Zoom");
-							
-							readI = 0;
-							
-							for (readI = 0; readI < 4; ++readI) {
-								switch (readI){
-									case 0:
-										sscanf(token, "%lf", &t);
-										printf( "\n%s", token );
-										token = strtok(NULL, "iter_X_Y=Zoom");
-									case 1:
-										sscanf(token, "%lf", &xCoord);
-										printf( "\n%s", token );
-										token = strtok(NULL, "iter_X_Y=Zoom");
-									case 2:
-										sscanf(token, "%lf", &yCoord);
-										printf( "\n%s", token );
-										token = strtok(NULL, "iter_X_Y=Zoom");
-									case 3:
-										sscanf(token, "%lf", &Zoom);
-										printf( "\n%s", token );
-										token = strtok(NULL, "iter_X_Y=Zoom");
-								}
-							}
-						} else {
-							printf("\nFailed to find %s!", dest);
-							delay(5000);
-						}
-						
-						fclose(fp);
-						
-						strcpy(dest,"C:\\");
-						memset(filename, 0, 8);
-						clrscr();
-						goto draw;
-					/* rendering modes */
-					case 0x09: /* render as VGA, Tab */
-						mode = 4;
-						goto vga;
+					break;
+				} else {
+					drawBasedOnMode(x,y,0);
 				}
 			}
 		}
 	}
-
-	set_mode( TEXT_MODE );
-}
+}
