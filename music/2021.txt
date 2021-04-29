@@ -1,0 +1,18 @@
+<table class="postTableOrg" style="height: 50%;">
+		<tr>
+			<th>
+				<div class="postTable">         
+					<p class="links">Pokémon GS - Bicycle</p>
+						<audio src="music/2021/Jan/Pokémon GS - Bicycle.mp3" controls style="width:100%">
+						</audio>
+				</div>
+			</th>
+			<th>
+				<div class="postTable">         
+					<p class="links">Game Corner - Pokémon Heart Soul</p>
+						<audio src="music/2021/Feb/Game Corner - Pokémon Heart Soul.mp3" controls style="width:100%">
+						</audio>
+				</div>
+			</th>
+		</tr>
+</table>
