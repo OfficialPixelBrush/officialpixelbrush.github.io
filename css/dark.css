@@ -456,3 +456,29 @@
 		border:10px solid black;
 		max-width: 100%;
 	}
+
+	
+	/* Music Pages */
+	.musicThumb	
+	{
+		width: 128px;
+		height: 128px;
+	}
+	
+	.audioTab
+	{
+		width: 100%;
+		background-position: center;
+		background-size: 100% auto;
+		background-color: var(--backgroundPink);
+		font-family: Arial;
+		font-size: 75%;
+		font-weight: normal;
+		text-shadow: 1px 1px var(--backgroundPink),
+		-1px 1px var(--backgroundPink),
+		1px -1px var(--backgroundPink),
+		-1px -1px var(--backgroundPink);
+		box-shadow: 0 0px 4px rgba(0, 0, 0, 100);
+        transition: background-size 0.2s;
+		position: relative;
+	}
