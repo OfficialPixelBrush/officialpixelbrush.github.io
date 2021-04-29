@@ -1,0 +1,7 @@
+<a class='postNbmr'>#41</a>
+</br>
+</br>
+Been busy porting my Mandelbrot/Fractal Program to lots of other platforms, gonna make a post with links to them later.
+</br>
+</br>
+<a id="postdate" class="date">29th of April, 2021 - 08:10</a>
