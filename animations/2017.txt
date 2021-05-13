@@ -1,6 +1,6 @@
 		<div class="post">
 		<h1>Happy Halloween! | Animation Short</h1>
-		<iframe width="64%" height="36%" src="https://www.youtube.com/embed/WCKXoFctoKQ" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe width="64%" src="https://www.youtube.com/embed/WCKXoFctoKQ" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		<br/>
 		<a>Published on: 31st of October, 2017</a>
 		</div>
@@ -8,7 +8,7 @@
 		
 		<div class="post">
 		<h1>Victory!</h1>
-		<iframe width="64%" height="36%" src="https://www.youtube.com/embed/_uCb25bfQr0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe width="64%" src="https://www.youtube.com/embed/_uCb25bfQr0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		<br/>
 		<a>Published on: 27th of August, 2017</a>
 		</div>
@@ -16,7 +16,7 @@
 		
 		<div class="post">
 		<h1>Left Brain Right Brain Animatic</h1>
-		<iframe width="64%" height="36%" src="https://www.youtube.com/embed/Vf5zcYaXrPs" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe width="64%" src="https://www.youtube.com/embed/Vf5zcYaXrPs" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		<br/>
 		<a>Published on: 23rd of July, 2017</a>
 		</div>

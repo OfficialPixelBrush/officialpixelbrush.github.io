@@ -3,7 +3,7 @@
 		<br/>
 		<a>Learning how to sculpt model and lip sync in Blender, Audio recorded by me at 3:30AM or so.</a>
 		<br/>
-		<video width="64%" height="36%" controls>
+		<video width="64%" controls>
 		<source src="animations\render_v11_test0000-0067.mp4" type="video/mp4">
 		</video> 
 		<br/>
@@ -17,7 +17,7 @@
 		<br/>
 		<a>Made for the #rembersdistractioncollab, my first time properly animating on 1s.</a>
 		<br/>
-		<video width="64%" height="36%" controls loop>
+		<video width="64%" controls loop>
 		<source src="animations\distractiondance_final_rerender0000-0109.mp4" type="video/mp4">
 		</video> 
 		<br/>
@@ -31,7 +31,7 @@
 		<br/>
 		<a>Voiced by Gravitas Shortfall, animated by me within an hour as a challenge.</a>
 		<br/>
-		<video width="64%" height="36%" controls>
+		<video width="64%" controls>
 		<source src="animations\uhohmeth0001-0464.mp4" type="video/mp4">
 		</video> 
 		<br/>
@@ -46,7 +46,7 @@
 		<br/>
 		<a>Voiced by Gravitas Shortfall</a>
 		<br/>
-		<video width="64%" height="36%" controls>
+		<video width="64%" controls>
 		<source src="animations\pikuseru_x_suraimuyagi_subbed.mp4" type="video/mp4">
 		</video> 
 		<br/>
@@ -58,7 +58,7 @@
 		<div class="post">
 		<h1>Do the Bootlegio</h1>
 		<br/>
-		<video width="64%" height="36%" controls>
+		<video width="64%" controls>
 		<source src="animations\do_the_bootlegio.mp4" type="video/mp4">
 		</video> 
 		<br/>
@@ -70,7 +70,7 @@
 		<div class="post">
 		<h1>Peace out Pixel</h1>
 		<br/>
-		<video width="64%" height="36%" controls>
+		<video width="64%" controls>
 		<source src="animations\time to get outta here0001-0013.mp4" type="video/mp4">
 		</video> 
 		<br/>
@@ -84,7 +84,7 @@
 		<br/>
 		<a>Voiced by Gravitas Shortfall</a>
 		<br/>	
-		<video width="64%" height="36%" controls>
+		<video width="64%" controls>
 		<source src="animations\the_best_fanfiction_ever_created.mp4" type="video/mp4">
 		</video>
 		<br/>
@@ -99,7 +99,7 @@
 		<br/>	
 		<a>Voiced by Gravitas Shortfall</a>
 		<br/>	
-		<video width="64%" height="36%" controls>
+		<video width="64%" controls>
 		<source src="animations\epic_animation0001-0915.mp4" type="video/mp4">
 		</video>
 		<br/>

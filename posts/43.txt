@@ -1,0 +1,35 @@
+<a class='postNbmr'>#43</a>
+</br>
+</br>
+<h1>Massive Website Overhaul!</h1>
+We've left the 80s phase! Woohoo!
+</br>
+</br>
+I opted for a calmer and cozier dark-mode, because I kinda hated burning out my eyes whenever I popped in here at 2am.
+</br>
+
+</br>
+Also cleaned up some messy spots, like Contacts (that timetable was both inaccurate and ugly), Creations (they all have images finally) and the Portfolio, which now has some newer images, alongside a little intro (please hire me).
+</br>
+
+</br>
+<table>
+	<tr>
+		<th>
+			<img class="postTable" style="width: 100%; height: auto;" src="/images/postImages/43/newcreationswoooo.jpg">
+		</th>
+	</tr>
+</table>
+<table>
+	<tr>
+		<th>
+			<img class="postTable" style="width: 100%; height: auto;" src="/thumbs/is_me.jpg">
+		</th>
+		<th>
+			<img class="postTable" style="width: 100%; height: auto;" src="/images/postImages/43/intro.jpg">
+		</th>
+	</tr>
+</table>
+</br>
+</br>
+<a id="postdate" class="date">13th of May, 2021 - 22:47</a>

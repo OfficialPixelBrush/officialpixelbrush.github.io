@@ -1,7 +1,7 @@
 
 		<div class="post">
 		<h1>I am a Ghost</h1>
-		<iframe width="64%" height="36%" src="https://www.youtube.com/embed/0L32SNU3i7Y" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe width="64%" src="https://www.youtube.com/embed/0L32SNU3i7Y" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		<br/>
 		<a>Published on: 26th of November, 2018</a>
 		</div>

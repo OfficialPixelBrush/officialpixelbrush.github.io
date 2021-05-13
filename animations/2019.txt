@@ -2,7 +2,7 @@
 		<h1>Sleeping Pixel</h1>
 		<br/>	
 		
-		<video width="64%" height="36%" controls loop>
+		<video width="64%" controls loop>
 		<source src="animations\sleeping_pixel_compressed.mp4" type="video/mp4">
 		</video> 
 		
@@ -14,7 +14,7 @@
 		<div class="post">
 		<h1>Bees - Grease Pencil Test</h1>
 		<br/>	
-		<iframe width="64%" height="36%" src="https://www.youtube.com/embed/TPS1PquwgpQ" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe width="64%" src="https://www.youtube.com/embed/TPS1PquwgpQ" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		<br/>
 		<a>Published on: 16th of September, 2019</a>
 		</div>
@@ -22,14 +22,14 @@
 		
 		<div class="post">
 		<h1>Valve Intro (Team Fortress 2)</h1>
-		<iframe width="64%" height="36%" src="https://www.youtube.com/embed/o7LNqM4QJbY" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>		<br/>
+		<iframe width="64%" src="https://www.youtube.com/embed/o7LNqM4QJbY" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>		<br/>
 		<a>Published on: 11th of November, 2019</a>
 		</div>
 		<br/>
 		
 		<div class="post">
 		<h1>SMG4 - 3 Million Special Entry</h1>
-		<iframe width="64%" height="36%" src="https://www.youtube.com/embed/uF-oSl7kJRQ" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe width="64%" src="https://www.youtube.com/embed/uF-oSl7kJRQ" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		<br/>
 		<a>Published on: 28th of April, 2019</a>
 		<br/>
