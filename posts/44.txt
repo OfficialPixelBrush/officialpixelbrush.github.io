@@ -1,0 +1,18 @@
+<a class='postNbmr'>#44</a>
+</br>
+</br>
+My DOS Apps are now playable in the browser!
+</br>
+
+</br>
+<a class="links" href="/apps/mndlbrtc">MNDLBRTC
+</br>
+<img class="image" src="thumbs/apps/mndlbrtc.webp"> </a>
+</br>
+</br>
+<a class="links" href="/apps/draw">DRAW
+</br>
+<img class="image" src="thumbs/apps/draw.webp">  </a>
+</br>
+</br>
+<a id="postdate" class="date">19th of May, 2021 - 23:04</a>
