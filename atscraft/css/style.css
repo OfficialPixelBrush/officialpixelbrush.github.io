@@ -138,6 +138,8 @@
 		max-width: 50%;
 		border:2px solid var(--glowPinkDarker);
 		border-radius: 3px;
+		display: block;
+		margin-left: auto;
 	}
 	
 	.line {
