@@ -1,0 +1,15 @@
+<a class='postNbmr'>#46</a>
+</br>
+</br>
+There's now a list with all my Mandelbrot Ports!
+</br>
+Here it is <a href="/apps/mandelbrotPorts">Mandelbrot Ports</a>
+</br>
+
+</br>
+<img class="image" src="/thumbs/mndlbrt/pico8.jpg">
+</br>
+<img class="image" src="/thumbs/mndlbrt/gb.jpg">
+</br>
+</br>
+<a id="postdate" class="date">5th of June, 2021 - 13:20</a>

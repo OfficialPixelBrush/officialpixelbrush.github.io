@@ -1,5 +1,5 @@
-let nmbr_of_posts = 39;
-let nmbr = 39;
+let nmbr_of_posts = 34;
+let nmbr = 34;
 let disCSS = 0;
 
 function getNumberOfPosts() {
