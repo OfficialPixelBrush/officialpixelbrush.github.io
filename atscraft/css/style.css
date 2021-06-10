@@ -9,6 +9,13 @@
 		--bgColor: #181A1B;
 	}
 	
+	@font-face {
+		font-family: Minecraftia;
+		src: url(MinecraftRegular.otf) format('opentype');
+		font-weight: normal;
+		font-display: swap;
+	}
+	
 	/* Main */
 	body {
   		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/2021-02-08_13.53.23.webp') no-repeat center center fixed;
@@ -149,3 +156,14 @@
 		border-bottom-color: var(--glowPinkDarker);
 		margin-bottom: 20px;
 	}	
+	
+	.sign {
+		font-family: Minecraftia;
+		background-image:  url('../images/raw/sign.png');
+		image-rendering: pixelated;
+		background-size: cover;
+		background-repeat: no-repeat;
+		box-shadow: 0px 5px 5px black;
+		color: black;
+		font-size: 150%;
+	}
