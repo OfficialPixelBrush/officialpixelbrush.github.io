@@ -1,0 +1,7 @@
+14th of June, 2021 - 07:31 am
+<ul>
+<li>
+did some testing with 1.17 Spigot</li>
+<li>definitely doesn't use as many resources</li>
+</ul>
+-PixelBrushArt
