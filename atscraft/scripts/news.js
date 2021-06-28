@@ -31,34 +31,14 @@ function loadPost() {
 		} else {
 			document.getElementById('mainpost').innerHTML = '-';
 		}
-		if (nmbr-1 > 0) {
-			document.getElementById('mainpost2').innerHTML = FileHelper('news/' + (nmbr-1) + '.txt');
-		} else {
-			document.getElementById('mainpost2').innerHTML = '-';
-		}
-		if (nmbr-2 > 0) {
-			document.getElementById('mainpost3').innerHTML = FileHelper('news/' + (nmbr-2)  + '.txt');
-		} else {
-			document.getElementById('mainpost3').innerHTML = '-';
-		}
-		if (nmbr-3 > 0) {
-			document.getElementById('mainpost4').innerHTML = FileHelper('news/' + (nmbr-3)  + '.txt');
-		} else {
-			document.getElementById('mainpost4').innerHTML = '-';
-		}
-		if (nmbr-4 > 0) {
-			document.getElementById('mainpost5').innerHTML = FileHelper('news/' + (nmbr-4)  + '.txt');
-		} else {
-			document.getElementById('mainpost5').innerHTML = '-';
-		}
 	} else {
 		latest();
 	}
 }
 
 function next() {
-	if (nmbr+5 <= nmbr_of_posts) {
-		nmbr = nmbr+5;
+	if (nmbr+1 <= nmbr_of_posts) {
+		nmbr = nmbr+1;
 		updatePostNumberURL();
 		loadPost();
 	}
@@ -78,8 +58,8 @@ function latest() {
 }
 
 function previous() {
-	if (nmbr-5 > 0) {
-		nmbr = nmbr-5;
+	if (nmbr-1 > 0) {
+		nmbr = nmbr-1;
 		updatePostNumberURL();
 		loadPost();
 	}
