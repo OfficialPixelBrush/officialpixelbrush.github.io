@@ -1,0 +1,6 @@
+7th of July, 2021 - 03:14 pm
+<ul>
+<li>Official Move to 1.17.1!</li>
+<li>Discontinuation of Minecraft Bedrock support, unfortunately</li>
+</ul>
+-PixelBrushArt
