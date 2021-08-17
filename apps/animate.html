@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+	<link rel="stylesheet" type="text/css" href="/css/dark.css" /> 
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>ANIMATE</title>
+       <style type="text/css">
+         .dosbox-container { width: 640px; height: 400px; display: block; margin-left: auto; margin-right: auto; }
+        </style>
+  </head>
+  <body>
+	<div class="menu">
+	  <a class="hotbar_selector" href="/apps">Back to Apps</a>
+	</div>
+       <br/>
+		<h1 style="text-align: center;">ANIMATE</h1>
+       <div id="dosbox"></div>
+       <br/>
+       <button style="display: block; margin-left: auto; margin-right: auto;" onclick="dosbox.requestFullScreen();">Make fullscreen</button>
+	   </br>	   
+	   <div class="post"> 
+		<h1>Controls</h1>
+			<div style="text-align: left;">
+			(Note: a US QWERTY Keyboard is assumed by default, so if you're using a different kind of keyboard, some keys may be mapped wrong!)
+			</br>
+			Q - frame back
+			</br>
+			E - frame forward
+			</br>
+			
+			T - color left
+			</br>
+			G - color right
+			</br>
+			
+			R - increase brush size
+			</br>
+			F - decrease brush size
+			</br>
+			
+			1 - save apm
+			</br>
+			2 - load apm
+			</br>
+			
+			Left Click - Draw
+			</br>
+			Right Click - Color Picker
+			</div>
+			
+	   </div>
+		   <div class="post"> 
+			<h1>Example Files</h1>
+				<div style="text-align: left;">
+				BALL.APM - A bouncing ball animation
+				</br>
+				GOTE.APM - Animation by @AGoatOnAHill
+				</br>
+				BEAN.APM - Two drawings of a character made by @AGoatOnAHill
+				</br>
+				BANANA.APM - A rotating banana Gif
+				</br>
+				RED.APM - A Red Panda Gif
+				</br>
+				</div>
+		   </div>
+       
+       <script type="text/javascript" src="https://js-dos.com/cdn/js-dos-api.js"></script>
+       <script type="text/javascript">
+         var dosbox = new Dosbox({
+           id: "dosbox",
+           onload: function (dosbox) {
+             dosbox.run("/apps/C/ANIMATE/ANIMATE.zip", "./ANIMATE.EXE");
+           },
+           onrun: function (dosbox, app) {
+             console.log("App '" + app + "' is runned");
+           }
+         });
+       </script>
+	   
+  </body>
+</html>
