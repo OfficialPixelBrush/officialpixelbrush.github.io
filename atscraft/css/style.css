@@ -20,7 +20,6 @@
 	body {
   		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/2021-07-24_22.52.28.webp') no-repeat center center fixed;
 		background-size: cover;
-		
 	}
 	
 	.logo {
@@ -137,6 +136,27 @@
 		
 		color: white;
 		font-family: Arial;
+	}
+	
+	.postClickable {
+		font-size: 300%;
+		background-size: 100%;
+		background-origin: border-box;
+		background-position: center;
+		background-repeat: no-repeat;
+		text-shadow:
+	   -1px -1px 0 #000,  
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		 1px 1px 0 #000;
+        transition: background-size 0.2s;
+		
+	}
+	
+	.postClickable:hover {
+		background-size: 110%;
+		background-origin: border-box;
+        transition: background-size 0.2s;
 	}
 
 	/* Image */
