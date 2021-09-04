@@ -75,7 +75,7 @@ def uT():
 
 
         lines = open("index.html").read().splitlines()
-        lines[lineNumber] = '    <a class="date"> Last Updated: ' + date + '</a>'
+        lines[lineNumber] = '    <!--<a class="date"> Last Updated: ' + date + '</a>-->'
         open("index.html",'w').write('\n'.join(lines))
 
 uT()
