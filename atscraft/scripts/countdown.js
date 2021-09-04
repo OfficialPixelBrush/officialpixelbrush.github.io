@@ -1,5 +1,5 @@
 const now = new Date();
-const d = new Date('September 05, 2021 12:00:00');
+const d = new Date('September 05, 2021 12:00:00 +0200');
 
 const time = d.getTime() - now.getTime();
 const days = Math.floor(time / 1000 / 60 / 60 / 24);
