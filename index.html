@@ -12,43 +12,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=0.75" /> 
 
 <!-- Primary Meta Tags -->
-<meta name="title" content="80bytes - Main">
-<meta name="description" content="Subpage for 80bytes">
+<meta name="title" content="Pixel Brush - Homepage">
+<meta name="description" content="Homepage for everything Pixel Brush related">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://pixelbrush.dev/80bytes/">
-<meta property="og:title" content="80bytes - Main">
-<meta property="og:description" content="Subpage for 80bytes">
+<meta property="og:url" content="https://pixelbrush.dev/">
+<meta property="og:title" content="Pixel Brush - Homepage">
+<meta property="og:description" content="Homepage for everything Pixel Brush related">
 <meta property="og:image" content="/images/embed.webp">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://pixelbrush.dev/80bytes/">
-<meta property="twitter:title" content="80bytes - Main">
-<meta property="twitter:description" content="Subpage for 80bytes">
+<meta property="twitter:url" content="https://pixelbrush.dev/">
+<meta property="twitter:title" content="Pixel Brush - Homepage">
+<meta property="twitter:description" content="Homepage for everything Pixel Brush related">
 <meta property="twitter:image" content="/images/embed.webp">
-
-<script src="https://visrealm.github.io/vrEmuLcd/src/vrEmuLcd.js"></script>
-<script src="https://visrealm.github.io/vrEmuLcd/bin/vrEmuLcdWasm.js"></script>
-
-<script>
-var canv = document.getElementById('lcd');
-var ctx = canv.getContext('2d');
-
-vrEmuLcd.setLoadedCallback(function () {
-
-  // create a new LCD object
-  var lcd = vrEmuLcd.newLCD(16, 2, vrEmuLcd.CharacterRom.Eurpoean);
-  
-  // set up the display
-  lcd.sendCommand(LCD_CMD_DISPLAY | LCD_CMD_DISPLAY_ON);
-  
-  lcd.writeString("Hello, World!");
-  
-  lcd.render(ctx, 0, 0, 800, 400);
-});
-</script>
 </head>
 
 <body onload="loadPost();">
@@ -79,7 +58,36 @@ vrEmuLcd.setLoadedCallback(function () {
 <div class="site">
 <div class="text">
     </br>
-	<canvas id="lcd"></canvas>
+    <!--<a class="date"> Last Updated: 5th of September, 2021 - 16:33</a>-->
+	<a class="date"> Last Updated: <img style="vertical-align: middle;" src="https://img.shields.io/github/last-commit/OfficialPixelBrush/officialpixelbrush.github.io?color=%23220000&label=%20&style=for-the-badge"></a>
+	<button class="postButton" style="font-size: 150%;" onclick="previous()">Previous</button>
+	<button class="postButton" style="font-size: 150%;" onclick="next()">Next</button>
+	</br>
+	
+	<div class="post"> 
+	<a id="mainpost"></a>
+	</div>
+	
+	<div class="post"> 
+	<a id="mainpost2"></a>
+	</div>
+	
+	<div class="post"> 
+	<a id="mainpost3"></a>
+	</div>
+	
+	<div class="post"> 
+	<a id="mainpost4"></a>
+	</div>
+	
+	<div class="post"> 
+	<a id="mainpost5"></a>
+	</div>
+	
+	</br>
+	<button class="postButton" style="font-size: 150%;" onclick="previous()">Previous</button>
+	<button class="postButton" style="font-size: 150%;" onclick="next()">Next</button>
+	
 </div>
 
 <script src="scripts/main.js"></script>
