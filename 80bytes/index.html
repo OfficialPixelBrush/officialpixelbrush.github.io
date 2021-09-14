@@ -1,0 +1,56 @@
+<html>
+<head>
+  <title>80Bytes - Main</title>
+  <link  id="pagestyle" rel="stylesheet" type="text/css" href="css/dark.css" />  
+
+    <style type="text/css">  
+        body { margin:0; }  
+    </style>    
+	
+<link rel="shortcut icon" href="favicon/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" href="favicon/apple-touch-icon.png" />
+<meta name="viewport" content="width=device-width, initial-scale=0.75" /> 
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="80Bytes - Main">
+<meta name="description" content="Subpage for 80Bytes">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://pixelbrush.dev/80bytes/">
+<meta property="og:title" content="80Bytes - Main">
+<meta property="og:description" content="Subpage for 80Bytes">
+<meta property="og:image" content="/images/embed.webp">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://pixelbrush.dev/80bytes/">
+<meta property="twitter:title" content="80Bytes - Main">
+<meta property="twitter:description" content="Subpage for 80Bytes">
+<meta property="twitter:image" content="/images/embed.webp">
+
+<script src="src/vrEmuLcd.js"></script>
+<script src="bin/vrEmuLcdWasm.js"></script>
+<script>
+var canv = document.getElementById('lcd');
+var ctx = canv.getContext('2d');
+
+vrEmuLcd.setLoadedCallback(function () {
+
+  // create a new LCD object
+  var lcd = vrEmuLcd.newLCD(16, 2, vrEmuLcd.CharacterRom.Eurpoean);
+  
+  // set up the display
+  lcd.sendCommand(LCD_CMD_DISPLAY | LCD_CMD_DISPLAY_ON);
+  
+  lcd.writeString("Hello, World!");
+  
+  lcd.render(ctx, 0, 0, 800, 400);
+});
+</script>
+</head>
+
+<body>
+<canvas id="lcd"></canvas>
+</body>
+</html>
