@@ -1,3 +1,44 @@
-body {
+@font-face {
+	font-family: LCD2004A;
+	src: url(LCD2004A.woff) format('woff'),
+		 url(LCD2004A.ttf) format('truetype');
+	font-weight: normal;
+	font-display: swap;
+}
+
+html {
+	font-family: LCD2004A;
 	background-color: black;
+	color: white;
+	font-smooth: never;
+	-webkit-font-smoothing : none;
+	font-size: 30px;
+	image-rendering: pixelated;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: -o-crisp-edges;
+	image-rendering: -webkit-optimize-contrast;
+	-ms-interpolation-mode: nearest-neighbor;
+	text-shadow: 0px 0px 3px;
+}
+
+html {
+	background-color: black;
+	/*background: no-repeat center center fixed;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.baz80bc {
+	color: ff5677;
+}
+
+.lc {
+	color: 57d8ff;
+}
+
+.hidden {
+	color: 363636;
 }
