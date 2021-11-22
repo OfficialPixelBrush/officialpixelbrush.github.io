@@ -1,0 +1,11 @@
+<a class='postNbmr'>#49</a>
+</br>
+</br>
+Making progress on my Z80-based Computer. May make a new Episode of 80Bytes if I have the time or motivation for it, but right now I don't really have either of those!
+</br>
+
+</br>
+Guess I'll just have to see how this develops.
+</br>
+</br>
+<a id="postdate" class="date">22th of November, 2021 - 16:26</a>
