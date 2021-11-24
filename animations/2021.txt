@@ -1,6 +1,20 @@
 		<div class="post">
 		<h1>Second one</h1>
 		<br/>
+		<a>Blue Shell Incident Reanimated</a>
+		<br/>
+		<video width="64%" controls>
+		<source src="animations\Handio_Re6.mp4.mp4" type="video/mp4">
+		</video> 
+		<br/>
+		<br/>	
+		<a>Published on: 21th of November, 2021</a>
+		</div>
+		<br/>
+		
+		<div class="post">
+		<h1>Second one</h1>
+		<br/>
 		<a>Extended my first animation.</a>
 		<br/>
 		<video width="64%" controls>
