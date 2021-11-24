@@ -1,7 +1,7 @@
 		<div class="post">
-		<h1>Second one</h1>
+		<h1>Blue Shell Incident Reanimated</h1>
 		<br/>
-		<a>Blue Shell Incident Reanimated</a>
+		<a>link tba</a>
 		<br/>
 		<video width="64%" controls>
 		<source src="animations\Handio_Re6.mp4.mp4" type="video/mp4">
