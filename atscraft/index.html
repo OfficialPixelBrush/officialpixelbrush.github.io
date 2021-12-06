@@ -33,12 +33,12 @@ xhr.onload = function () {
     if (xhr.readyState === xhr.DONE) {
         if (xhr.status === 200) {
 			var json = JSON.parse(xhr.responseText);
-            console.log(json.description);
+            console.log(json.players.sample);
 			
 			var sample = json.players.sample;
 			
 			document.getElementById('currentPlayers').innerHTML = json.players.online + " Players Online";
-			document.getElementById('playerList').innerHTML = sample.replace(/,/g, '\n');
+			document.getElementById('playerList').innerHTML = sample;//.replace(/,/g, '\n');
         }
     }
 };
@@ -67,7 +67,7 @@ xhr.send(null);
 		<th class="divider"></th>
 		<th><a href="http://85.214.29.214:8123/" class="hotbar_selector">Map</a></th>
 		<th class="divider"></th>
-		<th><a href="https://www.paypal.com/pools/c/8vIoMEaNmm" class="hotbar_selector">Donate</a></th>
+		<th><a href="https://paypal.me/pixelbrushart" class="hotbar_selector">Donate</a></th>
 	</table>
 	</div>
 	</br>
@@ -119,21 +119,21 @@ xhr.send(null);
 			<table>
 				<tr>
 					<th>
-						<img style="width: 100%;" src="/atscraft/images/2021-12-05_12.59.23.webp" onclick="img_box('/atscraft/images/raw/2021-12-05_12.59.23.png')">
+						<img style="width: 100%;" src="/atscraft/images/2021-12-05_12.59.23.webp" onclick="img_box(this)">
 						</br><center>Northern Spawn</center>
 					</th>
 					<th>
-						<img style="width: 100%;" src="/atscraft/images/2021-12-05_13.03.00.webp" onclick="img_box('/atscraft/images/raw/2021-12-05_13.03.00.png')">
+						<img style="width: 100%;" src="/atscraft/images/2021-12-05_13.03.00.webp" onclick="img_box(this)">
 						</br><center>"Cemetery of Ash" from Dark Souls (Creeper_Jonny)</center>
 					</th>
 				</tr>
 				<tr>
 					<th>
-						<img style="width: 100%;" src="/atscraft/images/2021-12-05_13.00.51.webp" onclick="img_box('/atscraft/images/raw/2021-12-05_13.00.51.png')">
+						<img style="width: 100%;" src="/atscraft/images/2021-12-05_13.00.51.webp" onclick="img_box(this)">
 						</br><center>"The Wrath" (Creeper_Jonny)</center>
 					</th>
 					<th>
-						<img style="width: 100%;" src="/atscraft/images/2021-12-05_13.00.10.webp" onclick="img_box('/atscraft/images/raw/2021-12-05_13.00.10.png')">
+						<img style="width: 100%;" src="/atscraft/images/2021-12-05_13.00.10.webp" onclick="img_box(this)">
 						</br><center>Birmingham (john_koop)</center>
 					</th>
 				</tr>

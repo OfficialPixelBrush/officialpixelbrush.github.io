@@ -2,7 +2,7 @@
 <ul>
 <li>Happy Birthday to ATS! Now existant for an entire year!
 	</br>
-	<img style="width: 100%;" src="/atscraft/images/2021-09-05_14.09.16.webp" title="Screenshot of old Spawn (Screenshot by PixelBrushArt)">
+	<img style="width: 100%;" src="/atscraft/images/2021-09-05_14.09.16.webp" title="Screenshot of old Spawn (Screenshot by PixelBrushArt)" onclick="img_box(this)">
 	</br>
 	To celebrate, we put a little time travel surprise under the spawn building, a TARDIS to the oldest Backup of the Server, dating back to the 2nd of January, 2021!</li>
 </ul>
