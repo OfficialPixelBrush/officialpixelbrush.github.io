@@ -17,7 +17,15 @@
 	}
 	
 	/* Main */
+	
+	body::-webkit-scrollbar {
+		display: none;
+	}
+	
 	body {
+		-ms-overflow-style: none;  /* IE and Edge */
+		scrollbar-width: none;  /* Firefox */
+		overflow-y: scroll; /* Add the ability to scroll */
   		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/2021-12-05_13.01.19.webp') no-repeat center center fixed;
 		background-size: cover;
 	}
