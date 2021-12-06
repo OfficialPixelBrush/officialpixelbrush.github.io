@@ -21,6 +21,30 @@
 <meta property="twitter:description" content="Join the fun Survival experience that's the ATS Minecraft Server!">
 <meta property="twitter:image" content="/atscraft/images/embed.jpg"/>
 
+<script>
+// Get Players
+var xhr = new XMLHttpRequest();
+xhr.open('GET', 'https://api.minetools.eu/ping/server.pixelbrush.dev/', true);
+
+// If specified, responseType must be empty string or "text"
+xhr.responseType = 'text';
+
+xhr.onload = function () {
+    if (xhr.readyState === xhr.DONE) {
+        if (xhr.status === 200) {
+			var json = JSON.parse(xhr.responseText);
+            console.log(json.description);
+			
+			var sample = json.players.sample;
+			
+			document.getElementById('currentPlayers').innerHTML = json.players.online + " Players Online";
+			document.getElementById('playerList').innerHTML = sample.replace(/,/g, '\n');
+        }
+    }
+};
+xhr.send(null);
+</script>
+
 <style>
 </style>
 </head>
@@ -129,6 +153,28 @@
 				</br>
 			</div>
 		</div>
+	</div>
+	
+	
+	<div class="post"> 		
+		<table style="table-layout: fixed; width: 50%;">
+			<tr>
+				<th>
+					<img src="https://api.minetools.eu/favicon/server.pixelbrush.dev/">
+				</th>
+				<th>
+					<a id="currentPlayers"></a>
+				</th>
+			</tr>
+			<tr>
+				<th>
+					<!-- nothing -->
+				</th>
+				<th>
+					<a id="playerList"></a>
+				</th>
+			</tr>
+		</table>
 	</div>
 	
 	<script src="scripts/news.js"></script>
