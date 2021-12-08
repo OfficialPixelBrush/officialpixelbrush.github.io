@@ -23,6 +23,7 @@
 	}
 	
 	body {
+		margin: 0;
 		-ms-overflow-style: none;  /* IE and Edge */
 		scrollbar-width: none;  /* Firefox */
 		overflow-y: scroll; /* Add the ability to scroll */
@@ -64,16 +65,10 @@
 	
 	.menu {
 		z-index: 255;
-		width: 100%;
 		background-color: var(--backgroundPink);
-		text-align: center;
-		overflow-x: auto;
-		overflow-y: hidden;
-        padding:0;
 		font-size: 200%;
 		position: sticky;
 		top: 0;
-		height: auto; 
 		display: block;
 		padding: 0.5% 0;
 		box-shadow: 0 0px 5px rgba(0, 0, 0, 1);
