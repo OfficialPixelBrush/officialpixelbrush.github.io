@@ -21,11 +21,33 @@
 <meta property="twitter:title" content="ATS Craft - Map">
 <meta property="twitter:description" content="Join the fun Survival experience that's the ATS Minecraft Server!">
 <meta property="twitter:image" content="/atscraft/images/embed.jpg"/>
+
+<script>
+// Get Players
+var xhr = new XMLHttpRequest();
+xhr.open('GET', 'https://api.minetools.eu/ping/server.pixelbrush.dev/', true);
+
+// If specified, responseType must be empty string or "text"
+xhr.responseType = 'text';
+
+xhr.onload = function () {
+    if (xhr.readyState === xhr.DONE) {
+        if (xhr.status === 200) {
+			var json = JSON.parse(xhr.responseText);
+            console.log(json.players.sample);
+			
+			var sample = json.players.sample;
+			
+			document.getElementById('currentPlayers').innerHTML = json.players.online + " Players Online";
+			document.getElementById('playerList').innerHTML = sample.toString().replace(/,/g, '\n');
+        }
+    }
+};
+xhr.send(null);
+</script>
 </head>
 
 <body>
-	
-	</br>
 	<div class="banner"> 
 		<div class="logo">
 		</div>
@@ -35,19 +57,44 @@
 	<table>
 		<th><a href="/atscraft/index" class="hotbar_selector">Main</a></th>
 		<th class="divider"></th>
+		<th><a href="/atscraft/rules" class="hotbar_selector">Rules</a></th>
+		<th class="divider"></th>
 		<th><a href="/atscraft/timeline" class="hotbar_selector">Timeline</a></th>
 		<th class="divider"></th>
-		<th><a href="/atscraft/map" class="hotbar_selector">Map</a></th>
+		<th><a href="https://servermap.pixelbrush.dev" class="hotbar_selector">Map</a></th>
+		<th class="divider"></th>
+		<th><a href="https://paypal.me/pixelbrushart" class="hotbar_selector">Donate</a></th>
 	</table>
 	</div>
 	</br>
 	
 	<div class="post"  style="text-align: left"> 
-		<iframe src="http://85.214.29.214:8123/" width="100%" height="500px"></iframe>
+		<iframe src="https://servermap.pixelbrush.dev" width="100%" height="500px"></iframe>
 		</br>
-		<a style="text-align: center" href="http://85.214.29.214:8123/">
+		<a style="text-align: center" href="https://servermap.pixelbrush.dev">
 			<img src="/images/symbols/fullScreen.svg"> Fullscreen
 		</a>
+	</div>
+	
+	<div class="post"> 		
+		<table style="table-layout: fixed; width: 50%;">
+			<tr>
+				<th>
+					<img src="https://api.minetools.eu/favicon/server.pixelbrush.dev/" style="cursor: pointer;" onclick="img_box(this)">
+				</th>
+				<th>
+					<a id="currentPlayers"></a>
+				</th>
+			</tr>
+			<tr>
+				<th>
+					<!-- nothing -->
+				</th>
+				<th>
+					<a id="playerList"></a>
+				</th>
+			</tr>
+		</table>
 	</div>
 	
 	</body></html>
