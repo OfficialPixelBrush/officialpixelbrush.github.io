@@ -1,6 +1,6 @@
 9th of December, 2021 - 09:42 am
 <ul>
 <li>Dynmap is now protected via HTTPS, just to make it easier to access.</li>
-<li>In addition to that, it's now also possible to view the map in a little preview-ish window under the <a href="/map">Map Tab</a>!</li>
+<li>In addition to that, it's now also possible to view the map in a little preview-ish window under the <a href="/atscraft/map">Map Tab</a>!</li>
 </ul>
 -PixelBrushArt
