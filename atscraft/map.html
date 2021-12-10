@@ -34,12 +34,14 @@ xhr.onload = function () {
     if (xhr.readyState === xhr.DONE) {
         if (xhr.status === 200) {
 			var json = JSON.parse(xhr.responseText);
-            console.log(json.players.sample);
+			var sample = "";
 			
-			var sample = json.players.sample;
+			for (var i = 0; i < json.players.sample.length; i++) {
+				sample += json.players.sample[i].name + "<br/>"
+			}
 			
-			document.getElementById('currentPlayers').innerHTML = json.players.online + " Players Online";
-			document.getElementById('playerList').innerHTML = sample.toString().replace(/,/g, '\n');
+			document.getElementById('currentPlayers').innerHTML = " - " + json.players.online + " Players Online - ";
+			document.getElementById('playerList').innerHTML = sample
         }
     }
 };
@@ -80,16 +82,10 @@ xhr.send(null);
 		<table style="table-layout: fixed; width: 50%;">
 			<tr>
 				<th>
-					<img src="https://api.minetools.eu/favicon/server.pixelbrush.dev/" style="cursor: pointer;" onclick="img_box(this)">
-				</th>
-				<th>
 					<a id="currentPlayers"></a>
 				</th>
 			</tr>
 			<tr>
-				<th>
-					<!-- nothing -->
-				</th>
 				<th>
 					<a id="playerList"></a>
 				</th>
