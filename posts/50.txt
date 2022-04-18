@@ -1,0 +1,33 @@
+<a class='postNbmr'>#50</a>
+</br>
+</br>
+Been a while!
+</br>
+I've been incredibly busy with both work and my new YouTube Channel, <a href="https://www.youtube.com/channel/UC1Ms3z2ZgfbdjImNgWff0iw">80Bytes</a>.
+</br>
+
+</br>
+My main project on there, at the moment, is building a Z80-based Computer entirely from scratch, and with only limited electrical know-how!
+</br>
+
+</br>
+<img class="image" src="/images/postImages/50/pix80prototype2.jpg">
+</br>
+</br>
+There's a good chunk of Documentation for it on my GitHub,</br>
+just check the <a href="https://github.com/OfficialPixelBrush/Pix80">Pix80 Repository</a> there.
+</br>
+
+</br>
+
+</br>
+
+</br>
+I've been developing an Emulator for the Project as well, though it is still very WIP.
+</br>
+<a href="https://github.com/OfficialPixelBrush/Pix80Emu">Pix80Emu GitHub Repo</a>
+</br>
+
+</br>
+</br>
+<a id="postdate" class="date">18th of April, 2022 - 23:01</a>
