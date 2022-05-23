@@ -3,27 +3,58 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>PMD Online</title>
+    <title>Unity WebGL Player | Time Detectives and Robbers</title>
+    <link rel="shortcut icon" href="/games/UnityGames/PMDOnline/DunGen6/PMDOnlineWeb_6/TemplateData/favicon.ico">
     <link rel="stylesheet" href="/games/UnityGames/PMDOnline/DunGen6/PMDOnlineWeb_6/TemplateData/style.css">
     <script src="/games/UnityGames/PMDOnline/DunGen6/PMDOnlineWeb_6/TemplateData/UnityProgress.js"></script>
     <script src="/games/UnityGames/PMDOnline/DunGen6/PMDOnlineWeb_6/Build/UnityLoader.js"></script>
     <script>
       var unityInstance = UnityLoader.instantiate("unityContainer", "/games/UnityGames/PMDOnline/DunGen6/PMDOnlineWeb_6/Build/PMDOnlineWeb_Latest.json", {onProgress: UnityProgress});
     </script>
-	
-	 <style>	
-		body {
-			background-color: #340829;
+	<style>
+        body {
+			background-color: #180000;
+		}
+		
+		404 {
+			height: 100%; /*can be anything*/
+			width: 100%; /*can be anything*/
+			display: inline-block;
+			position: relative;
+		}
+		
+		img {
+			max-height: 100%;
+			max-width: 100%;
+			width: auto;
+			height: auto;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
 		}
 		
 		menu {
 			box-shadow: 0 0px 20px rgba(0, 0, 0, 0.3);
-			background-color: #560E46;
-		}	
+		}
+		
+		p {   
+			font-family: DoodleSans;
+			color: white;
+			background-color: #180000;
+			font-size: 300%;
+			text-align: center;
+			width: 100%
+			margin: 0;
+			box-shadow: 0px 0px 10px #180000;
+		}
+	
 	
 		@font-face {
 			font-family: DoodleSans;
-			src: url(css/Doodle_Sans.ttf) format('truetype');
+			src: url(/css/Doodle_Sans.ttf) format('truetype');
 			font-weight: normal;
 			font-display: swap;
 		}
@@ -31,7 +62,7 @@
 		.hotbar_selector {
 			font-family: DoodleSans;
 			width: 100%;
-			background-color: #560E46;
+			background-color: #180000;
 			text-align: center;
 			overflow-x: auto;
 			overflow-y: hidden;
@@ -42,8 +73,8 @@
 			height: auto; 
 			display: block;
 			padding: 0.5% 0;
-			color: #FFFF00;
-			text-shadow: 0 0 2px #FCC120;
+			color: #FFD730;
+			text-shadow: 0 0 2px #FFD730;
 			text-decoration: none;
 			padding: 1px 1px 1px 1px;
 			margin: 5px 5px 2px 5px;
@@ -52,46 +83,19 @@
     
 		.hotbar_selector:hover
 		{
-			text-shadow: 0 0 8px #FCC120;
+			text-shadow: 0 0 8px #FFD730;
 			transition: color 0.2s, text-shadow 0.2s, background-color 0.2s;
 		}
 
-
 </style>
-	<link rel="apple-touch-icon" sizes="180x180" href="/games/UnityGames/PMDOnline/DunGenLatest/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/games/UnityGames/PMDOnline/DunGenLatest/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/games/UnityGames/PMDOnline/DunGenLatest/favicon/favicon-16x16.png">
-	<link rel="manifest" href="/games/UnityGames/PMDOnline/DunGenLatest/favicon/site.webmanifest">
-    <link rel="shortcut icon" href="/games/UnityGames/PMDOnline/DunGenLatest/favicon/favicon.ico">
-
-	<!-- Primary Meta Tags -->
-	<title>PMD Online</title>
-	<meta name="title" content="PMD Online">
-	<meta name="description" content="A Pokémon Mystery Dungeon-esque Dungeon Generator made in Unity ">
-
-	<!-- Open Graph / Facebook -->
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="/pmdonline">
-	<meta property="og:title" content="PMD Online">
-	<meta property="og:description" content="A Pokémon Mystery Dungeon-esque Dungeon Generator made in Unity ">
-	<meta property="og:image" content="/images/games/bg/pmd_online.jpg">
-
-	<!-- Twitter -->
-	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:url" content="/pmdonline">
-	<meta property="twitter:title" content="PMD Online">
-	<meta property="twitter:description" content="A Pokémon Mystery Dungeon-esque Dungeon Generator made in Unity ">
-	<meta property="twitter:image" content="/images/games/bg/pmd_online.jpg">
-	
   </head>
   <body>
+  
 	<div class="menu">
-	  <a class="hotbar_selector" href="/games">Back to Games</a>
+	  <a class="hotbar_selector" href="/">Back to Homepage</a>
 	</div>
     <div class="webgl-content">
-      <div id="unityContainer" style="width: 90%; height: auto; 
-		border:3px solid #D56FCB;
-		border-radius: 8px;
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
