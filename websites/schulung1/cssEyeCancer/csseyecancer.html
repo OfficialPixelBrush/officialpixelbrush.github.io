@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<title>
+			CSS ist wundebar!
+		</title>
+		<link rel="icon" type="image/gif" href="images/catspin.gif">
+		<meta charset="UTF-8">
+		<style>
+			@keyframes eyecancer {
+				0% {
+					background-color:rgb(0, 255, 0);
+					color: rgb(255,0,0);
+					text-shadow: 0 0 0px #00f;
+				}
+				
+				33% {
+					background-color:rgb(0, 0, 255);
+					color: rgb(0,255,0);
+					text-shadow: 0 0 20px #f00;
+				}
+				
+				66% {
+					background-color:rgb(255, 0, 0);
+					color: rgb(0,0,255);
+					text-shadow: 0 0 10px #0f0;
+				}
+				
+				100% {
+					background-color:rgb(0, 255, 0);
+					color: rgb(255,0,0);
+					text-shadow: 0 0 0px #00f;
+				}
+			}
+			
+			@keyframes wobble {
+			  0% {transform: rotate(3deg);}
+			  50% {transform: rotate(-3deg);}
+			  100% {transform: rotate(3deg);}
+			}
+			
+			@keyframes spin {
+			  0% {transform: rotate(0deg);}
+			  100% {transform: rotate(360deg);}
+			}
+			
+			@keyframes running {
+			  0% {transform: translate(-100%,0) scale(0.25);}
+			  100% {transform: translate(100%,0) scale(0.25);}
+			}
+			
+			.catchCat {
+				animation-name: running;
+				animation-duration: .5s;
+				animation-iteration-count: infinite;
+				animation-timing-function: linear;
+			}
+			
+			
+			
+			.SPIIIN {
+				animation-name: spin;
+				animation-duration: 10s;
+				animation-iteration-count: infinite;
+				animation-timing-function: linear;
+			}
+			
+			body, a {
+				text-align: right;
+				margin: 20%;
+				background-color:rgb(0, 255, 0);
+				font-family: Comic Sans MS;
+				animation-name: eyecancer;
+				animation-duration: 5s;
+				animation-iteration-count: infinite;
+				animation-timing-function: linear;
+			}
+			
+			h1,h3,table {
+				text-align: center;
+				animation-name: wobble;
+				animation-duration: .5s;
+				animation-iteration-count: infinite;
+				animation-timing-function: ease-in-out;
+			}
+			
+			table {
+				margin-left: auto;
+				margin-right: auto;
+			}
+			
+			h1,h3 {
+				background-image: url("images/Rainbow_Flash.gif");
+			}
+			
+			img {
+				width: 100%;
+			}
+			
+			article {
+				background-color: rgba(255,255,255,.3);
+				padding: 10%;
+			}
+			
+			footer {
+				text-align: left;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>DIE BESTE NEWS WEBSITE JEMALS!!!!!!11!!</h1>
+		</header>
+		<nav>
+			<table>
+				<tr>
+					<td>
+						<a href="#IMPORTANT">WICHTIGER ARTIKEL!!!</a>
+					</td>
+					<td>
+						<a href="#cool">cooler artikle</a>
+					</td>
+					<td>
+						<a href="werbung">BITTE KLICKEN!!!!!</a>
+					</td>
+					<td>
+						<a href="#download">css download (no virus)</a>
+					</td>
+				</tr>
+			</table>
+		</nav>
+		
+		<article id="IMPORTANT">
+			<header>
+				<h2>GANZ WICHTIGER ARTIKEL</h2>
+			</header>
+			<p>Es ist Dienstag :)</p>
+			<figure>
+				<img alt="SPINNING CAT MAXWELL" src="images/catspin.gif">
+				<figcaption>Fig 1.0 Le epic catto B)</figcaption>
+			</figure>
+			<footer>
+				<time datetime="1914-06-28 10:10">28 Juni, 1914</time>
+			</footer>
+		</article>
+		
+		<br>
+		
+		<article id='cool'>
+			<header>
+				<img alt="TEXT FÜR COOLE LEUTE" src="images/cooltext.gif">
+			</header>
+			<p>dies ist der COOLSTE ARTIKEL YEMALSS!!!!
+			NUR COOLE LEUTE DÜRFEN DAS LESEN!!!!!!!!!
+			BIST DU COOL????</p>
+			<figure>
+				<img src="images/coolglassescat.gif">
+				<figcaption>Fig 2.6 DIE KOOLE KATZE!!!</figcaption>
+			</figure>
+			<form>
+				<div>
+					<input type="checkbox" name="coolheit" id="cooleSonnenbrille" value="Sonnenbrille">
+					<label for="cooleSonnenbrille">HAST DU EINE SONNENBRILLE??? (GANZ WICHTIG)</label>
+				</div>
+				<div>
+					<input type="checkbox" name="coolheit" id="cooleKleidung" value="Kleidung">
+					<label for="cooleKleidung">HAST DU COOLE KLEIDUNG???</label>
+				</div>
+				<div>
+					<input type="submit" name="submit" value="Submit">
+				</div>
+			</form>
+			<p>DU BIST ALSO COOL? COOL! DANN BIST DU JETZT OFFIZIEL IM</p>
+			<img alt="COOLE LEUTE KLUB" style="background-image: url('images/Rainbow_Flash.gif');" src="images/cooleleuteklub.gif">
+			<p>Wilkommen auf der COOLEN Seite der Macht (nur für coole leute)</p>
+			<a href="https://www.imdb.com/title/tt0193524/">
+				<table>
+					<tr>
+						<td>
+							<img alt="STURMTRUPPEN" class="spin" src="images/stormtrooper.gif">
+						</td>
+						<td>
+							<img alt="STURMTRUPPEN" class="spin" src="images/stormtrooper.gif">
+						</td>
+						<td>
+							<img alt="STURMTRUPPEN" class="spin" src="images/stormtrooper.gif">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<img alt="STURMTRUPPEN" class="spin" src="images/stormtrooper.gif">
+						</td>
+						<td>
+							<img alt="STURMTRUPPEN" class="spin" src="images/stormtrooper.gif">
+						</td>
+						<td>
+							<img alt="STURMTRUPPEN" class="spin" src="images/stormtrooper.gif">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<img alt="STURMTRUPPEN" class="spin" src="images/stormtrooper.gif">
+						</td>
+						<td>
+							<img alt="STURMTRUPPEN" class="spin" src="images/stormtrooper.gif">
+						</td>
+						<td>
+							<img alt="STURMTRUPPEN" class="spin" src="images/stormtrooper.gif">
+						</td>
+					</tr>
+				</table>
+			</a>
+			<img alt="LINE OF FIIIIIREEEE" src="images/line_of_fire.gif">
+			<h2>PARTY ECKE FÜR COOLE LEUTE!! TANZPARTY!!</h2>
+			<img alt="LINE OF FIIIIIREEEE" src="images/line_of_fire.gif">
+			<figure>
+				<img alt="kleiner tanz :)" src="images/littlepeoplewearingsunglasses.gif">
+				<figcaption>Fig 3.7.6 TANZEN!!</figcaption>
+			</figure>
+			<img alt="Matrix Sunglasses Fan B)" style="width: 100%; height: 50px" src="images/fan-matrix-sunglasses.gif">
+			<footer>
+				<time datetime="1978-02-09 00:00">9 Februar, 1978</time>
+			</footer>
+		</article>
+		
+		<br>
+		
+		<aside id="werbung">
+			<h3> WERBUNG!! </h3>
+				<a href="http://themostamazingwebsiteontheinternet.com/">
+					<table>
+						<tr>
+							<td>
+								<img style="width: 100%;" alt="Ad Soccer" src="images/AdISoccer2.gif">
+							</td>
+							<td>
+								<img style="width: 100%;" alt="Ad Soccer" src="images/AdISoccer2.gif">
+							</td>
+							<td>
+								<img style="width: 100%;" alt="Ad Soccer" src="images/AdISoccer2.gif">
+							</td>
+							<td>
+								<img style="width: 100%;" alt="Ad Soccer" src="images/AdISoccer2.gif">
+							</td>
+						</tr>
+					</table>
+				</a>
+			<h3> WERBUNG!! </h3>
+		</aside>
+		
+		<br>
+		
+		<article id="download">
+			<header>
+				<h2>JETZT BESSERES CSS RUNTERLADEN!!!!!!</h2>
+			</header>
+			<p>für nur 666 Euro und 99 cent können sie sich jetzt besseres CS installieren!! (Counter Strike 1.5)</p>
+			<h3>ABER ERSTMAL KATZE EINFANGEN!!!</h3>
+			<div class="catchCat">
+				<a href="https://www.wikihow.com/Apologize-to-a-Cat"><img alt="CAT" src="images/cat.gif"></a>
+			</div>
+			<h3>HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA</h3>
+			<!-- rel="noreferrer noopener" genutzt um tabnabbing zu verhindern -->
+			<form>
+				<i>玩世界著名的在线动作游戏。在这款广受欢迎的团队玩家游戏中参与一场极其逼真的反恐战争。与其他玩家合作并执行战略任务。挖出敌人的巢穴。营救人质。您的角色对于团队的成功至关重要。您团队的成功会影响您的角色。</i>
+				<br>
+				<input type="submit" name="submit2" value="Zustimmen">
+			</form>
+			<br>
+			<a target="_blank" href="https://store.steampowered.com/app/10/CounterStrike/" rel="noreferrer noopener">COUNTERSTRIKE DOWNLOAD!!! (no virus)</a>
+			<footer>
+				<time datetime="2052-03-02 23:21">31 Februar, 2052</time>
+			</footer>
+		</article>
+	</body>
+</html>

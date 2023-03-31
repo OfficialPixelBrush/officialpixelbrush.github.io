@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Turnverein Adam Antium eV</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+	</head>
+	<body style="background-image: linear-gradient(to top, white, rgb(78,130,194));">
+		<div class="card container shadow-lg" style="background-color: rgba(255,255,255,.5);">
+			<form class="card-body">
+				<h4 class="display-4 text-center mb-3">Turnverein Adam Antium eV</h4>
+				<img src="bestegrafik.jpg" alt="Turnverein Adam Antium eV Logo" class="img-fluid rounded mx-auto d-block m-3"> 
+				<h5 class="display-5 text-center m-3">Anmeldeformular</h5>
+				<fieldset class="row">
+					<div class="row mb-3">
+						<div class="col">
+							<div class="input-group">
+								<div class="input-group-text">Vorname</div>
+								<input class="form-control" placeholder="Vorname" type="text" id="fname" name="fname" required>
+							</div>
+						</div>
+						<div class="col">
+							<div class="input-group">
+								<div class="input-group-text">Nachname</div>
+								<input class="form-control" placeholder="Nachname" type="text" id="lname" name="lname" required>
+							</div>
+						</div>
+					</div>
+					<div class="row mb-3">
+						<div class="col">
+							<div class="input-group">
+								<div class="input-group-text">Alter</div>
+								<input class="form-control" placeholder="Alter" type="text" id="age" name="age" required>
+							</div>
+						</div>
+						<div class="col">
+							<div class="input-group">
+								<div class="input-group-text">E-Mail</div>
+								<input class="form-control" placeholder="E-Mail" type="text" id="email" name="email" required>
+							</div>
+						</div>
+					</div>
+				</fieldset>
+				<div class="row mb-3">
+					<fieldset>
+						<legend class="col-form-label">Geschlecht</legend>
+						<div class="form-check m-3">
+							<input class="form-check-input" type="radio" id="genderMale" name="gender" checked required>
+							<label class="form-check-label" for="genderMale">Männlich</label>
+						</div>
+						<div class="form-check m-3">
+							<input class="form-check-input" type="radio" id="genderFemale" name="gender" required>
+							<label class="form-check-label" for="genderFemale">Weiblich</label>
+						</div>
+					</fieldset>
+				</div>
+				<div class="row mb-3">
+					<fieldset>
+						<legend class="col-form-label">Kurse</legend>
+						<div class="form-check">
+							<input type="checkbox" id="gynmastik" value="gynmastik" name="courses[]">
+							<label for="gynmastik">Gymnastik</label>
+						</div>
+					
+						<div class="form-check">
+							<input type="checkbox" id="radeln" value="radeln" name="courses[]">
+							<label for="radeln">Radeln</label>
+						</div>
+						
+						<div class="form-check">
+							<input type="checkbox" id="muskeltraining" value="muskeltraining" name="courses[]">
+							<label for="muskeltraining">Muskeltraining</label>
+						</div>
+						
+						<div class="form-check">
+							<input type="checkbox" id="aerobic" value="aerobic" name="courses[]">
+							<label for="aerobic">Aerobic</label>
+						</div>
+						
+						<div class="form-check">
+							<input type="checkbox" id="ekturnen" value="ekturnen" name="courses[]">
+							<label for="ekturnen">Eltern-Kind Turnen</label>
+						</div>
+						
+						<div class="form-check">
+							<input type="checkbox" id="zumba" value="zumba" name="courses[]">
+							<label for="zumba">Zumba</label>
+						</div>
+						
+						<div class="form-check">
+							<input type="checkbox" id="balett" value="balett" name="courses[]">
+							<label for="balett">Balett</label>
+						</div>
+						
+						<div class="form-check">
+							<input type="checkbox" id="batminton" value="batminton" name="courses[]">
+							<label for="batminton">Batminton</label>
+						</div>
+						
+						<div class="form-check">
+							<input type="checkbox" id="zirkus" value="zirkus" name="courses[]">
+							<label for="zirkus">Zirkuskünste</label>
+						</div>
+						
+						<div class="form-check">
+							<input type="checkbox" id="dart" value="dart" name="courses[]">
+							<label for="dart">Dart</label>
+						</div>
+						
+						<div class="form-check">
+							<input type="checkbox" id="minigolf" value="minigolf" name="courses[]">
+							<label for="minigolf">Minigolf</label>
+						</div>
+						
+						<div class="form-check">
+							<input type="checkbox" id="mediumgolf" value="mediumgolf" name="courses[]">
+							<label for="mediumgolf">Golf</label>
+						</div>
+						
+						<div class="form-check">
+							<input type="checkbox" id="tennis" value="tennis" name="courses[]">
+							<label for="tennis">Tennis</label>
+						</div>
+					</fieldset>
+				</div>
+				<div class="row">
+					<fieldset>
+						<legend class="col-form-label">Wichtige Klausel</legend>
+						<div>
+							<sup>
+							Hiermit übergeben sie alle ihre Rechte und ihre Vollmacht auf ihr Bankkonto an den Turnverein Adam Antium eV<br>
+							Zu diesen Rechten die Sie aufgeben gehören:
+							</sup>
+						</div>
+						<div class="row mb-3">
+							<div class="col border">Recht auf Leben und Freiheit</div>
+							<div class="col border">Anerkennung als Rechtsperson</div>
+							<div class="col border">Gleichheit vor dem Gesetz</div>
+							<div class="col border">Anspruch auf Rechtsschutz</div>
+							<div class="col border">Schutz vor Verhaftung und Ausweisung</div>
+							<div class="col border">Anspruch auf faires Gerichtsverfahren</div>
+							<div class="col border">Unschuldsvermutung</div>
+							<div class="col border">Freiheitssphäre des Einzelnen</div>
+							<div class="col border">Freizügigkeit und Auswanderungsfreiheit</div>
+							<div class="col border">Asylrecht</div>
+							<div class="col border">Recht auf Staatsangehörigkeit</div>
+							<div class="col border">Recht auf Eigentum</div>
+							<div class="col border">Gedanken-, Gewissens-, Religionsfreiheit</div>
+						</div>
+						<div class="row mb-3 text-center">
+							<div class="col">
+								<input type="checkbox" id="klausel" name="klausel" required>
+								<label for="klausel">Anklicken um zu Bestätigen :)</label>
+							</div>
+						</div>
+						<div class="row mb-3">
+							<div class="col">
+								<input class="btn btn-primary w-100" type="submit" id="submit" value="Submit">
+							</div>
+						</div>
+						<div class="border m-3 p-1 text-center">
+							<sup>
+								Mit meinem Einverständnis berechtige ich Meta Platforms, Inc. über alle meine Besitztümer, mein geistiges Eigentum, meinen Körper und meine Seele zu walten.<br>Dieser Übereinkunft wird automatisch auch mit allen Nachkommen der sich verpflichtenden Person getroffen und ist nicht zurückziehbar.
+							</sup>
+						</div>
+					</fieldset>
+				</div>
+			</form>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+	</body>
+</html>

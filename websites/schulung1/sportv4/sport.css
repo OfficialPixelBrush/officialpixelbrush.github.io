@@ -1,0 +1,49 @@
+body {
+	background-image: linear-gradient(to bottom, white, rgb(78,130,194));
+	font-family: Arial;
+}
+
+.signupform {
+	background-color: rgba(255,255,255,.7);
+	padding: 5%;
+	box-shadow: 0 0 30px black;
+	margin: 10%;
+	margin-top: 0px;
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.submitButton {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-family: Impact;
+	font-size: 200%;
+}
+
+.part {
+	padding:10px;
+	box-shadow: 0 0 5px black;
+}
+
+div {
+	flex-basis: 100%;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0 0 10px rgb(255,201,14), 0 0 15px rgb(255,201,14), 0 0 20px rgb(255,201,14), 0 0 30px rgb(255,201,14), 0 0 50px rgb(255,201,14);
+}
+
+h1 {
+	text-align: center;
+}

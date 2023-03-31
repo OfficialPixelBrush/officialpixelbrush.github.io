@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<title>
+			Turnverein Adam Antium eV
+		</title>
+		<link rel="icon" type="image/jpg" href="bestegrafik.jpg">
+		<meta charset="UTF-8">
+		<style>
+			body {
+				background-image: linear-gradient(to bottom, white, rgb(78,130,194));
+				font-family: Arial;
+			}
+		
+			.signupform {
+				background-color: rgba(255,255,255,.7);
+				padding: 5%;
+				box-shadow: 0 0 30px black;
+				margin: 10%;
+				margin-top: 0px;
+				display: flex;
+				align-items: flex-start;
+				flex-wrap: wrap;
+			}
+			
+			.submitButton {
+				width: 100%;
+				padding: 10px;
+				margin-bottom: 10px;
+				font-family: Impact;
+				font-size: 200%;
+			}
+			
+			.part {
+				padding:10px;
+				box-shadow: 0 0 5px black;
+			}
+			
+			div {
+				flex-basis: 100%;
+				padding-top:3px;
+				padding-bottom:3px;
+			}
+			
+			ul {
+				list-style: none;
+			}
+			
+			img {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				box-shadow: 0 0 10px rgb(255,201,14), 0 0 15px rgb(255,201,14), 0 0 20px rgb(255,201,14), 0 0 30px rgb(255,201,14), 0 0 50px rgb(255,201,14);
+			}
+			
+			h1 {
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<img alt='Das beste Logo in der Geschichte der Logos' src='bestegrafik.jpg'>
+			<h1>Turnverein Adam Antium eV</h1>
+		</div>
+		<form>
+			<div class="signupform">
+				<div class="part">
+					<div>
+						<label for="fname">Vorname:</label>
+						<input type="text" id="fname" name="fname">
+					</div>
+					
+					<div>
+					<label for="lname">Nachname:</label>
+					<input type="text" id="lname" name="lname">
+					</div>
+					
+					<div>
+						<label for="age">Alter:</label>
+						<input type="text" id="age" name="age">
+					</div>
+					
+					<div>
+						<label for="email">E-Mail:</label>
+						<input type="text" id="email" name="email">
+					</div>
+				</div>
+				
+				<div class="part">
+					<div>
+						<h3>Geschlecht:</h3>
+						<input type="radio" id="genderMale" name="gender">
+						<label for="genderMale">Männlich</label>
+						<input type="radio" id="genderFemale" name="gender">
+						<label for="genderFemale">Weiblich</label>
+					</div>
+				</div>
+				
+				<div class="part">
+					<h3>Kurse:</h3>
+					<ul>
+						<li>
+							<input type="checkbox" id="gynmastik" value="gynmastik" name="courses">
+							<label for="gynmastik">Gymnastik</label>
+						</li>
+					
+						<li>
+							<input type="checkbox" id="radeln" value="radeln" name="courses">
+							<label for="radeln">Radeln</label>
+						</li>
+						
+						<li>
+							<input type="checkbox" id="muskeltraining" value="muskeltraining" name="courses">
+							<label for="muskeltraining">Muskeltraining</label>
+						</li>
+						
+						<li>
+							<input type="checkbox" id="aerobic" value="aerobic" name="courses">Aerobic
+							<label for="aerobic">Aerobic</label>
+						</li>
+						
+						<li>
+							<input type="checkbox" id="ekturnen" value="ekturnen" name="courses">
+							<label for="ekturnen">Eltern-Kind Turnen</label>
+						</li>
+						
+						<li>
+							<input type="checkbox" id="zumba" value="zumba" name="courses">
+							<label for="zumba">Zumba</label>
+						</li>
+						
+						<li>
+							<input type="checkbox" id="balett" value="balett" name="courses">
+							<label for="balett">Balett</label>
+						</li>
+						
+						<li>
+							<input type="checkbox" id="batminton" value="batminton" name="courses">
+							<label for="batminton">Batminton</label>
+						</li>
+						
+						<li>
+							<input type="checkbox" id="zirkus" value="zirkus" name="courses">
+							<label for="zirkus">Zirkuskünste</label>
+						</li>
+						
+						<li>
+							<input type="checkbox" id="ausbildung" value="ausbildung" name="courses">
+							<label for="ausbildung"><s>Ausbildung zum Rechtsanwalt</s> (Aus Gesetzlichen gründen nicht mehr angeboten)</label>
+						</li>
+						
+						<li>
+							<input type="checkbox" id="dart" value="dart" name="courses">
+							<label for="dart">Dart</label>
+						</li>
+						
+						<li>
+							<input type="checkbox" id="minigolf" value="minigolf" name="courses">
+							<label for="minigolf">Minigolf</label>
+						</li>
+						
+						<li>
+							<input type="checkbox" id="mediumgolf" value="mediumgolf" name="courses">
+							<label for="mediumgolf">Mediumgolf</label>
+						</li>
+						
+						<li>
+							<input type="checkbox" id="macrogolf" value="macrogolf" name="courses">
+							<label for="macrogolf">Macrogolf</label>
+						</li>
+						
+						<li>
+							<input type="checkbox" id="tennis" value="tennis" name="courses">
+							<label for="tennis">Tennis</label>
+						</li>
+						
+						<li>
+							<input type="checkbox" id="schlafen" value="schlafen" name="courses">
+							<label for="schlafen">Schlafen</label>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="part">
+					<h3 for="klausel">Wichtige Klausel:</h3>
+					<sup>
+					Hiermit übergeben sie alle ihre Rechte und ihre Vollmacht auf ihr Bankkonto an den Turnverein Adam Antium eV<br>
+					Zu diesen Rechten die Sie aufgeben gehören:
+					</sup>
+					<ol>
+						<li>Recht auf Leben und Freiheit</li>
+						<li>Anerkennung als Rechtsperson</li>
+						<li>Gleichheit vor dem Gesetz</li>
+						<li>Anspruch auf Rechtsschutz</li>
+						<li>Schutz vor Verhaftung und Ausweisung</li>
+						<li>Anspruch auf faires Gerichtsverfahren</li>
+						<li>Unschuldsvermutung</li>
+						<li>Freiheitssphäre des Einzelnen</li>
+						<li>Freizügigkeit und Auswanderungsfreiheit</li>
+						<li>Asylrecht</li>
+						<li>Recht auf Staatsangehörigkeit</li>
+						<li>Recht auf Eigentum</li>
+						<li>Gedanken-, Gewissens-, Religionsfreiheit</li>
+					</ol>
+					<input type="checkbox" id="klausel" name="klausel"> Anklicken um zu Bestätigen :)<br><br>
+				
+				
+					<input class="submitButton" type="submit" id="submit" value="Submit"><br>
+					<label for="submit">
+						<sup>
+							Mit meinem Einverständnis berechtige ich Meta Platforms, Inc. über alle meine Besitztümer, mein geistiges Eigentum, meinen Körper und meine Seele zu walten. Dieser Übereinkunft wird automatisch auch mit allen Nachkommen der sich verpflichtenden Person getroffen und ist nicht zurückziehbar.
+						</sup>
+					</label>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>
