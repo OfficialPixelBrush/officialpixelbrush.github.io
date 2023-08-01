@@ -1,0 +1,9 @@
+<a class='postNbmr'>#52</a>
+</br>
+</br>
+Updated the website to be a bit more relevant.
+</br>
+Might do a proper, full-on overhaul soon and move to my own Server.
+</br>
+</br>
+<a id="postdate" class="date">1st of August, 2023 - 13:13</a>
