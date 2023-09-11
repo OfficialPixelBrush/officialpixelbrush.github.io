@@ -14,12 +14,9 @@ nmbr = post_type;
 loadPost();
 
 
-function FileHelper(pathOfFileToReadFrom) {
-    var request = new XMLHttpRequest();
-    request.open("GET", pathOfFileToReadFrom, false);
-    request.send(null);
-    var returnValue = request.responseText;
-
+async function FileHelper(pathOfFileToReadFrom) {
+    var request = await fetch(pathOfFileToReadFrom); //new XMLHttpRequest();
+    var returnValue = request.text();
     return returnValue;
 }
 
