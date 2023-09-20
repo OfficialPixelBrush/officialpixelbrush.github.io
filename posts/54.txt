@@ -1,0 +1,10 @@
+<a class='postNbmr'>#54</a>
+</br>
+</br>
+I modernized the way Posts are loaded a bit by using the Fetch API instead of using ye olden XMLHttpRequest!
+</br>
+</br>
+Also, the page only loads a single post now, for clarity.
+</br>
+</br>
+<a id="postdate" class="date">20th of September, 2023 - 22:54</a>

@@ -2,8 +2,8 @@ let nmbr_of_posts = 28;
 let nmbr = 28;
 let disCSS = 0;
 
-function getNumberOfPosts() {
-	nmbr_of_posts = FileHelper('/posts/numberOfPosts.txt');
+async function getNumberOfPosts() {
+	nmbr_of_posts = await FileHelper('/posts/numberOfPosts.txt');
 	nmbr = nmbr_of_posts;
 }
 
@@ -15,38 +15,19 @@ loadPost();
 
 
 async function FileHelper(pathOfFileToReadFrom) {
-    var request = await fetch(pathOfFileToReadFrom); //new XMLHttpRequest();
-    var returnValue = request.text();
+    const request = await fetch(pathOfFileToReadFrom); //new XMLHttpRequest();
+    const returnValue = await request.text();
+	console.log(returnValue);
     return returnValue;
 }
 
-function loadPost() {
+async function loadPost() {
 	if ((nmbr <= nmbr_of_posts) && (nmbr > 0)) {
 		updatePostNumberURL();
 		if (nmbr > 0) {
-			document.getElementById('mainpost').innerHTML = FileHelper('posts/' + nmbr + '.txt');
+			document.getElementById('mainpost').innerHTML = await FileHelper('posts/' + nmbr + '.txt');
 		} else {
 			document.getElementById('mainpost').innerHTML = '-';
-		}
-		if (nmbr-1 > 0) {
-			document.getElementById('mainpost2').innerHTML = FileHelper('posts/' + (nmbr-1) + '.txt');
-		} else {
-			document.getElementById('mainpost2').innerHTML = '-';
-		}
-		if (nmbr-2 > 0) {
-			document.getElementById('mainpost3').innerHTML = FileHelper('posts/' + (nmbr-2)  + '.txt');
-		} else {
-			document.getElementById('mainpost3').innerHTML = '-';
-		}
-		if (nmbr-3 > 0) {
-			document.getElementById('mainpost4').innerHTML = FileHelper('posts/' + (nmbr-3)  + '.txt');
-		} else {
-			document.getElementById('mainpost4').innerHTML = '-';
-		}
-		if (nmbr-4 > 0) {
-			document.getElementById('mainpost5').innerHTML = FileHelper('posts/' + (nmbr-4)  + '.txt');
-		} else {
-			document.getElementById('mainpost5').innerHTML = '-';
 		}
 	} else {
 		latest();
@@ -54,8 +35,8 @@ function loadPost() {
 }
 
 function next() {
-	if (nmbr+5 <= nmbr_of_posts) {
-		nmbr = nmbr+5;
+	if (nmbr+1 <= nmbr_of_posts) {
+		nmbr = nmbr+1;
 		updatePostNumberURL();
 		loadPost();
 	}
@@ -67,16 +48,16 @@ function first() {
 	loadPost();
 }
 
-function latest() {
-	getNumberOfPosts();
+async function latest() {
+	await getNumberOfPosts();
 	nmbr = nmbr_of_posts;
 	updatePostNumberURL();
 	loadPost();
 }
 
 function previous() {
-	if (nmbr-5 > 0) {
-		nmbr = nmbr-5;
+	if (nmbr-1 > 0) {
+		nmbr = nmbr-1;
 		updatePostNumberURL();
 		loadPost();
 	}

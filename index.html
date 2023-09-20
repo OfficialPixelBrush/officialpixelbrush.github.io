@@ -53,43 +53,39 @@
 </table>
 </div>
 
+<!-- Be sure to add Doctype eventually!! -->
+<!-- Also make this a grid at some point -->
 <div class="site">
-<div class="text">
-    </br>
-    <!--<a class="date"> Last Updated: 18th of April, 2022 - 23:01</a>-->
-	<a class="date"> Last Updated: <img style="vertical-align: middle;" src="https://img.shields.io/github/last-commit/OfficialPixelBrush/officialpixelbrush.github.io?color=%23220000&label=%20&style=for-the-badge"></a>
-    <!--<a class="date"> Last Updated: 11th of September, 2023 - 09:27</a>-->
-	<button class="postButton" style="font-size: 150%;" onclick="next()">Next</button>
-	</br>
-	
-	<!-- TODO: Add a sidebar to make navigation easier -->
-	
-	<div class="post"> 
-	<a id="mainpost"></a>
-	</div>
-	
-	<div class="post"> 
-	<a id="mainpost2"></a>
-	</div>
-	
-	<div class="post"> 
-	<a id="mainpost3"></a>
-	</div>
-	
-	<div class="post"> 
-	<a id="mainpost4"></a>
-	</div>
-	
-	<div class="post"> 
-	<a id="mainpost5"></a>
-	</div>
-	
-	</br>
-	<button class="postButton" style="font-size: 150%;" onclick="previous()">Previous</button>
-	<button class="postButton" style="font-size: 150%;" onclick="next()">Next</button>
-	
-</div>
+	<div class="text">
+		</br>
+		<!--<a class="date"> Last Updated: 18th of April, 2022 - 23:01</a>-->
+		<a class="date"> Last Updated: <img style="vertical-align: middle;" src="https://img.shields.io/github/last-commit/OfficialPixelBrush/officialpixelbrush.github.io?color=%23220000&label=%20&style=for-the-badge"></a>
+		<!--<a class="date"> Last Updated: 11th of September, 2023 - 09:27</a>-->
+		<!-- TODO: Add a sidebar to make navigation easier -->
 
+		</br>
+		</br>
+		
+		<div class="perfectCenter">
+			<button class="postButton" style="font-size: 150%;" onclick="first()"><<</button>
+			<button class="postButton" style="font-size: 150%;" onclick="previous()"><</button>
+			<button class="postButton" style="font-size: 150%;" onclick="next()">></button>
+			<button class="postButton" style="font-size: 150%;" onclick="latest()">>></button>
+		</div>
+		
+		<div class="post"> 
+			<a id="mainpost"></a>
+		</div>
+		
+		</br>
+		
+	</div>
+	<!--<div class="text">
+		<div class="post"> 
+		WIP Sidebar with all posts listed
+		</div>
+	</div>-->
+</div>
 <script src="scripts/main.js"></script>
 </body>
 </html>
