@@ -1,0 +1,7 @@
+<a class='postNbmr'>#55</a>
+</br>
+</br>
+Finally added the proper Doctype to the HTML Files. Broke some formatting, but I'm working on fixing it!
+</br>
+</br>
+<a id="postdate" class="date">12th of January, 2024 - 10:16</a>
