@@ -1,0 +1,41 @@
+<a class='postNbmr'>#56</a>
+</br>
+</br>
+Did a complete overhaul of all the pages in the Creations section.
+</br>
+
+</br>
+This update has been long overdue, and extremely necessary.
+</br>
+
+</br>
+The pages were inconsistent and terribly formatted.
+</br>
+Not to mention that using tables for everything was unmaintainable as hell.
+</br>
+This has all been resolved, as we're using much more modern flexboxes now.
+</br>
+
+</br>
+This also brings this page a smidge closer to actually being usable on mobile!
+</br>
+
+</br>
+In general, this site has needed a revamp for ages, and now I've finally made a good start on that. It's not perfect, but it's better than nothing for a website with about 7 years of developmental baggage.
+</br>
+
+</br>
+Outside of that, my last exam for my apprenticeship is coming up on the 24th.
+</br>
+That'll be fun.
+</br>
+
+</br>
+See y'all again some other time!
+</br>
+
+</br>
+
+</br>
+</br>
+<a id="postdate" class="date">14th of April, 2024 - 00:37</a>
