@@ -247,12 +247,16 @@
 	}
 	
 	.postTableOrg {
+		flex-direction: row;
 		display: flex;
 		list-style: none;
 		align-items: stretch;
 		justify-content: center;
 		flex-wrap: wrap;
+		padding: 0;
+		margin: auto;
 		li {
+			flex-grow: 1;
 			margin: 0.2rem;
 		}
 	}
