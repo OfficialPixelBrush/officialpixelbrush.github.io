@@ -8,7 +8,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -18,7 +18,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -28,7 +28,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -38,7 +38,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -48,7 +48,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -58,7 +58,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -68,7 +68,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 </table>
@@ -84,7 +84,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -94,7 +94,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 </table>
@@ -110,7 +110,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -120,7 +120,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -130,7 +130,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -140,7 +140,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 </table>
@@ -156,7 +156,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -166,7 +166,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -176,7 +176,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -186,7 +186,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -196,7 +196,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -206,7 +206,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -216,7 +216,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -226,7 +226,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -236,7 +236,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -246,7 +246,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -256,7 +256,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -266,7 +266,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -276,7 +276,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -286,7 +286,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 </table>
@@ -302,7 +302,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -312,7 +312,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -322,7 +322,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -332,7 +332,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -342,7 +342,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -352,7 +352,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -362,7 +362,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -372,7 +372,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -382,7 +382,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -392,7 +392,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -402,7 +402,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -412,7 +412,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -422,7 +422,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 </table>
@@ -438,7 +438,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -448,7 +448,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -458,7 +458,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/A Hardware accurate NES Version of the Coffin Dance.jpg" class="musicThumb">
+			<img src="thumbs/music/A Hardware accurate NES Version of the Coffin Dance.jpg" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -468,7 +468,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -478,7 +478,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -488,7 +488,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -498,7 +498,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -508,7 +508,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -518,7 +518,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -528,7 +528,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -538,7 +538,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -548,7 +548,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -558,7 +558,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -568,7 +568,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -578,7 +578,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -588,7 +588,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -598,7 +598,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -608,7 +608,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -618,7 +618,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -628,7 +628,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -638,7 +638,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -648,7 +648,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -658,7 +658,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -668,7 +668,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -678,7 +678,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -688,7 +688,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -698,7 +698,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -708,7 +708,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -718,7 +718,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -728,7 +728,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -738,7 +738,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -748,7 +748,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 </table>
@@ -764,7 +764,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -774,7 +774,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -784,7 +784,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -794,7 +794,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -804,7 +804,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -814,7 +814,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -824,7 +824,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -834,7 +834,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -844,7 +844,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -854,7 +854,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -864,7 +864,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -874,7 +874,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 </table>
@@ -890,7 +890,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/Animal Crossing - Dooms Gate at 5PM.jpg" class="musicThumb">
+			<img src="thumbs/music/Animal Crossing - Dooms Gate at 5PM.jpg" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -900,7 +900,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -910,7 +910,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -920,7 +920,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -930,7 +930,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -940,7 +940,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -950,7 +950,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -960,7 +960,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -970,7 +970,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -980,7 +980,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png" class="musicThumb">
+			<img src="thumbs/music/nocover.png" class="musicThumb">
 		</th>
 	</tr>
 </table>	
@@ -996,7 +996,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png">
+			<img src="thumbs/music/nocover.png">
 		</th>
 	</tr>
 	
@@ -1007,7 +1007,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png">
+			<img src="thumbs/music/nocover.png">
 		</th>
 	</tr>
 	
@@ -1018,7 +1018,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png">
+			<img src="thumbs/music/nocover.png">
 		</th>
 	</tr>
 	
@@ -1029,7 +1029,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png">
+			<img src="thumbs/music/nocover.png">
 		</th>
 	</tr>
 	<tr class="audioTab">
@@ -1039,7 +1039,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png">
+			<img src="thumbs/music/nocover.png">
 		</th>
 	</tr>
 	
@@ -1050,7 +1050,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png">
+			<img src="thumbs/music/nocover.png">
 		</th>
 	</tr>
 	
@@ -1061,7 +1061,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png">
+			<img src="thumbs/music/nocover.png">
 		</th>
 	</tr>
 	
@@ -1072,7 +1072,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png">
+			<img src="thumbs/music/nocover.png">
 		</th>
 	</tr>
 	
@@ -1083,7 +1083,7 @@
 			</audio>
 		</th>
 		<th>
-			<img src="/thumbs/music/nocover.png">
+			<img src="thumbs/music/nocover.png">
 		</th>
 	</tr>
 </table>
