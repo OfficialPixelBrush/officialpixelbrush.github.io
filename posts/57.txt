@@ -1,0 +1,7 @@
+<a class='postNbmr'>#57</a>
+</br>
+</br>
+Updated my Contact page to now be an About Me page, featuring my Computer Specs and personal recommendations.
+</br>
+</br>
+<a id="postdate" class="date">1st of October, 2024 - 15:23</a>
