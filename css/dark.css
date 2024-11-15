@@ -345,16 +345,17 @@
 		margin-top: auto;
 	}
 	
-	.center 
-	{
+	.center {
 		height: auto;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		flex:direction: column;
+		flex-direction: column; /* Corrected the typo in 'flex:direction' */
 		font-size: 300%;
 		font-family: DoodleSans32;
+		margin: 0 auto; /* Ensures centering of block elements within their container */
 	}
+	
 	
 	.postNbmr
 	{
