@@ -24,6 +24,11 @@
 		padding-right: 0.5em;
 	}
 	
+	.text {
+		font-weight: 100;
+		font-size: medium;
+	}
+	
 	@font-face {
 		font-family: DoodleSans32;
 		src: url(DoodleSans32.woff) format('woff'),

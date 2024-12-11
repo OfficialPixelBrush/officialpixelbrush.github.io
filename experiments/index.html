@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Pixel Brush - Creations</title>
+  <title>Pixel Brush - Experiments</title>
   <link  id="pagestyle" rel="stylesheet" type="text/css" href="/css/dark.css" />
 
     <style type="text/css">  
@@ -13,22 +13,32 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
 
 <!-- Primary Meta Tags -->
-<meta name="title" content="Pixel Brush - Creations">
-<meta name="description" content="All my Creations">
+<meta name="title" content="Pixel Brush - Experiments">
+<meta name="description" content="All my Experiments">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://pixelbrush.dev/creations">
-<meta property="og:title" content="Pixel Brush - Creations">
-<meta property="og:description" content="All my Creations">
+<meta property="og:url" content="https://pixelbrush.dev/experiments">
+<meta property="og:title" content="Pixel Brush - Experiments">
+<meta property="og:description" content="All my Experiments">
 <meta property="og:image" content="/images/embed.webp">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://pixelbrush.dev/creations">
-<meta property="twitter:title" content="Pixel Brush - Creations">
-<meta property="twitter:description" content="All my Creations">
+<meta property="twitter:url" content="https://pixelbrush.dev/experiments">
+<meta property="twitter:title" content="Pixel Brush - Experiments">
+<meta property="twitter:description" content="All my Experiments">
 <meta property="twitter:image" content="/images/embed.webp">
+
+<style>
+  img {
+    width: 100%;
+  }
+  td {
+    vertical-align: top;
+  }
+</style>
+
 </head>
 
 <body>
@@ -56,12 +66,32 @@
 
 
 <div class="site">
-  <div class="post"> 
-    <h2>DIY Animation Cels</h2>
+  <div class="perfectCenter">
+    <button class="postButton" style="font-size: 150%;" onclick="first()"><<</button>
+    <button class="postButton" style="font-size: 150%;" onclick="previous()"><</button>
+    <button class="postButton" style="font-size: 150%;" onclick="next()">></button>
+    <button class="postButton" style="font-size: 150%;" onclick="latest()">>></button>
   </div>
-  <div class="post"> 
-    <h2>DIY Silicon Carbide</h2>
-  </div>
+  <table>
+    <tr>
+      <td>
+        <div class="text">
+          <div class="post"> 
+            <a id="currentEntry"></a>
+          </div>
+        </div>
+      </td>
+      <td>
+        <div style="text-align: left;">
+          <li><a href="javascript:onclick=updatePostNumberURL(1); loadPost()">DIY Animation Cels</a></li>
+          <li><a href="javascript:onclick=updatePostNumberURL(2); loadPost()">DIY Silicon Carbide</a></li>
+          <li><a href="javascript:onclick=updatePostNumberURL(3); loadPost()">Betrock</a></li>
+          <li><a href="javascript:onclick=updatePostNumberURL(4); loadPost()">Raymarching on the C64</a></li>
+        </div>
+      </td>
+    </tr>
+  </table>
 </div>
+<script src="/scripts/experiments.js"></script>
 </body>
 </html>
