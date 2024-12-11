@@ -1,1 +1,39 @@
 <h2>Betrock</h2>
+This project started out in Python, as a simple script that managed to extract the Block data from the .region files.
+These binaries containing the block Ids were then loaded into Godot, where they could be visualized.
+However, due to my complete lack of knowledge in Godot and how to handle Voxels, it ran awfully.
+
+<img src="/images/experiments/0003/img_01.webp">
+
+The only obvious solution is to <del>improve performance in Godot</del> <b>REWRITE EVERYTHING IN C++ AND RENDER IT DIRECTLY IN OPENGL</b>.
+
+<h3>Are you insane?</h3>
+Well, this naive assumption that just because whatever I'd make would be written in C++ would make it run good was rooted in my assumed great understanding of C-like languages.
+Unfortunately, it turns out, C++ is more than just C with objects, especially if you're trying to work without going mad.
+</br>
+</br>
+My main spark to try my hand at this came after running Minecraft Beta 1.7.3 on my Raspberry Pi 3, and barely getting 5FPS. I figured it was Javas fault, and that was enough for me to jump into this project.
+
+<h3>OpenGL and you</h3>
+"Why OpenGL?", you may ask. Simple. I didn't want to deal with the intricacies of Vulkan as my first graphics programming experience.
+
+<h3>The beginnngs</h3>
+This section will be rather brief. It took me a while to figure out how vertex indicies and shaders worked before I could start rendering blocks in arbitrary places.
+
+<img src="/images/experiments/0003/img_00.webp">
+Struggling with OpenGL and the remnants of the .obj importer I had originally written for my MS-DOS model viewer.
+<img src="/images/experiments/0003/img_06.webp">
+Yes, that is the same goat model I used in <a href="https://www.youtube.com/watch?v=tQSs0vAhhDc">goate</a>.
+<img src="/images/experiments/0003/img_02.webp">
+<img src="/images/experiments/0003/img_03.webp">
+
+<h3>The horrors of meshing</h3>
+After some hacking, I managed to render my first chunk.
+<img src="/images/experiments/0003/img_04.webp">
+<img src="/images/experiments/0003/img_05.webp">
+I was rather proud of it at the time. I had even implemented a simple optimization where blocks that were surrounded on all sides would not be rendered!
+</br>
+With that, I added textures.
+<img src="/images/experiments/0003/img_07.webp">
+<img src="/images/experiments/0003/img_08.webp">
+<img src="/images/experiments/0003/img_09.webp">
