@@ -71,3 +71,9 @@ function updatePostNumberURL(passedNumber) {
 	queryParams.set("entry", nmbr);
 	history.replaceState(null, null, "?"+queryParams.toString());
 }
+
+function randomPost() {
+	nmbr = Math.floor(Math.random() * nmbr_of_posts)+1; 
+	updatePostNumberURL();
+	loadPost();
+}

@@ -9,7 +9,7 @@ function FileHelper(pathOfFileToReadFrom) {
 
 function loadYear(year) {
 	if (year != null) {
-		document.getElementById('selected').innerHTML = FileHelper('animations/' + year + '.txt');
+		document.getElementById('selected').innerHTML = FileHelper('/animations/' + year + '.html');
 	} else {
 		document.getElementById('selected').innerHTML = '-';
 	}

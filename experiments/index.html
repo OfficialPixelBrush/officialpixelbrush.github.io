@@ -9,8 +9,9 @@
     </style>    
 	
 <link rel="shortcut icon" href="favicon/pandaSpin2small.gif" type="image/gif" />
-<link rel="apple-touch-icon-precomposed" href="/favicon/pandaSpin2small.gif" type="image/gif" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+<link rel="apple-touch-icon-precomposed" href="favicon/pandaSpin2small.gif" type="image/gif" />
+<meta name="viewport" content="width=device-width, initial-scale=0.75" /> 
+<meta charset="utf-8">
 
 <!-- Primary Meta Tags -->
 <meta name="title" content="Pixel Brush - Experiments">
@@ -31,7 +32,7 @@
 <meta property="twitter:image" content="/images/embed.webp">
 
 <style>
-  img {
+  .site img {
     width: 100%;
   }
   td {
@@ -66,31 +67,26 @@
 
 
 <div class="site">
+  <br>
   <div class="perfectCenter">
     <button class="postButton" style="font-size: 150%;" onclick="first()"><<</button>
     <button class="postButton" style="font-size: 150%;" onclick="previous()"><</button>
+    <button class="postButton" style="font-size: 150%;" onclick="randomPost()">🎲</button>
     <button class="postButton" style="font-size: 150%;" onclick="next()">></button>
     <button class="postButton" style="font-size: 150%;" onclick="latest()">>></button>
   </div>
-  <table>
-    <tr>
-      <td>
-        <div class="text">
-          <div class="post"> 
-            <a id="currentEntry"></a>
-          </div>
-        </div>
-      </td>
-      <td>
-        <div style="text-align: left;">
-          <li><a href="javascript:onclick=updatePostNumberURL(1); loadPost()">DIY Animation Cels</a></li>
-          <li><a href="javascript:onclick=updatePostNumberURL(2); loadPost()">DIY Silicon Carbide</a></li>
-          <li><a href="javascript:onclick=updatePostNumberURL(3); loadPost()">Betrock</a></li>
-          <li><a href="javascript:onclick=updatePostNumberURL(4); loadPost()">Raymarching on the C64</a></li>
-        </div>
-      </td>
-    </tr>
-  </table>
+  <div style="display: flex; flex-direction: row; justify-content: center;">
+    <div class="post"> 
+      <a id="currentEntry"></a>
+    </div>
+    <div style="text-align: left; list-style-type: none; margin-left: 0;">
+      <li><a href="javascript:onclick=updatePostNumberURL(3); loadPost()">Betrock</a></li>
+      <li><a href="javascript:onclick=updatePostNumberURL(1); loadPost()">DIY Animation Cels</a></li>
+      <li><a href="javascript:onclick=updatePostNumberURL(2); loadPost()">DIY Silicon Carbide</a></li>
+      <li><a href="javascript:onclick=updatePostNumberURL(4); loadPost()">Raymarching</a></li>
+      <li><a href="javascript:onclick=updatePostNumberURL(5); loadPost()">7-Segment Decoder ROM</a></li>
+    </div>
+  </div>
 </div>
 <script src="/scripts/experiments.js"></script>
 </body>

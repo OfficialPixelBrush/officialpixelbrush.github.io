@@ -69,6 +69,12 @@ function updatePostNumberURL() {
 	history.replaceState(null, null, "?"+queryParams.toString());
 }
 
+function randomPost() {
+	nmbr = Math.floor(Math.random() * nmbr_of_posts)+1; 
+	updatePostNumberURL();
+	loadPost();
+}
+
 /* misc stuff */
 
 function disableCSS() {
