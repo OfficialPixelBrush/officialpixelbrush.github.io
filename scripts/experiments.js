@@ -4,33 +4,31 @@ let disCSS = 0;
 
 async function getNumberOfPosts() {
 	nmbr_of_posts = await FileHelper('/experiments/numberOfEntries.txt');
-	nmbr = nmbr_of_posts;
 }
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const post_type = urlParams.get('entry')
-nmbr = post_type;
-loadPost();
+if (post_type) {
+	nmbr = post_type;
+	loadPost();
+} else {
+	randomPost();
+}
 
 
 async function FileHelper(pathOfFileToReadFrom) {
     const request = await fetch(pathOfFileToReadFrom); //new XMLHttpRequest();
     const returnValue = await request.text();
-	console.log(returnValue);
+	// console.log(returnValue);
     return returnValue;
 }
 
 async function loadPost() {
+	await getNumberOfPosts();
 	if ((nmbr <= nmbr_of_posts) && (nmbr > 0)) {
 		updatePostNumberURL();
-		if (nmbr > 0) {
-			document.getElementById('currentEntry').innerHTML = await FileHelper('/experiments/entries/' + nmbr + '.html');
-		} else {
-			document.getElementById('currentEntry').innerHTML = '-';
-		}
-	} else {
-		latest();
+		document.getElementById('currentEntry').innerHTML = await FileHelper('/experiments/entries/' + nmbr + '.html');
 	}
 }
 
@@ -63,16 +61,17 @@ function previous() {
 	}
 }
 
-function updatePostNumberURL(passedNumber) {
-	if (passedNumber) {
-		nmbr = passedNumber
+function updatePostNumberURL(passedValue) {
+	if (passedValue) {
+		nmbr = passedValue;
 	}
 	var queryParams = new URLSearchParams(window.location.search);
 	queryParams.set("entry", nmbr);
 	history.replaceState(null, null, "?"+queryParams.toString());
 }
 
-function randomPost() {
+async function randomPost() {
+	await getNumberOfPosts();
 	nmbr = Math.floor(Math.random() * nmbr_of_posts)+1; 
 	updatePostNumberURL();
 	loadPost();
