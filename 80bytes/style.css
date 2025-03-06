@@ -34,6 +34,18 @@ body {
 	text-align: center;
 }
 
+.mc {
+	background-color: black;
+	color: 74DF6C;
+	transition: background-color 0.2s, color 0.2s;
+}
+
+.mc:hover {
+	background-color: 74DF6C;
+	color: black;
+	transition: background-color 0.2s, color 0.2s;
+}
+
 .baz80bc {
 	background-color: black;
 	color: ff5677;
