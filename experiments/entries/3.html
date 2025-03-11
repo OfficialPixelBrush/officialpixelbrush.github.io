@@ -1,5 +1,5 @@
 <h2>Betrock</h2>
-This project started out in Python, as a simple script that managed to extract the Block data from the .region files.
+This project started out in Python, as a simple script that managed to extract the Block data from the .mcr files.
 These binaries containing the block Ids were then loaded into Godot, where they could be visualized.
 However, due to my complete lack of knowledge in Godot and how to handle Voxels, it ran awfully.
 
@@ -37,3 +37,25 @@ With that, I added textures.
 <img src="/images/experiments/0003/img_07.webp">
 <img src="/images/experiments/0003/img_08.webp">
 <img src="/images/experiments/0003/img_09.webp">
+
+<p>After this I began making individual block models, so stuff like Grass would have properly aligned faces.</p>
+<p>This was followed by trying to load in and render the block-based lighting properly.</p>
+<p>Turns out the block-light describes how surrounding faces are supposed to be shaded.</p>
+<p>For smooth lighting, simply check at each vertex which of the surrounding 4 blocks has the brightest light values.</p>
+<h3>Videos</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8dU9iamarQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p>I then added queued Chunk generation</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mCouk52XiVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p>I then multi-threaded this</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sEP2LJUpcm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p>More fixes!</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rMjtJWxJj0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p>Much more accurate lighting</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ejmw4AUr3YA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p>And lastly Concurrent Chunk Loading</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wMdXxO0oBYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p>Here's a screenshot from a recent version of Betrock.</p>
+<img src="/images/experiments/0003/img_10.png">
+<p>A big issue I've got right now is that chunks like to just infinitely leak memory.</p>
+<p>Additionally, chunk building is abysmally slow.</p>
+<p>If you'd like to check the project out, <a href="https://github.com/OfficialPixelBrush/Betrock">here's the GitHub link!</a></p>
