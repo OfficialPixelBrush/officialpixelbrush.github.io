@@ -1,0 +1,17 @@
+<a class='postNbmr'>#59</a>
+</br>
+</br>
+Hey! My new game for the "Mini Jam 182: Horror" is here!
+</br>
+It's a rhythm game where you fight ghosts! Check it out :D
+</br>
+
+</br>
+<iframe frameborder="0" src="https://itch.io/embed/3470578?border_width=3&amp;bg_color=110616&amp;fg_color=ffffff&amp;link_color=e63602&amp;border_color=2c1139" width="556" height="171"><a href="https://pixelbrush6584.itch.io/ghost-beat">Ghost Beat by Pixel Brush</a></iframe>
+</br>
+
+</br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BozGpUV2zEs?si=6GyKWq1lwN6E21Mj" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</br>
+</br>
+<a id="postdate" class="date">14th of April, 2025 - 12:16</a>
