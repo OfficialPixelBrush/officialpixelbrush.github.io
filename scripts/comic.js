@@ -34,8 +34,8 @@ function loadPost() {
 		if ((nmbr <= nmbr_of_pages) && (nmbr > 0)) {
 			updatePageNumberURL();
 			document.getElementById('pageNumber').innerHTML = ('#' + nmbr);
-			document.getElementById('part1').src = ('comics/' + title[comicID] + '/page_' + nmbr + '_1.png');
-			document.getElementById('part2').src = ('comics/' + title[comicID] + '/page_' + nmbr + '_2.png');
+			document.getElementById('part1').src = ('/comics/' + title[comicID] + '/page_' + nmbr + '_1.png');
+			document.getElementById('part2').src = ('/comics/' + title[comicID] + '/page_' + nmbr + '_2.png');
 			document.getElementById('postdate').innerHTML = FileHelper('/comics/' + title[comicID] + '/page_' + nmbr + '.txt');
 		} else {
 			first();
@@ -44,7 +44,7 @@ function loadPost() {
 		if ((nmbr <= nmbr_of_pages) && (nmbr > 0)) {
 			updatePageNumberURL();
 			document.getElementById('pageNumber').innerHTML = ('#' + nmbr);
-			document.getElementById('part1').src = ('comics/' + title[comicID] + '/page_' + nmbr + '.png');
+			document.getElementById('part1').src = ('/comics/' + title[comicID] + '/page_' + nmbr + '.png');
 			//document.getElementById('postdate').innerHTML = FileHelper('/comics/' + title[comicID] + '/page_' + nmbr + '.txt');
 		} else {
 			first();
