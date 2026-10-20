@@ -1,28 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="refresh" content="0">
   <script>
-    const oldPrefixes = [
-      "https://pixelbrush.dev/beta-wiki/",
-      "https://officialpixelbrush.github.io/beta-wiki/"
-    ];
-
-    const targetBase = "https://openbetagroup.github.io/beta-wiki/";
-    const currentUrl = window.location.href;
-
-    let suffix = currentUrl;
-
-    for (const prefix of oldPrefixes) {
-      if (currentUrl.startsWith(prefix)) {
-        suffix = currentUrl.slice(prefix.length);
-        break;
-      }
-    }
+    const target = "https://openbetagroup.github.io/beta-wiki";
+    const path = window.location.pathname;
+    const suffix = path.replace(/^\/beta-wiki\/?/, "");
 
     window.location.replace(
-      targetBase + suffix + window.location.search + window.location.hash
+      target + "/" + suffix + window.location.search + window.location.hash
     );
   </script>
 </head>
