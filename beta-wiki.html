@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0">
-  <script>
-    const target = "https://openbetagroup.github.io/beta-wiki";
-    const path = window.location.pathname;
-    const suffix = path.replace(/^\/beta-wiki\/?/, "");
-
-    window.location.replace(
-      target + "/" + suffix + window.location.search + window.location.hash
-    );
-  </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Redirecting to the Beta Wiki…</title>
+<link rel="canonical" href="https://openbetagroup.github.io/beta-wiki/">
+<script>
+(function () {
+  var target = "https://openbetagroup.github.io/beta-wiki/";
+  // Keep deep links like /beta-wiki/some/page; /beta-wiki and /beta-wiki.html go to the root
+  var m = location.pathname.match(/^\/beta-wiki\/(.+)$/);
+  var suffix = m ? m[1] : "";
+  location.replace(target + suffix + location.search + location.hash);
+})();
+</script>
+<noscript>
+  <meta http-equiv="refresh" content="0; url=https://openbetagroup.github.io/beta-wiki/">
+</noscript>
 </head>
-<body></body>
+<body>
+  <p>The Beta Wiki has moved to
+  <a href="https://openbetagroup.github.io/beta-wiki/">openbetagroup.github.io/beta-wiki</a>.</p>
+</body>
 </html>
